@@ -12,7 +12,8 @@
                 for (var i = 0; i < res.events.length; i++) {
                     var event = res.events[i];
                     console.dir(event);
-                    s += "<li>Start: " + event.start.utc.text + "<a href='" + event.url + "'>" + event.name.text + "</a> - " + event.description.text + "</li>";
+                    var startdate = Date.parse(event.start.local.text);
+                    s += "<li>Date: " + startdate + "<a href='" + event.url + "'>" + event.name.text + "</a> - " + event.description.text + "</li>";
                 }
                 s += "</ul>";
                 $events.html(s);
