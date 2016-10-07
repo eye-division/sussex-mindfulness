@@ -12,7 +12,7 @@
                 for (var i = 0; i < res.events.length; i++) {
                     var event = res.events[i];
                     console.dir(event);
-                    var startdate = new Date(event.start.local.text);
+                    var startdate = new Date(event.start.local);
                     s += "<li><strong>Date</strong>: " + startdate + " <a href='" + event.url + "'>" + event.name.text + "</a> - " + event.description.text + "</li>";
                 }
                 s += "</ul>";
