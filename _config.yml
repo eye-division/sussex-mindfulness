@@ -6,18 +6,18 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: Neat Whiskey
-subtitle: A base theme built on Bourbon and Neat
-name: Neil C Smith
-description: A base theme built on Bourbon and Neat
+title: Sussex Mindfulness Centre
+subtitle:
+name:
+description: Coming soon
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 baseurl: ""
 # the base hostname & protocol for your site
-url: "http://www.example.com"
+url: "http://www.sussexmindfulness.nhs.uk"
 logo: "/assets/logo.png"
-email: neil@eyedivision.com
+email: support@eyedivision.com
 
 # Build settings
 markdown: kramdown
@@ -32,21 +32,21 @@ imagecdn:
   #production: "http://ed.imgix.net"
 
 # Collections
-collections:
-    projects:
-        output: true
-        permalink: /projects/:path/
+#collections:
+#    projects:
+#        output: true
+#        permalink: /projects/:path/
 
 
 # Defaults Example
 defaults:
-    -
-        scope:
-            path: ""
-            type: "projects"
-        values:
-            layout: "project"
-            
+#    -
+#        scope:
+#            path: ""
+ #           type: "projects"
+#        values:
+ #           layout: "project"
+
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
@@ -57,9 +57,9 @@ defaults:
 # Social settings are used in two places:
 # * In the footer, as links to your personal profiles
 # * After each blog post for sharing widgets
-# 
+#
 # Example:
-# 
+#
 # social:
 #   - name: Twitter                         # Name of the service
 #     icon: twitter                         # Font Awesome icon to use (minus fa- prefix)
@@ -70,15 +70,15 @@ defaults:
 social:
   - name: Twitter
     icon: twitter
-    username: EyeDivision
-    url: https://twitter.com/EyeDivision
+    username: E
+    url:
     desc: Follow us on Twitter
     share: true
 
   - name: Facebook
     icon: facebook
-    username: eyedivision
-    url: 
+    username:
+    url:
     desc: Like us on Facebook
     share: true
 
@@ -98,36 +98,36 @@ social:
 
   - name: YouTube
     icon: youtube
-    username: 
-    url: 
+    username:
+    url:
     desc: Subscribe on YouTube
     share: false
 
   - name: Instagram
     icon: instagram
-    username: 
-    url: 
+    username:
+    url:
     desc: Follow me on Instagram
     share: false
 
   - name: Pinterest
     icon: pinterest
-    username: 
-    url: 
+    username:
+    url:
     desc: Follow me on Pinterest
     share: true
 
   - name: SoundCloud
     icon: soundcloud
-    username: 
-    url: 
+    username:
+    url:
     desc: Follow me on SoundCloud
     share: false
 
   - name: Vimeo
     icon: vimeo-square
-    username: 
-    url: 
+    username:
+    url:
     desc: Follow me on Vimeo
     share: false
 
