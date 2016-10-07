@@ -5,7 +5,7 @@
         var token = 'FAIJERLIQ6TWYNN52BO4';
         var $events = $("#events");
 
-        $.get('https://www.eventbriteapi.com/v3/events/search/?token=' + token + '&organizer.id=5862734867&start_date.keyword=this_month&expand=venue', function (res) {
+        $.get('https://www.eventbriteapi.com/v3/events/search/?token=' + token + '&organizer.id=5862734867&start_date.keyword=this_month', function (res) {
             console.dir(res);
             if (res.events.length) {
                 var s = "<ul class='eventList'>";
