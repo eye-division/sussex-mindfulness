@@ -70,7 +70,7 @@ defaults:
 social:
   - name: Twitter
     icon: twitter
-    username: E
+    username: 
     url:
     desc: Follow us on Twitter
     share: true
