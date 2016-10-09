@@ -16,7 +16,7 @@ description: Coming soon
 baseurl: ""
 # the base hostname & protocol for your site
 url: "http://www.sussexmindfulness.nhs.uk"
-logo: "/assets/logo.png"
+logo: 
 email: support@eyedivision.com
 
 # Build settings

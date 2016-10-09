@@ -18,12 +18,12 @@
     });
     
     // Lightbox2 options
-    lightbox.option({
-      'wrapAround': true
-    });
+    //lightbox.option({
+      //'wrapAround': true
+    //});
     
     // fitvid on embed
-    $('.media').fitVids();
+    //$('.media').fitVids();
     
   });
 

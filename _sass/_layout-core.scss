@@ -81,6 +81,8 @@ blockquote {
         position: relative;
     }
     .logo {
+        font-family: $heading-font-family;
+        font-weight: 100;
         float: left;
         height: 4em;
         @include media ($tablet) {
@@ -226,12 +228,9 @@ img {
         @include outer-container;
         padding: 0 20px;
         margin-bottom: 0;
-        background-color: rgba(0,0,0,0.5);
-        color: $white;
-        font-weight: normal;
+        //background-color: rgba(0,0,0,0.5);
     }
     h1 {
-        text-transform: uppercase;
         font-size: 1.4em;
         @include media($mobile) {
             font-size: 2em;
