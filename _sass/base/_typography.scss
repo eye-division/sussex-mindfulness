@@ -17,6 +17,7 @@ h6 {
   line-height: $heading-line-height;
   margin: 0 0 $base-font-size;
   margin: 0 0 rem($base-font-size);
+  font-weight: 100;
 }
 h1 {
 	font-size: modular-scale(4);

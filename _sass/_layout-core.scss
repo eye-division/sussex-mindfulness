@@ -52,7 +52,7 @@ blockquote {
 *	Navigation
 */
 .navigation {
-    box-shadow: 0 2px $highlight-color;
+    box-shadow: 0 1px $yellow;
     padding: 0 1em;
     margin: 0;
     z-index: 100;
@@ -85,8 +85,10 @@ blockquote {
         font-weight: 100;
         float: left;
         height: 4em;
+        color: $black;
+        text-decoration: none;
         @include media ($tablet) {
-            padding-left: $em-base;
+            //padding-left: $em-base;
         }
         img {
             max-height: 2.75em;
@@ -101,7 +103,7 @@ blockquote {
         float: none;
         padding-top: 1em;
         @include media ($tablet) {
-            float: right;
+            //float: right;
             line-height: 1.5em;
         }
     }
@@ -137,6 +139,7 @@ blockquote {
     li.nav-link {
         a {
             display: inline-block;
+            color: $black;
             @include media ($tablet) {
                 padding-right: 1.5em;
             }
@@ -269,10 +272,10 @@ img {
 *	Footer
 */
 .site-footer {
-    $link-color: $white;
+    $link-color: $black;
+    $footer-bg-color: $yellow;
     padding: 1em 1em 2em 1em;
-    background-color: $highlight-color;
-    color: $white;
+    background-color: $footer-bg-color;
     a {
         color: $link-color;
         &:active,
@@ -423,4 +426,54 @@ img {
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
+}
+
+/* front page */
+.home h1 {
+    display: none;
+}
+.home h2 {
+    
+}
+h2 a {
+    color: $black;
+    text-decoration: none;
+
+    &:hover,&:focus {
+        color: $orange;
+        text-decoration: none;
+    }
+}
+.home article {
+    padding: 1em;
+    border-top: 1px solid $yellow;
+    @include outer-container;
+}
+.half {
+    @include span-columns(12);
+    @include media ($mobile) {
+        @include span-columns(6);
+    }
+}
+.row1 {
+    background-color: $orange;
+    color: $white;
+    h2 a {
+        color: $white;
+        text-decoration: none;
+
+        &:hover,&:focus {
+            color: $white;
+            text-decoration: none;
+        }
+    }
+    a {
+        color: $white;
+    }
+}
+.row2 {
+    background-color: $shade1;
+}
+.row3 {
+    background-color: $shade2;
 }
