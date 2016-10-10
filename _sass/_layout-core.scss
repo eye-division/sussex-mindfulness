@@ -465,12 +465,13 @@ h2 a {
         padding: 0 1em;
     }
     .date {
-
+        display: block;
     }
     .title {
-
+        display: block;
     }
     .venue {
+        display: block;
         font-size: smaller;
         color: lighten($black,20%);
     }
