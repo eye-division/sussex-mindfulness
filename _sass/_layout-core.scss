@@ -83,7 +83,7 @@ blockquote {
     .logo {
         font-family: $heading-font-family;
         font-weight: 100;
-        float: left;
+        //float: left;
         height: 4em;
         color: $black;
         text-decoration: none;
@@ -92,16 +92,19 @@ blockquote {
         }
         img {
             max-height: 2.75em;
-            margin-top: 0.25em;
+            //margin-top: 0.25em;
             padding-right: 1em;
         }
         span {
             font-size: 1.25em;
         }
+        .trustlogo {
+            float: right;
+        }
     }
     nav {
         float: none;
-        padding-top: 1em;
+        //padding-top: 1em;
         @include media ($tablet) {
             //float: right;
             line-height: 1.5em;
@@ -453,6 +456,23 @@ h2 a {
     @include span-columns(12);
     @include media ($mobile) {
         @include span-columns(6);
+    }
+}
+.event {
+    h3 {
+        background-color: darken($yellow, 20%);
+        color: $white;
+        padding: 0 1em;
+    }
+    .date {
+
+    }
+    .title {
+
+    }
+    .venue {
+        font-size: smaller;
+        color: lighten($black,20%);
     }
 }
 .row1 {
