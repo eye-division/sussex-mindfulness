@@ -1,10 +1,33 @@
 ---
 layout: home
-main_image_path: /uploads/ss-stock-photo-winter-landscape-of-the-south-downs-in-late-afternoon-sun-the-south-downs-national-park-skirts-369893729.jpg
+main_image_path:
+carousel:
+  - image: /assets/banner-barnacles.jpg
+    caption:
+  - image: /assets/banner-outatsea.jpg
+    caption:
+  - image: /assets/banner-sea.jpg
+    caption:
+  - image: /assets/banner-mosstuft.jpg
+    caption:
 ---
 <header id="content-header">
   <section id="page-title">
-    
+    <!-- testing slider -->
+      {% if page.carousel %}
+      <div class="flexslider">
+        <ul class="slides">
+          {% for slides in page.carousel %}
+          <li>
+            <img src="{{ slides.image }}">
+            {% if slides.caption %}
+            <p class="flex-caption">{{ slides.caption }}</p>
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
   </section>
 </header>
 
@@ -41,7 +64,7 @@ our work’</span>
     <div class="half editable">
     	<p>Foundation training programme in Mindfulness-Based Approaches
 One year course</p>
-	
+
 		<p><a class="button btn" href="{{ site.baseurl }}/train-to-teach-mindfulness/">Apply now for 2017 <i class="fa fa-arrow-circle-right fa-2x" aria-hidden="true"></i></a></p>
 	</div>
 	<div class="half editable">

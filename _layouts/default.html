@@ -5,7 +5,7 @@
 
   {% assign section = page.url | split: '/' %}
 
-  <body class="{% if page.main_image_path %} has-cover{% endif %}{% if page.classes %} {{ page.classes }}{% endif %}">
+  <body class="{% if page.classes %} {{ page.classes }}{% endif %}">
 
     {% include header.html %}
 

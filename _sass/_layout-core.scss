@@ -48,6 +48,18 @@ blockquote {
     font-style: italic;
 }
 
+// Buttons
+
+.button {
+    @extend button;
+    @include bbb-flat-style($action-color, $white);
+    &:hover:not(:disabled) {
+        color: $white;
+        background: darken($action-color, 20%);
+        text-decoration: none;
+  }
+}
+
 /*
 *	Navigation
 */
@@ -247,29 +259,7 @@ img {
         padding-bottom: 0.6em;
     }
 }
-.has-cover {
-    #content-header {
-        width: 100%;
-        max-width: 100%;
-        padding: 0;
-        position: relative;
-        height: 60vh;
-        background-position: 50% 40%;
-        background-size: cover;
-        @include media($tablet) {
-            background-attachment: fixed;
-            height: 80vh;
-        }
-    }
 
-    #page-title {
-        width: 100%;
-        padding-top: 0;
-        position: absolute;
-        bottom: 0;
-    }
-
-}
 
 /*
 *	Footer
@@ -436,7 +426,7 @@ img {
     display: none;
 }
 .home h2 {
-    
+
 }
 h2 a {
     color: $black;
