@@ -44,6 +44,13 @@ $yellow: #fdca56;
 $shade1: #f8f6f5;
 $shade2: #f5efed;
 
+// logo Colours 6a
+
+$darkblue: #124C82;
+$midblue: #3675AB;
+$lightblue: #76CAF3;
+$ochre: #CDAA42;
+
 // Font Colors
 $base-background-color: #fff;
 $base-font-color: $black;
@@ -51,7 +58,7 @@ $action-color: $orange;
 $highlight-color: tint($action-color, 33%);
 
 // Border
-$base-border-color: $orange;
+$base-border-color: $ochre;
 $base-border: 1px solid $base-border-color;
 
 // Forms

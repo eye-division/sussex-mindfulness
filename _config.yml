@@ -43,7 +43,7 @@ defaults:
      - type: ''
        values:
          _comments:
-          carousel: The slide show
+          carousel: Update the slide show
 #    -
 #        scope:
 #            path: ""
