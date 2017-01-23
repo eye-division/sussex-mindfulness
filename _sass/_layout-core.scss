@@ -64,7 +64,7 @@ blockquote {
 *	Navigation
 */
 .navigation {
-    box-shadow: 0 1px $yellow;
+    box-shadow: 0 1px $ochre;
     padding: 0 1em;
     margin: 0;
     z-index: 100;
@@ -103,16 +103,14 @@ blockquote {
             //padding-left: $em-base;
         }
         img {
-            max-height: 2.75em;
+
             //margin-top: 0.25em;
             padding-right: 1em;
         }
         span {
             font-size: 1.25em;
         }
-        .trustlogo {
-            float: right;
-        }
+
     }
     nav {
         float: none;
@@ -154,7 +152,7 @@ blockquote {
     li.nav-link {
         a {
             display: inline-block;
-            color: $black;
+            color: $primary-color;
             @include media ($tablet) {
                 padding-right: 1.5em;
             }
@@ -166,7 +164,10 @@ blockquote {
         }
     }
 }
-
+.trustlogo {
+    float: right;
+    max-height: 4em;
+}
 /*
 *	Body
 */
@@ -266,7 +267,7 @@ img {
 */
 .site-footer {
     $link-color: $black;
-    $footer-bg-color: $yellow;
+    $footer-bg-color: $ochre;
     padding: 1em 1em 2em 1em;
     background-color: $footer-bg-color;
     a {
@@ -439,7 +440,7 @@ h2 a {
 }
 .home article {
     padding: 1em;
-    border-top: 1px solid $yellow;
+    border-top: 1px solid $tertiary-color;
     @include outer-container;
 }
 .half {
@@ -450,7 +451,7 @@ h2 a {
 }
 .event {
     h3 {
-        background-color: darken($yellow, 20%);
+        background-color: darken($ochre, 20%);
         color: $white;
         padding: 0 1em;
     }
@@ -467,7 +468,7 @@ h2 a {
     }
 }
 .row1 {
-    background-color: $orange;
+    background-color: $primary-color;
     color: $white;
     h2 a {
         color: $white;
@@ -483,8 +484,8 @@ h2 a {
     }
 }
 .row2 {
-    background-color: $shade1;
+    background-color: $secondary-color;
 }
 .row3 {
-    background-color: $shade2;
+    background-color: $tertiary-color;
 }

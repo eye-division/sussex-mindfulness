@@ -46,16 +46,26 @@ $shade2: #f5efed;
 
 // logo Colours 6a
 
-$darkblue: #124C82;
-$midblue: #3675AB;
-$lightblue: #76CAF3;
-$ochre: #CDAA42;
+$darkblue: #124C82; // outreach and policy - national influence
+$midblue: #3675AB; // training - improving access
+$lightblue: #76CAF3; // practice and governance - MBI groups
+$ochre: #CDAA42; // research - what works
+
+$primary-color: $darkblue;
+$secondary-color: $midblue;
+$tertiary-color: $lightblue;
+$highlight-color: $ochre;
+
+$outreach: $darkblue;
+$training: $midblue;
+$practice: $lightblue;
+$research: $ochre;
 
 // Font Colors
 $base-background-color: #fff;
 $base-font-color: $black;
 $action-color: $orange;
-$highlight-color: tint($action-color, 33%);
+//$highlight-color: tint($action-color, 33%);
 
 // Border
 $base-border-color: $ochre;

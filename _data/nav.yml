@@ -3,12 +3,12 @@
 
 - title: "What is Mindfulness"
   href: "/what-is-mindfulness/"
-  subcategories: 
+  subcategories:
     - subtitle: "What is MBCT?"
       subhref: "/what-is-mindfulness/what-is-mbct/"
     - subtitle: "How can MBCT help?"
       subhref: "/what-is-mindfulness/how-can-mbct-help/"
-- title: "Learn"
+- title: "Learn to practice"
   href: "/learn-to-practice-mindfulness/"
 
 - title: "Train to teach"
@@ -18,7 +18,7 @@
   href: "/research/"
 
 - title: "Quality"
-  href: "/quality/" 
+  href: "/quality/"
 
 - title: "Events"
   href: "/events/"
