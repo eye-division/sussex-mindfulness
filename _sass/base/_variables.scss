@@ -1,5 +1,5 @@
 // Google Fonts
-@import url(//fonts.googleapis.com/css?family=Roboto+Slab:400,700,300|Roboto:400,700,300|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300);
 
 // Typography
 $base-font-family: "Open Sans", "Helvetica Neue", "Helvetica",  "Arial", sans-serif; // $helvetica;
@@ -44,12 +44,16 @@ $yellow: #fdca56;
 $shade1: #f8f6f5;
 $shade2: #f5efed;
 
-// logo Colours 6a
+// logo Colours
 
 $darkblue: #124C82; // outreach and policy - national influence
-$midblue: #3675AB; // training - improving access
-$lightblue: #76CAF3; // practice and governance - MBI groups
-$ochre: #CDAA42; // research - what works
+// rgb: 18,76,130
+$midblue: #3675AC; // training - improving access
+// rgb: 54,118,172
+$lightblue: #76CAF2; // practice and governance - MBI groups
+// rgb: 119, 202, 242
+$ochre: #CDAB41; // research - what works
+// rgb: 205,171,65
 
 $primary-color: $darkblue;
 $secondary-color: $midblue;
@@ -64,7 +68,7 @@ $research: $ochre;
 // Font Colors
 $base-background-color: #fff;
 $base-font-color: $black;
-$action-color: $orange;
+$action-color: darken($lightblue,10%);
 //$highlight-color: tint($action-color, 33%);
 
 // Border

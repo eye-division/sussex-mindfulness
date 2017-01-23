@@ -60,110 +60,7 @@ blockquote {
   }
 }
 
-/*
-*	Navigation
-*/
-.navigation {
-    box-shadow: 0 1px $ochre;
-    padding: 0 1em;
-    margin: 0;
-    z-index: 100;
-    position: fixed;
-    width: 100%;
-    background-color: $white;
-    /*
-    *	Navigation Menu - http://refills.bourbon.io/unstyled/ (see "Navigation")
-    */
-    // Mobile view
-    .navigation-menu-button {
-        display: block;
-        float: right;
-        margin: 0;
-        font-size: 1.5em;
-        padding-top: 0.5em;
-        padding-right: 0.5em;
-        @include media ($tablet) {
-            display: none;
-        }
-    }
-    // Nav menu
-    .navigation-wrapper {
-        @include outer-container;
-        @include clearfix;
-        position: relative;
-    }
-    .logo {
-        font-family: $heading-font-family;
-        font-weight: 100;
-        //float: left;
-        height: 4em;
-        color: $black;
-        text-decoration: none;
-        @include media ($tablet) {
-            //padding-left: $em-base;
-        }
-        img {
 
-            //margin-top: 0.25em;
-            padding-right: 1em;
-        }
-        span {
-            font-size: 1.25em;
-        }
-
-    }
-    nav {
-        float: none;
-        //padding-top: 1em;
-        @include media ($tablet) {
-            //float: right;
-            line-height: 1.5em;
-        }
-    }
-    ul.navigation-menu {
-        clear: both;
-        display: none;
-        margin: 0 auto;
-        overflow: visible;
-        padding: 0;
-        width: 100%;
-        @include media ($tablet) {
-            display: block;
-            margin: 0;
-            padding: 0;
-        }
-        &.show {
-            display: block;
-        }
-    }
-    // Nav items
-    ul li.nav-link {
-        display: block;
-        text-align: right;
-        width: 100%;
-        padding: 0.25em 0;
-        @include media ($tablet) {
-            background: transparent;
-            display: inline;
-            text-decoration: none;
-            width: auto;
-        }
-    }
-    li.nav-link {
-        a {
-            display: inline-block;
-            color: $primary-color;
-            @include media ($tablet) {
-                padding-right: 1.5em;
-            }
-        }
-        &:last-child a {
-            @include media ($tablet) {
-                padding-right: 1em;
-            }
-        }
-    }
-}
 .trustlogo {
     float: right;
     max-height: 4em;
@@ -255,10 +152,7 @@ img {
             font-size: 2em;
         }
     }
-    p {
-        font-size: 1.2em;
-        padding-bottom: 0.6em;
-    }
+
 }
 
 
@@ -266,10 +160,11 @@ img {
 *	Footer
 */
 .site-footer {
-    $link-color: $black;
-    $footer-bg-color: $ochre;
+    $link-color: $white;
+    $footer-bg-color: $darkblue;
     padding: 1em 1em 2em 1em;
     background-color: $footer-bg-color;
+    color: $white;
     a {
         color: $link-color;
         &:active,
@@ -440,7 +335,7 @@ h2 a {
 }
 .home article {
     padding: 1em;
-    border-top: 1px solid $tertiary-color;
+    //border-top: 1px solid $tertiary-color;
     @include outer-container;
 }
 .half {
@@ -449,9 +344,25 @@ h2 a {
         @include span-columns(6);
     }
 }
+.third {
+    @include span-columns(12);
+    @include media ($tablet) {
+        @include span-columns(4);
+    }
+}
+.two-thirds {
+    @include span-columns(12);
+    @include media ($tablet) {
+        @include span-columns(8);
+    }
+}
+.about {
+    background-color: $midblue;
+    color: white;
+}
 .event {
     h3 {
-        background-color: darken($ochre, 20%);
+        background-color: darken($lightblue, 20%);
         color: $white;
         padding: 0 1em;
     }
@@ -466,26 +377,4 @@ h2 a {
         font-size: smaller;
         color: lighten($black,20%);
     }
-}
-.row1 {
-    background-color: $primary-color;
-    color: $white;
-    h2 a {
-        color: $white;
-        text-decoration: none;
-
-        &:hover,&:focus {
-            color: $white;
-            text-decoration: none;
-        }
-    }
-    a {
-        color: $white;
-    }
-}
-.row2 {
-    background-color: $secondary-color;
-}
-.row3 {
-    background-color: $tertiary-color;
 }

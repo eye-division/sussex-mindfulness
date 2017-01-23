@@ -2,29 +2,29 @@
 layout: home
 carousel:
   - image: /assets/banner-barnacles.jpg
-    caption: Barnacles
+    caption: Sample caption 1
   - image: /assets/banner-outatsea.jpg
-    caption: Out at sea
+    caption:
   - image: /assets/banner-sea.jpg
-    caption: Shoreline
+    caption:
   - image: /assets/banner-mosstuft.jpg
-    caption: Moss tuft
+    caption:
   - image: /assets/banner-mosswall.jpg
-    caption: Moss wall
+    caption:
   - image: /assets/banner-rottingdean.jpg
-    caption: Rottingdean
+    caption:
   - image: /assets/banner-sand-footprint.jpg
-    caption: Footprints in the sand
+    caption:
   - image: /assets/banner-seapink.jpg
-    caption: Seapink
+    caption:
   - image: /assets/banner-wave.jpg
-    caption: Wave
+    caption:
 ---
 <header id="content-header">
   <section id="page-title">
-    <!-- testing slider -->
+
       {% if page.carousel %}
-      <div class="flexslider">
+      <div class="flexslider two-thirds">
         <ul class="slides">
           {% for slides in page.carousel %}
           <li>
@@ -37,6 +37,10 @@ carousel:
         </ul>
       </div>
       {% endif %}
+
+      <div class="third editable about">
+        <p>Mindfulness is a particular kind of awareness that arises from an open, kind attentiveness to experience. The emphasis in the practice of cultivating mindfulness is not so much about trying to change experience but to bring a deep noticing and radical acceptance to whatever arises. This encourages a capacity to &lsquo;be&rsquo; as well as to &lsquo;do&rsquo;.</p>
+        </div>
   </section>
 </header>
 
@@ -44,47 +48,60 @@ carousel:
 
  <article class="row1">
 
-    <div class="half editable"><h2><a href="/what-is-mindfulness/">What is mindfulness?</a></h2><p>Mindfulness is a particular kind of awareness that arises from an open, kind attentiveness to experience. The emphasis in the practice of cultivating mindfulness is not so much about trying to change experience but to bring a deep noticing and radical acceptance to whatever arises. <a href="/learn-to-practice-mindfulness/">This encourages</a> a capacity to &lsquo;be&rsquo; as well as to &lsquo;do&rsquo;.<br /><a class="button" href="/what-is-mindfulness/">Read more <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p></div>
+    <div class="half editable">
+    <p>At Sussex Mindfulness Centre we aim to improve wellbeing through mindfulness.  We bring together mindfulness practice, research and training. We do this for the benefit of people with mental or physical health challenges and the wider community. We want to learn more about who and how mindfulness can help. We have heartfelt values: helping those in need, with compassion, based on evidence.   <a class="" href="/what-is-mindfulness/">Read more <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
+    </div>
 
-    <div class="half editable"><h1>About</h1><h1>Sussex Mindfulness Centre (SMC) aims to draw on the high quality training, good governance and the existing research evidence to offer high quality mindfulness provision.<br /><a class="button" href="/what-is-mindfulness/">Read more <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></h1></div>
+  <div class="half event editable">
+      <h3>4th Annual Conference</h3>
+      <p><span class="date">7 October</span>
+      <span class="title">Mindfulness and compassion at the heart of
+  our work’</span>
+      <span class="venue">Friends Meeting House, Ship Street, Brighton</span>
+      </p>
+      <a href="{{ site.baseurl }}" class="button">More details</a>
+    </div>
 
  </article>
 
  <article class="row2">
+    <div class="half editable">
+      <h2><a href="{{ site.baseurl }}/research/">Our research</a></h2>
+      <p>We conduct research on the potential benefits of mindfulness-based interventions for groups of people for whom interventions have not traditionally been available. <a class="" href="{{ site.baseurl }}/research/">Read more <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
+    </div>
 
-    <div class="half editable"><h2><a href="/learn-to-practice-mindfulness/">Learn to practice mindfulness</a></h2><ul><li>In the workplace</li><li>In the community</li><li>For young people</li><li><a href="/what-is-mindfulness/what-is-mbct/">What is MBCT?</a></li><li>How can MBCT help?</li><li>Good practice</li></ul></div>
-
-    <div class="half event editable">
-    	<h3>4th Annual Conference</h3>
-    	<p><span class="date">7 October</span>
-		<span class="title">Mindfulness and compassion at the heart of
-our work’</span>
-		<span class="venue">Friends Meeting House, Ship Street, Brighton</span>
-		</p>
-		<a href="{{ site.baseurl }}" class="button">More details</a>
+    <div class="half editable">
+      <h2><a href="{{ site.baseurl }}/practice-and-governance/">Practice and governance</a></h2>
+      <ul><li>In the workplace</li>
+      <li>In the community</li>
+      <li>For young people</li>
+      <li><a href="{{ site.baseurl }}/what-is-mindfulness/what-is-mbct/">What is MBCT?</a></li>
+      <li>How can MBCT help?</li>
+      <li>Good practice</li>
+      </ul>
     </div>
  </article>
 
  <article class="row3">
- 	<div class="editable">
-    <h2><a href="{{ site.baseurl }}/train-to-teach-mindfulness/">Train to teach mindfulness</a></h2>
-    <p>Sussex Mindfulness Centre has been offering mindfulness training since 2011. We have 29 members of staff trained as mindfulness teachers who are connected to a large network of skilled local teachers and a thriving team of researchers producing cutting-edge research into mindfulness interventions.<br /><a class="button" href="{{ site.baseurl }}/train-to-teach-mindfulness/">Read more <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
-    </div>
-    <div class="half editable">
-    	<p>Foundation training programme in Mindfulness-Based Approaches
-One year course</p>
 
-		<p><a class="button btn" href="{{ site.baseurl }}/train-to-teach-mindfulness/">Apply now for 2017 <i class="fa fa-arrow-circle-right fa-2x" aria-hidden="true"></i></a></p>
-	</div>
-	<div class="half editable">
-		<p>Training programme in Adapted Mindfulness-Based Interventions
-One year course</p>
-   	 	<p><a class="button" href="{{ site.baseurl }}/train-to-teach-mindfulness/">Apply now for 2017 <i class="fa fa-arrow-circle-right fa-2x" aria-hidden="true"></i></a></p>
+ 	<div class="half editable">
+    <h2><a href="{{ site.baseurl }}/train-to-teach-mindfulness/">Train to teach mindfulness</a></h2>
+    <p>Sussex Mindfulness Centre has been offering mindfulness training since 2011. We have 29 members of staff trained as mindfulness teachers who are connected to a large network of skilled local teachers and a thriving team of researchers producing cutting-edge research into mindfulness interventions.<br /><a class="" href="{{ site.baseurl }}/train-to-teach-mindfulness/">Read more <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
+   	<p>Foundation training programme in Mindfulness-Based Approaches
+One year course <a class="button btn" href="{{ site.baseurl }}/train-to-teach-mindfulness/">Apply now <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></p>
+			<p>Training programme in Adapted Mindfulness-Based Interventions
+One year course <a class="button" href="{{ site.baseurl }}/train-to-teach-mindfulness/">Apply now <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></p>
    	 </div>
+
+    <div class="half editable">
+      <h2><a href="{{ site.baseurl }}/outreach-and-national-policy/">Outreach and National Policy</a></h2>
+      <p>
+    <img src="{{ site.baseurl }}/assets/outreach-icon.png" title="outreach icon" class="alignleft"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum perferendis eaque, ipsum, et voluptatum dolore. Doloribus a excepturi, maxime nihil tenetur dolorum reiciendis laboriosam aliquam ex voluptate, tempore voluptatum deserunt. <a class="" href="{{ site.baseurl }}/outreach-and-national-policy/">Read more <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></p>
+    </div>
  </article>
 
- <article class="row4 editable"><div><h2><a href="/research/">Our research</a></h2><p>We conduct research on the potential benefits of mindfulness-based interventions for groups of people for whom interventions have not traditionally been available.<br /><a class="button" href="/research/">Read more <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p></div><div><i class="fa fa-quote-left fa-3x fa-pull-left" aria-hidden="true"></i><blockquote><p>I see the way I am now, and the way my life is now, as a testament to the transformative and healing power of mindfulness.<br /><cite>Helga Dettmar, MBCT course</cite></p></blockquote></div></article>
-
-
+ <!-- <blockquote>
+        <p>I see the way I am now, and the way my life is now, as a testament to the transformative and healing power of mindfulness.<br />
+        <cite>Helga Dettmar, MBCT course</cite></p>
+      </blockquote> -->
 </main>
-

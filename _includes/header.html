@@ -2,9 +2,12 @@
   <div class="navigation-wrapper">
     <a href="{{ site.baseurl }}/" class="logo">
       {% if site.logo %}
-      <img src="{{ site.logo | prepend: site.baseurl }}" alt="{{ site.title }}">
+        <img src="{{ site.logo | prepend: site.baseurl }}" alt="{{ site.title }}">
       {% else %}
-      <span>{{ site.title }}</span>
+        <span>{{ site.title }}</span>
+      {% endif %}
+      {% if site.subtitle %}
+        <span class="mission">{{ link.subtitle }}</span>
       {% endif %}
       <img src="{{ site.baseurl }}/assets/nhs_trust_logo.png" alt="Sussex Partnership NHS Foundation Trust logo" class="trustlogo">
     </a>
