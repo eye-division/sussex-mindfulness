@@ -1,18 +1,21 @@
 <header class="navigation" role="banner">
   <div class="navigation-wrapper">
+
     <a href="{{ site.baseurl }}/" class="logo">
       {% if site.logo %}
-        <img src="{{ site.logo | prepend: site.baseurl }}" alt="{{ site.title }}">
+        <img src="{{ site.logo | prepend: site.baseurl }}" alt="{{ site.title }}" class="nav__logo">
       {% else %}
         <span>{{ site.title }}</span>
       {% endif %}
-      {% if site.subtitle %}
-        <span class="mission">{{ link.subtitle }}</span>
-      {% endif %}
-      <img src="{{ site.baseurl }}/assets/nhs_trust_logo.png" alt="Sussex Partnership NHS Foundation Trust logo" class="trustlogo">
     </a>
+    {% if site.subtitle %}
+        <div class="mission">{{ site.subtitle }}</div>
+    {% endif %}
+    <div class="trust">
+      <a href="http://www.sussexpartnership.nhs.uk/" title="Sussex Partnership NHS Foundation Trust"><img src="{{ site.baseurl }}/assets/nhs_trust_logo.png" alt="Sussex Partnership NHS Foundation Trust" class="trustlogo"></a></div>
+
     <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
-      <i class="fa fa-bars"></i>
+      <svg class="icon icon--logo"><use xlink:href="#icon-reorder" /></svg>
     </a>
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
@@ -20,18 +23,6 @@
           <li class="nav-link{% if page.url == link.href %} active{% endif %}"><a href="{{ link.href | prepend: site.baseurl }}">{{ link.title }}</a>
         {% endfor %}
 
-        {% if false %}
-        <!-- alternative social links in nav menu -->
-          {% for social in site.social %}
-            {% if social.url != null %}
-            <li class="nav-link social">
-              <a href="{{ social.url }}" title="{{ social.desc }}">
-                <i class="fa fa-{{ social.icon }}"></i>
-              </a>
-            </li>
-            {% endif %}
-          {% endfor %}
-        {% endif %}
       </ul>
     </nav>
   </div>

@@ -25,34 +25,99 @@ body {
 }
 
 main {
+    padding-top: $header-height;
+    @include media ($mobile) {
+        padding-top: $header-height-mobile;
+    }
+    @include media ($tablet) {
+        padding-top: $header-height-tablet;
+    }
     display: block;
     @include flex(1 0 auto);
+
+}
+h1, h2, h3 {
+    font-weight: 500;
+
+}
+h1 {
+    font-size: 2em;
+    line-height: 1.6em;
+    line-height: 1.6rem;
 }
 
 ol.default {
     @extend %default-ol;
 }
 
-ul.default {
+ul, ul.default {
     @extend %default-ul;
 }
-
+ul.nolist {
+    @extend %default-ul;
+}
 code {
     background-color: #eee;
     display: inline-block;
     border-radius: 3px;
     padding: 0 3px;
 }
-
+/* SVG icons */
+.icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+a:hover .icon { /* hover colour */
+    fill: darken($midblue,20%);
+}
+.icon--readmore {
+    fill: $lightblue;
+    margin-bottom: -5px;
+    width: 20px;
+    height: 20px;
+}
+.icon--post {
+    fill: $action-color;
+    margin-bottom: -5px;
+    width: 20px;
+    height: 20px;
+}
+.icon--inactive {
+    fill: $medium-gray;
+}
+.icon--logo {
+    fill: $midblue;
+    width: 20px;
+    height: 20px;
+}
+.icon__white {
+    fill: $white;
+}
+.icon-facebook_sign { fill: $facebook; }
+.icon-twitter_sign { fill: $twitter; }
+.icon-youtube { fill: $youtube; }
+.icon-soundcloud { fill: $soundcloud; }
+.icon-vimeo_square { fill: $vimeo; }
 blockquote {
     font-style: italic;
 }
 
+.image--left {
+    float: left;
+    margin-right: 1em;
+}
+.image--right {
+    float: right;
+    margin-left: 1em;
+}
 // Buttons
 
 .button {
     @extend button;
     @include bbb-flat-style($action-color, $white);
+    //@include bbb_size(2); // makes it bigger!!
+    padding: 3px 14px;
     &:hover:not(:disabled) {
         color: $white;
         background: darken($action-color, 20%);
@@ -60,21 +125,43 @@ blockquote {
   }
 }
 
+/*
+*   Header
+*/
 
-.trustlogo {
-    float: right;
-    max-height: 4em;
+.site-header-container {
+    color: $white;
+    background-color: $highlight-color;
+    .site-header{
+        .title {
+            font-size: modular-scale(6);
+        }
+        .subtitle {
+            text-transform: uppercase;
+            font-size: modular-scale(1);
+        }
+    }
 }
+
 /*
 *	Body
 */
 #content-header {
     @include outer-container;
+    h1 {
+        padding-left: 1rem;
+        @include media ($desktop) {
+            padding-left: 0;
+        }
+    }
 }
 
 #content {
     @include outer-container;
     padding: 1em;
+    @include media ($desktop) {
+        padding: 1rem 0;
+    }
 }
 /*
 *	index.html
@@ -107,19 +194,7 @@ blockquote {
         padding: 0 1em;
     }
 }
-.site-header-container {
-    color: $white;
-    background-color: $highlight-color;
-    .site-header{
-        .title {
-            font-size: modular-scale(6);
-        }
-        .subtitle {
-            text-transform: uppercase;
-            font-size: modular-scale(1);
-        }
-    }
-}
+
 img {
     max-width: 100%;
 }
@@ -137,24 +212,6 @@ img {
 #content-header {
     padding: 0;
 }
-
-#page-title {
-    padding-top: 6em;
-    h1, p {
-        @include outer-container;
-        padding: 0 20px;
-        margin-bottom: 0;
-        //background-color: rgba(0,0,0,0.5);
-    }
-    h1 {
-        font-size: 1.4em;
-        @include media($mobile) {
-            font-size: 2em;
-        }
-    }
-
-}
-
 
 /*
 *	Footer
@@ -180,64 +237,61 @@ img {
     .wrapper {
         @include outer-container;
     }
-    .footer-heading {
-
+}
+/*
+*	Site Navigation (left)
+*/
+.site-navigation {
+    @include span-columns(12);
+    @include media ($mobile) {
+        @include span-columns(6);
     }
-    /*
-    *	Site Navigation (left)
-    */
-    .site-navigation {
-        @include span-columns(12);
-        @include media ($mobile) {
-            @include span-columns(6);
-        }
-        @include media ($tablet) {
-            @include span-columns(4);
-        }
-        font-size: 0.9em;
-        ul {
-            @extend %default-ul;
-        }
+    @include media ($tablet) {
+        @include span-columns(4);
     }
-    /*
-    *	Contact Info (center)
-    */
-    .site-contact {
-        margin-top: 1em;
-        @include span-columns(12);
-        @include media ($mobile) {
-            @include span-columns(6);
-            margin-top: 0;
-            margin-right: 0;
-        }
-        @include media ($tablet) {
-            @include span-columns(4);
-            margin-top: 0;
-        }
-        font-size: 0.9em;
-        i {
-            width: 1.25em;
-            text-align: center;
-        }
-        ul {
-            @extend %default-ul;
-        }
+    font-size: 0.9em;
+    ul {
+        @extend %default-ul;
     }
-    /*
-    *	Site Description/Signature (right)
-    */
-    .site-signature {
-        margin-top: 1em;
-        @include span-columns(12);
-        @include media ($tablet) {
-            @include span-columns(4);
-            margin-right: 0;
-            margin-top: 0;
-        }
-        font-size: 0.9em;
-        a {
-            text-decoration: underline;
-        }
+}
+/*
+*	Contact Info (center)
+*/
+.site-contact {
+    margin-top: 1em;
+    @include span-columns(12);
+    @include media ($mobile) {
+        @include span-columns(6);
+        margin-top: 0;
+        margin-right: 0;
+    }
+    @include media ($tablet) {
+        @include span-columns(4);
+        margin-top: 0;
+    }
+    font-size: 0.9em;
+    i {
+        width: 1.25em;
+        text-align: center;
+    }
+    ul {
+        @extend %default-ul;
+    }
+}
+/*
+*	Site Description/Signature (right)
+*/
+.site-signature {
+    margin-top: 1em;
+    @include span-columns(12);
+    @include media ($tablet) {
+        @include span-columns(4);
+        margin-right: 0;
+        margin-top: 0;
+    }
+    font-size: 0.9em;
+    a {
+        text-decoration: underline;
     }
 }
 
@@ -321,21 +375,60 @@ img {
 .home h1 {
     display: none;
 }
-.home h2 {
-
+.h2__promote {
+    border-bottom: 3px solid #ccc;
+    font-weight: 400;
 }
-h2 a {
-    color: $black;
-    text-decoration: none;
 
-    &:hover,&:focus {
-        color: $orange;
-        text-decoration: none;
+.h2__research {
+    border-bottom: 3px solid $research;
+    a {
+        color: $research;
     }
 }
-.home article {
-    padding: 1em;
-    //border-top: 1px solid $tertiary-color;
+.research {
+    h1, h2, h3 {
+        color: $research;
+    }
+}
+.h2__outreach {
+    border-bottom: 3px solid $outreach;
+    a {
+        color: $outreach;
+    }
+}
+.outreach {
+    h1, h2, h3 {
+        color: $outreach;
+    }
+}
+.h2__practice {
+    border-bottom: 3px solid $practice;
+    a {
+        color: $practice;
+    }
+}
+.practice {
+    h1, h2, h3 {
+        color: $practice;
+    }
+}
+.h2__train {
+    border-bottom: 3px solid $training;
+    a {
+        color: $training;
+    }
+}
+.train {
+    h1, h2, h3 {
+        color: $training;
+    }
+}
+
+
+.article__home {
+    padding: 1em 0 0;
+    //margin-top: 1em;
     @include outer-container;
 }
 .half {
@@ -344,22 +437,34 @@ h2 a {
         @include span-columns(6);
     }
 }
-.third {
-    @include span-columns(12);
-    @include media ($tablet) {
-        @include span-columns(4);
-    }
+
+/* used on home page for slider */
+.head {
+    background-color: $midblue;
+    padding: 0;
 }
 .two-thirds {
     @include span-columns(12);
     @include media ($tablet) {
         @include span-columns(8);
     }
+    margin-right: 0;
 }
+.third {
+    padding: 1em;
+    @include span-columns(12);
+    @include media ($tablet) {
+        @include span-columns(4);
+        @include reset-display;
+        @include pad(10px);
+    }
+}
+
 .about {
     background-color: $midblue;
     color: white;
 }
+
 .event {
     h3 {
         background-color: darken($lightblue, 20%);
@@ -377,4 +482,19 @@ h2 a {
         font-size: smaller;
         color: lighten($black,20%);
     }
+}
+
+/*
+ * Sidebar - aside
+ */
+
+@include media($mobile) {
+    /* contained within .content outer-container already */
+    .with-sidebar {
+        @include span-columns(8);
+    }
+    .sidebar {
+        @include span-columns(4);
+    }
+
 }

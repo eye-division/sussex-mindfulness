@@ -2,12 +2,10 @@
 layout: default
 ---
 
-<header id="content-header">
-  <section id="page-title">
+<header id="content-header" class="{% if page.style %}{{ page.style }}{% endif %}">
     <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
-  </section>
 </header>
 
-<section id="content">
+<section id="content" class="{% if page.style %}{{ page.style }}{% endif %}">
 	{{ content }}
 </section>
