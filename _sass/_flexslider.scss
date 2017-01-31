@@ -276,10 +276,14 @@ html[xmlns] .flexslider .slides {
 /* caption */
 .flex-caption {
   position: absolute;
-  width: 100%;
+  //width: 100%;
   left: 0;
   bottom: 0;
-  background: rgba(255,255,255,0.8);
+  margin-bottom: 0;
+  margin-right: 10px;
+  padding: 10px;
+  background-color: rgba($lightblue, 0.9);
+  //background: rgba(255,255,255,0.8);
   color: $black;
   font-size: large;
 }

@@ -36,9 +36,9 @@ main {
     @include flex(1 0 auto);
 
 }
+// re-size headers
 h1, h2, h3 {
     font-weight: 500;
-
 }
 h1 {
     font-size: 2em;
@@ -71,6 +71,9 @@ code {
 a:hover .icon { /* hover colour */
     fill: darken($midblue,20%);
 }
+a:hover .icon__white { /* hover colour */
+    fill: $research;
+}
 .icon--readmore {
     fill: $lightblue;
     margin-bottom: -5px;
@@ -88,8 +91,8 @@ a:hover .icon { /* hover colour */
 }
 .icon--logo {
     fill: $midblue;
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
 }
 .icon__white {
     fill: $white;
@@ -148,12 +151,11 @@ blockquote {
 */
 #content-header {
     @include outer-container;
-    h1 {
-        padding-left: 1rem;
-        @include media ($desktop) {
-            padding-left: 0;
-        }
+    //padding: 1em;
+    @include media ($desktop) {
+       //padding: 1rem 0;
     }
+
 }
 
 #content {
@@ -387,8 +389,11 @@ img {
     }
 }
 .research {
-    h1, h2, h3 {
+    h1, h2 {
         color: $research;
+        a {
+            color: $research;
+        }
     }
 }
 .h2__outreach {
@@ -398,7 +403,7 @@ img {
     }
 }
 .outreach {
-    h1, h2, h3 {
+    h1, h2 {
         color: $outreach;
     }
 }
@@ -409,7 +414,7 @@ img {
     }
 }
 .practice {
-    h1, h2, h3 {
+    h1, h2 {
         color: $practice;
     }
 }
@@ -420,13 +425,16 @@ img {
     }
 }
 .train {
-    h1, h2, h3 {
+    h1, h2 {
         color: $training;
+        a {
+            color: $training;
+        }
     }
 }
 
 
-.article__home {
+.article__home, article {
     padding: 1em 0 0;
     //margin-top: 1em;
     @include outer-container;
@@ -440,42 +448,48 @@ img {
 
 /* used on home page for slider */
 .head {
-    background-color: $midblue;
+    background-color: $lightblue;
     padding: 0;
 }
 .two-thirds {
     @include span-columns(12);
     @include media ($tablet) {
         @include span-columns(8);
+        margin-right: 0;
     }
-    margin-right: 0;
+
 }
+
 .third {
-    padding: 1em;
     @include span-columns(12);
     @include media ($tablet) {
         @include span-columns(4);
-        @include reset-display;
-        @include pad(10px);
+        //@include reset-display;
+        @include pad(0 10px);
     }
 }
 
 .about {
-    background-color: $midblue;
-    color: white;
+    background-color: $lightblue;
+    //color: white;
+    p {
+        margin-top: 10px;
+        padding: 10px;
+    }
 }
 
 .event {
     h3 {
-        background-color: darken($lightblue, 20%);
+        background-color: $darkblue;
         color: $white;
-        padding: 0 1em;
+        padding: 0 10px;
+        margin: 0;
     }
     .date {
         display: block;
     }
     .title {
-        display: block;
+        //display: block;
     }
     .venue {
         display: block;
@@ -483,11 +497,35 @@ img {
         color: lighten($black,20%);
     }
 }
+/*
+ * Breadcrumbs
+ */
+.breadcrumbs {
+    @include pad(0 1em);
+    @include media($tablet) {
+        @include pad(0);
+    }
+}
+.flexslider {
 
+}
+.notice {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 1rem;
+}
 /*
  * Sidebar - aside
  */
-
+.sidebar > h2 {
+    margin: 0;
+}
+.nolist {
+    li {
+        padding: 10px 0;
+        border-bottom: 1px solid $light-gray;
+    }
+}
 @include media($mobile) {
     /* contained within .content outer-container already */
     .with-sidebar {

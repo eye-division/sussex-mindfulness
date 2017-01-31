@@ -13,7 +13,7 @@ $modular-scale-ratio: $minor-third;
 
 // Line height
 $base-line-height: 1.8;
-$heading-line-height: 1.8;
+$heading-line-height: 1.4;
 
 // Other Sizes
 $base-border-radius: 3px;
@@ -48,7 +48,7 @@ $shade2: #f5efed;
 
 $darkblue: #124C82; // outreach and policy - national influence
 // rgb: 18,76,130
-$midblue: #3675AC; // training - improving access
+$midblue:	#5b97cc;// #3675AC; // training - improving access
 // rgb: 54,118,172
 $lightblue: #76CAF2; // practice and governance - MBI groups
 // rgb: 119, 202, 242
@@ -105,7 +105,7 @@ $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $l
 // header height
 $header-height: 14em;
 $header-height-mobile: 8em;
-$header-height-tablet: 10em;
+$header-height-tablet: 12em;
 
 // Screen sizes
 $mobile: 640px;

@@ -2,33 +2,47 @@
 layout: home
 carousel:
   - image: /assets/banner-barnacles.jpg
-    caption:
+    caption: Research
+    link: /research/
   - image: /assets/banner-outatsea.jpg
-    caption:
+    caption: Practice and governance
+    link: /practice-and-governance/
   - image: /assets/banner-sea.jpg
-    caption:
+    caption: Train to teach
+    link: /train-to-teach/
   - image: /assets/banner-mosstuft.jpg
-    caption:
+    caption: Outreach and national policy
+    link: /outreach-and-national-policy/
   - image: /assets/banner-mosswall.jpg
-    caption:
+    caption: Events at the SMC
+    link: /events/
   - image: /assets/banner-rottingdean.jpg
-    caption:
+    caption: Find out more about the SMC
+    link: /about/
   - image: /assets/banner-sand-footprint.jpg
-    caption:
+    caption: What is mindfulness
+    link: /what-is-mindfulness/
   - image: /assets/banner-seapink.jpg
-    caption:
+    caption: Contact us
+    link: /about/contact/
   - image: /assets/banner-wave.jpg
     caption:
 ---
   <article class="head article__home">
 
       {% if page.carousel %}
-      <div class="two-thirds">
+      <div class="two-thirds no-gutter">
         <div class="flexslider">
           <ul class="slides">
             {% for slides in page.carousel %}
             <li>
-              <img src="{{ slides.image }}">
+              {% if slides.link %}
+              <a href="{{ site.baseurl }}{{ slides.link }}" title="View project">
+              {% endif %}
+              {% include img.html src=slides.image width=960 height=508 %}
+              {% if slides.link %}
+              </a>
+            {% endif %}
               {% if slides.caption %}
               <p class="flex-caption">{{ slides.caption }}</p>
               {% endif %}
@@ -40,7 +54,11 @@ carousel:
       {% endif %}
 
       <div class="third editable about">
-        <p>Mindfulness is a particular kind of awareness that arises from an open, kind attentiveness to experience. The emphasis in the practice of cultivating mindfulness is not so much about trying to change experience but to bring a deep noticing and radical acceptance to whatever arises. This encourages a capacity to &lsquo;be&rsquo; as well as to &lsquo;do&rsquo;.</p>
+        <blockquote>
+        <p>I see the way I am now, and the way my life is now, as a testament to the transformative and healing power of mindfulness.<br />
+        <cite>Helga Dettmar, MBCT course</cite></p>
+      </blockquote>
+      <!-- <p>Mindfulness is a particular kind of awareness that arises from an open, kind attentiveness to experience.  Read more ...</p> -->
         </div>
   </article>
 
@@ -48,16 +66,13 @@ carousel:
  <article class="article__home">
 
     <div class="two-thirds editable">
-    <p>At Sussex Mindfulness Centre we aim to improve wellbeing through mindfulness.  We bring together mindfulness practice, research and training. We do this for the benefit of people with mental or physical health challenges and the wider community. We want to learn more about who and how mindfulness can help. We have heartfelt values: helping those in need, with compassion, based on evidence.   <a class="" href="/what-is-mindfulness/">Read more <svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-double_angle_right" /></svg></a></p>
+      <p>At <strong>Sussex Mindfulness Centre</strong> we aim to improve wellbeing through mindfulness.  We bring together mindfulness practice, research and training. We do this for the benefit of people with mental or physical health challenges and the wider community. We want to learn more about who and how mindfulness can help. We have heartfelt values: helping those in need, with compassion, based on evidence.   <a class="" href="/what-is-mindfulness/">Read more&nbsp;<svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-double_angle_right" /></svg></a></p>
     </div>
 
   <div class="third event editable">
       <h3>4th Annual Conference</h3>
-      <p><span class="date">7 October</span>
-      <span class="title">Mindfulness and compassion at the heart of
-  our work’</span>
-      <span class="venue">Friends Meeting House, Ship Street, Brighton</span>
-      <a href="{{ site.baseurl }}" class="">More details</a>
+      <p><span class="date">7 October, 2017</span> <span class="venue">Friends Meeting House, Ship Street, Brighton</span>
+      <span class="title">Mindfulness and compassion at the heart of our work’</span> <a href="{{ site.baseurl }}" class="">More details&nbsp;<svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-double_angle_right" /></svg></a>
       </p>
 
     </div>
@@ -67,21 +82,19 @@ carousel:
  <article class="article__home">
     <div class="half editable">
       <h2 class="h2__promote h2__research"><a href="{{ site.baseurl }}/research/">Our research</a></h2>
-      <p><img src="{{ site.baseurl }}/assets/research-icon.png" title="research icon" class="image--left"> We conduct research on the potential benefits of mindfulness-based interventions for groups of people for whom interventions have not traditionally been available. <a class="" href="{{ site.baseurl }}/research/">Read more <svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-double_angle_right" /></svg></a></p>
+      <p><img src="{{ site.baseurl }}/assets/research-icon.png" title="research icon" class="image--left"> We conduct research on the potential benefits of mindfulness-based interventions for groups of people for whom interventions have not traditionally been available. <a class="" href="{{ site.baseurl }}/research/">Read more&nbsp;<svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-double_angle_right" /></svg></a></p>
     </div>
 
     <div class="half editable">
-      <h2 class="h2__promote h2__practice"><a href="{{ site.baseurl }}/practice-and-governance/">Practice and governance</a></h2>
+      <h2 class="h2__promote h2__practice"><a href="{{ site.baseurl }}/practice-and-governance/">Practice &amp; governance</a></h2>
       <img src="{{ site.baseurl }}/assets/practice-icon.png" title="practice icon" class="image--left">
       <ul class="nolist">
-        <li>In the workplace</li>
-        <li>In the community</li>
-        <li>For young people</li>
-        <li><a href="{{ site.baseurl }}/what-is-mindfulness/what-is-mbct/">What is MBCT?</a></li>
-        <li>How can MBCT help?</li>
-        <li>Good practice</li>
+        <li><a href="{{ site.baseurl }}/practice-and-governance/">In the workplace</a></li>
+        <li><a href="{{ site.baseurl }}/practice-and-governance/">In the community</a></li>
+        <li><a href="{{ site.baseurl }}/practice-and-governance/">For young people</a></li>
+        <li><a href="{{ site.baseurl }}/practice-and-governance/">What is MBCT?</a></li>
       </ul>
-      <a class="" href="{{ site.baseurl }}/research/">Read more <svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-double_angle_right" /></svg></a>
+      <a class="" href="{{ site.baseurl }}/research/">Read more&nbsp;<svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-double_angle_right" /></svg></a>
     </div>
  </article>
 
@@ -92,7 +105,7 @@ carousel:
     <h2 class="h2__promote h2__train"><a href="{{ site.baseurl }}/train-to-teach-mindfulness/">Train to teach mindfulness</a></h2>
 
     <p><img src="{{ site.baseurl }}/assets/train-icon.png" title="train icon" class="image--left"> Sussex Mindfulness Centre has been offering mindfulness training since 2011. We have 29 members of staff trained as mindfulness teachers who are connected to a large network of skilled local teachers and a thriving team of researchers producing cutting-edge research into mindfulness interventions.
-    <a class="" href="{{ site.baseurl }}/train-to-teach-mindfulness/">Read more <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
+    <a class="" href="{{ site.baseurl }}/train-to-teach-mindfulness/">Read more&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
 
     <p>Foundation training programme in Mindfulness-Based Approaches<br />
     One year course <a class="button btn" href="{{ site.baseurl }}/train-to-teach-mindfulness/">Apply now <svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-double_angle_right" /></svg></a></p>
@@ -101,11 +114,30 @@ One year course <a class="button" href="{{ site.baseurl }}/train-to-teach-mindfu
    </div>
 
     <div class="half editable">
-      <h2 class="h2__promote h2__outreach"><a href="{{ site.baseurl }}/outreach-and-national-policy/">Outreach and National Policy</a></h2>
+      <h2 class="h2__promote h2__outreach"><a href="{{ site.baseurl }}/outreach-and-national-policy/">Outreach &amp; National Policy</a></h2>
       <p>
     <img src="{{ site.baseurl }}/assets/outreach-icon.png" title="outreach icon" class="image--left"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum perferendis eaque, ipsum, et voluptatum dolore. Doloribus a excepturi, maxime nihil tenetur dolorum reiciendis laboriosam aliquam ex voluptate, tempore voluptatum deserunt. <a class="" href="{{ site.baseurl }}/outreach-and-national-policy/">Read more <svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-double_angle_right" /></svg></a></p>
     </div>
- </article>
+
+</article>
+
+<article class="article__home">
+
+  <div class="half editable">
+  <h2 class="h2__promote"><a href="{{ site.baseurl }}/about/">About the SMC</a></h2>
+    <ul class="nolist">
+      <li><a href="{{ site.baseurl }}/about/our-staff/">Our staff</a></li>
+      <li><a href="{{ site.baseurl }}/about/contact/" class="active">Contact</a></li>
+      <li><a href="{{ site.baseurl }}/about/get-involved/">Get involved</a></li>
+    </ul>
+  </div>
+
+  <div class="half editable">
+    <h2 class="h2__promote"><a href="{{ site.baseurl }}/events/">Events</a></h2>
+    <p>The SMC organises a range of events from weekly drop in sessions through to conferences. You can view and book here.</p>
+  </div>
+
+</article>
 
  <!-- <blockquote>
         <p>I see the way I am now, and the way my life is now, as a testament to the transformative and healing power of mindfulness.<br />

@@ -1,25 +1,30 @@
+- title: "Home"
+  href: "/"
+  class:
+
 - title: "Research"
   href: "/research/"
+  class: "research"
+  subcategories:
+    - subtitle: "Publications"
 
-- title: "Practice and governance"
+- title: "Practice & governance"
   href: "/practice-and-governance/"
+  class: "practice"
+
 
 - title: "Train to teach"
   href: "/train-to-teach-mindfulness/"
+  class: "train"
 
-- title: "Outreach and national policy"
+- title: "Outreach & national policy"
   href: "/outreach-and-national-policy/"
+  class: "outreach"
 
 - title: "Events"
   href: "/events/"
+  class:
 
 - title: "About"
   href: "/about/"
-
-- title: "What is Mindfulness"
-  href: "/what-is-mindfulness/"
-  subcategories:
-    - subtitle: "What is MBCT?"
-      subhref: "/what-is-mindfulness/what-is-mbct/"
-    - subtitle: "How can MBCT help?"
-      subhref: "/what-is-mindfulness/how-can-mbct-help/"
+  class:

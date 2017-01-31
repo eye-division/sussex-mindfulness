@@ -31,10 +31,14 @@
 .logo { // first col
     display: block;
     text-align: center;
+    padding-top: 10px;
     @include media ($mobile) {
+        text-align: left;
         @include span-columns(4);
     }
     @include media ($tablet) {
+
+        padding-bottom: 10px;
         @include span-columns(3);
     }
     // when there is no image
@@ -49,7 +53,6 @@
 }
 
 .nav__logo {
-    padding: 10px 0 0;
     max-width: 220px;
 }
 .mission {
@@ -66,9 +69,9 @@
     }
     @include media ($tablet) {
         @include span-columns(5);
-        text-align: left;
-        padding-top: 5em;
-        font-size: 18px;
+        //text-align: left;
+        padding-top: 4.5em;
+        font-size: 20px;
     }
 }
 .trust {
@@ -108,7 +111,7 @@
     padding-top: 0.5em;
     padding-right: 0.5em;
     @include media ($mobile) {
-        top: 1em;
+        top: 2em;
     }
     @include media ($tablet) {
         display: none;
@@ -130,6 +133,7 @@ ul.navigation-menu {
     padding: 0;
     width: 100%;
     @include media ($tablet) {
+        background-color: lighten($darkblue,5%);
         display: block;
         margin: 0;
         padding: 0;
@@ -139,7 +143,7 @@ ul.navigation-menu {
     }
 }
 // Nav items
-ul li.nav-link {
+li.nav-link {
     display: block;
     text-align: right;
     width: 100%;
@@ -152,13 +156,52 @@ ul li.nav-link {
         width: auto;
     }
 }
+
+
 li.nav-link {
     a {
         display: inline-block;
         color: $primary-color;
+        transition: all 0.2s ease-in-out;
         @include media ($tablet) {
-            padding-right: 1em;
+            color: white;
+            background: $darkblue;
+            padding: 10px;
+            &:hover {
+                text-decoration: none;
+                background: darken($darkblue, 10%);
+            }
+            &.research {
+                background-color: $research;
+                color: $black;
+                &:hover {
+                    color: $white;
+                    background-color: darken($research, 20%);
+                }
+            }
+            &.outreach {
+                background-color: $outreach;
+                 &:hover {
+                    background-color: darken($outreach, 20%);
+                }
+            }
+            &.train {
+                background-color: $training;
+                color: $black;
+                 &:hover {
+                    color: $white;
+                    background-color: darken($training, 20%);
+                }
+            }
+            &.practice {
+                background-color: $practice;
+                color: $black;
+                 &:hover {
+                    background-color: darken($practice, 20%);
+                }
+            }
         }
+
     }
     &:last-child a {
         @include media ($tablet) {
@@ -166,6 +209,10 @@ li.nav-link {
         }
     }
 }
-.nav-link.active a {
-    color: $ochre;
+
+.active a {
+
+    @include media ($tablet) {
+        background-color: $ochre;
+    }
 }
