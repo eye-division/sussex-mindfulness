@@ -43,12 +43,13 @@
     }
     // when there is no image
     font-family: $heading-font-family;
-    font-weight: 100;
-    color: $black;
+    font-weight: 400;
+    color: $primary-color;
     text-decoration: none;
     //height: 4em;
     span {
-        font-size: 1.25em;
+        font-size: 2em;
+        line-height: 1em;
     }
 }
 
@@ -59,7 +60,7 @@
     font-style: italic;
     font-weight: 500;
     font-size: 16px;
-    color: $midblue;
+    color: $tertiary-color;
     text-align: center;
 
     @include media ($mobile) {
@@ -133,7 +134,7 @@ ul.navigation-menu {
     padding: 0;
     width: 100%;
     @include media ($tablet) {
-        background-color: lighten($darkblue,5%);
+        background-color: $primary-color;
         display: block;
         margin: 0;
         padding: 0;
@@ -165,11 +166,11 @@ li.nav-link {
         transition: all 0.2s ease-in-out;
         @include media ($tablet) {
             color: white;
-            background: $darkblue;
+            background: $primary-color;
             padding: 10px;
             &:hover {
                 text-decoration: none;
-                background: darken($darkblue, 10%);
+                background: darken($primary-color, 10%);
             }
             &.research {
                 background-color: $research;
