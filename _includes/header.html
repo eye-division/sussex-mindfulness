@@ -9,14 +9,16 @@
       {% endif %}
     </a>
     {% if site.subtitle %}
-        <div class="mission">{{ site.subtitle }}</div>
+        <div class="mission"><!-- {{ site.subtitle }} --></div>
     {% endif %}
+
     <div class="trust">
-      <a href="http://www.sussexpartnership.nhs.uk/" title="Sussex Partnership NHS Foundation Trust"><img src="{{ site.baseurl }}/assets/nhs_trust_logo.png" alt="Sussex Partnership NHS Foundation Trust" class="trustlogo"></a></div>
+      <a href="http://www.sussexpartnership.nhs.uk/" title="Sussex Partnership NHS Foundation Trust"><img src="{{ site.baseurl }}/assets/partnership_logo_2017.png" alt="Sussex Partnership NHS Foundation Trust" class=""></a></div>
 
     <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
       <svg class="icon icon--logo"><use xlink:href="#icon-reorder" /></svg>
     </a>
+
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
         {% for link in site.data.nav %}

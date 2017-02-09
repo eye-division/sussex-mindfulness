@@ -60,7 +60,7 @@
     font-style: italic;
     font-weight: 500;
     font-size: 16px;
-    color: $tertiary-color;
+    color: $primary-color;
     text-align: center;
 
     @include media ($mobile) {
@@ -82,6 +82,7 @@
         @include omega();
     }
     @include media ($tablet) {
+        text-align: right;
         @include span-columns(4);
         @include omega();
     }
@@ -90,6 +91,8 @@
     max-height: 40px;
     margin-top: 10px;
     @include media ($mobile) {
+        width: 254px;
+        height: 108px;
         float: right;
         max-height: 4em;
         padding-top: 10px;
@@ -134,7 +137,6 @@ ul.navigation-menu {
     padding: 0;
     width: 100%;
     @include media ($tablet) {
-        background-color: $primary-color;
         display: block;
         margin: 0;
         padding: 0;
@@ -165,40 +167,39 @@ li.nav-link {
         color: $primary-color;
         transition: all 0.2s ease-in-out;
         @include media ($tablet) {
-            color: white;
-            background: $primary-color;
+            border: 1px solid $highlight-color;
             padding: 10px;
             &:hover {
+                color: $white;
                 text-decoration: none;
                 background: darken($primary-color, 10%);
             }
             &.research {
-                background-color: $research;
-                color: $black;
+                color: $research;
                 &:hover {
                     color: $white;
-                    background-color: darken($research, 20%);
+                    background-color: darken($research, 0%);
                 }
             }
             &.outreach {
-                background-color: $outreach;
+                color: $outreach;
                  &:hover {
-                    background-color: darken($outreach, 20%);
+                    color: $white;
+                    background-color: darken($outreach, 0%);
                 }
             }
             &.train {
-                background-color: $training;
-                color: $black;
+                color: $training;
                  &:hover {
                     color: $white;
-                    background-color: darken($training, 20%);
+                    background-color: darken($training, 0%);
                 }
             }
             &.practice {
-                background-color: $practice;
-                color: $black;
+                color: $practice;
                  &:hover {
-                    background-color: darken($practice, 20%);
+                    color: $white;
+                    background-color: darken($practice, 0%);
                 }
             }
         }
@@ -214,6 +215,6 @@ li.nav-link {
 .active a {
 
     @include media ($tablet) {
-        background-color: $ochre;
+        background-color: lighten($primary-color,80%);
     }
 }
