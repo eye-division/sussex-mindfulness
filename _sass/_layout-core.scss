@@ -42,8 +42,8 @@ h1, h2, h3 {
 }
 h1 {
     font-size: 2em;
-    line-height: 1.6em;
-    line-height: 1.6rem;
+    line-height: 2em;
+    line-height: 2rem;
 }
 
 ol.default {
@@ -477,6 +477,9 @@ img {
         padding: 10px;
     }
 }
+/*
+ * Events
+ */
 
 .event {
     h3 {
@@ -497,14 +500,43 @@ img {
         color: lighten($black,20%);
     }
 }
+.events {
+    .main-content .nolist li {
+        @extend .notice;
+    }
+}
+.intro {
+    font-size: larger;
+}
+
+/*
+ * video embed
+ */
+.video-wrapper {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%; // For ratio 16:9. 75% if ratio is 4:3
+  position: relative;
+
+  embed,
+  object,
+  iframe {
+    @include position(absolute, 0 null null 0);
+    @include size(100%);
+  }
+}
 /*
  * Breadcrumbs
  */
 .breadcrumbs {
-    @include pad(0 1em);
+    @include pad(0);
+    //@include pad(0 1em);
     @include media($tablet) {
         @include pad(0);
     }
+}
+.breadcrumb__sep {
+    color: $medium-gray;
 }
 .flexslider {
 
@@ -517,15 +549,17 @@ img {
 /*
  * Sidebar - aside
  */
+.widget {
+    padding: 1em;
+}
+.widget__centred {
+    text-align: center;
+}
 .sidebar > h2 {
     margin: 0;
 }
-.nolist {
-    li {
-        padding: 10px 0;
-        border-bottom: 1px solid $light-gray;
-    }
-}
+
+
 @include media($mobile) {
     /* contained within .content outer-container already */
     .with-sidebar {

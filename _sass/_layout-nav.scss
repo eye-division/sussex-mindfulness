@@ -51,6 +51,9 @@
         font-size: 2em;
         line-height: 1em;
     }
+    &:hover,&:active {
+        text-decoration: none;
+    }
 }
 
 .nav__logo {
@@ -218,3 +221,58 @@ li.nav-link {
         background-color: lighten($primary-color,80%);
     }
 }
+
+/* sidebar menu */
+.nav__secondary {
+    @extend %default-ul;
+
+    a {
+        display: block;
+        padding: 0.5em;
+        padding: 0.5rem;
+        color: $black;
+        background: transparent;
+        // default
+        &:hover, &:active {
+            text-decoration: none;
+            background-color: tint($primary-color,90%);
+        }
+    }
+    a.active {
+        background-color: tint($primary-color,90%);
+    }
+    a.train.active {
+        color: $training;
+        //background-color: tint($training,50%);
+    }
+    a.train:hover, a.train:active {
+        color: $white;
+        background-color: $training;
+    }
+
+    a.practice.active {
+        color: $practice;
+    }
+    a.practice:hover, a.practice:active {
+        color: $white;
+        background-color: $practice;
+    }
+    a.research.active {
+        color: $research;
+    }
+
+    a.research:hover, a.research:active {
+        color: $white;
+        background-color: $research;
+    }
+    a.outreach.active {
+        color: $outreach;
+    }
+
+    a.outreach:hover, a.outreach:hover {
+        color: $white;
+        background-color: $outreach;
+    }
+
+}
+

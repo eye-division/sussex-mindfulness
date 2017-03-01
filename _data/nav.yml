@@ -2,29 +2,71 @@
   href: "/"
   class:
 
+- title: "Outreach & national policy"
+  href: "/outreach-and-national-policy/"
+  class: "outreach"
+
+- title: "Train to teach"
+  href: "/train-to-teach-mindfulness/"
+  class: "train"
+  subcategories:
+    - subtitle: "MBCT"
+      href: "/train-to-teach-mindfulness/mbct/"
+    - subtitle: "MBI"
+      href: "/train-to-teach-mindfulness/mbi/"
+
+- title: "Practice & governance"
+  href: "/practice-and-governance/"
+  class: "practice"
+  subcategories:
+    - subtitle: "In the community"
+      href: "/practice-and-governance/in-the-community/"
+    - subtitle: "Mindfulness governance"
+      href: "/practice-and-governance/mindfulness-governance/"
+    - subtitle: "What does MBCT involve?"
+      href: "/practice-and-governance/mbct/"
+    - subtitle: "What problems can MBCT help with?"
+      href: "/practice-and-governance/problems-mbct-can-help-with/"
+    - subtitle: "Referers: who can benefit"
+      href: "/practice-and-governance/referers-who-can-benefit/"
+    - subtitle: "Mindfulness in child and adolescent services"
+      href: "/practice-and-governance/child-adolescent-services/"
+    - subtitle: "In the workplace"
+      href: "/practice-and-governance/in-the-workplace/"
+
 - title: "Research"
   href: "/research/"
   class: "research"
   subcategories:
     - subtitle: "Publications"
-
-- title: "Practice & governance"
-  href: "/practice-and-governance/"
-  class: "practice"
-
-
-- title: "Train to teach"
-  href: "/train-to-teach-mindfulness/"
-  class: "train"
-
-- title: "Outreach & national policy"
-  href: "/outreach-and-national-policy/"
-  class: "outreach"
+      href: "/research/publications/"
+    - subtitle: "Research funding"
+      href: "/research/research-funding/"
 
 - title: "Events"
   href: "/events/"
-  class:
+  class: ""
+  subcategories:
+    - subtitle: "Drop ins"
+      href: "/events/drop-ins/"
+    - subtitle: "All day retreats"
+      href: "/events/retreats/"
+    - subtitle: "Masterclasses"
+      href: "/events/masterclasses/"
+    - subtitle: "Conferences"
+      href: "/events/conferences/"
+    - subtitle: "Compassion circles"
+      href: "/events/compassion-circles/"
 
 - title: "About"
   href: "/about/"
   class:
+  subcategories:
+    - subtitle: "Our team"
+      href: "/about/our-team/"
+    - subtitle: "Get involved"
+      href: "/about/get-involved/"
+    - subtitle: "News"
+      href: "/about/news/"
+    - subtitle: "Contact"
+      href: "/about/contact/"

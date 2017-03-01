@@ -3,10 +3,14 @@ layout: page
 title: Get involved
 main_image_path:
 main_nav: false
+sidebar: about-sidebar.html
 ---
 <section class="main-content with-sidebar">
 <h1 class="page-title">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
 <div class="intro editable">
+	<p>We are interested in "What do you associate with mindfulness?"</p>
+	<p>Tweet <a href="https://twitter.com/withoutstigma">@withoutstigma</a> #mindfulnessphotos and let us know! You could even tweet us photos of objects, locations or words that you associate with mindfulness or personally remind you to give yourself a moment of mindfulness.</p>
+
 <p><strong>Phone</strong>: Caroline Windley on 01273 716573<br />
 <strong>Email</strong>: smc@sussexpartnership.nhs.uk<br />
 <a href="https://twitter.com/withoutstigma">@withoutstigma</a> #sussexmindfulness<br />
@@ -16,21 +20,6 @@ main_nav: false
 </section>
 
 	<aside class="sidebar">
-		<h2><a href="{{ site.baseurl }}/about/">About</a></h2>
-		<ul class="nolist">
-			<li><a href="{{ site.baseurl }}/about/our-staff/">Our staff</a></li>
-			<li><a href="{{ site.baseurl }}/about/contact/">Contact</a></li>
-			<li><a href="{{ site.baseurl }}/about/get-involved/" class="active">Get involved</a></li>
-		</ul>
-		<div class="newsletters">
-			<h3>Download newsletters</h3>
-		<ul>
-			<li><a href="">August 2016&nbsp;<svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download_alt" /></svg></a></li>
-			<li><a href="">March 2016&nbsp;<svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download_alt" /></svg></a></li>
-			<li><a href="">September 2015&nbsp;<svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download_alt" /></svg></a></li>
-			<li><a href="">June 2015&nbsp;<svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download_alt" /></svg></a></li>
-			<li><a href="">March 2015&nbsp;<svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download_alt" /></svg></a></li>
-			<li><a href="">December 2014&nbsp;<svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download_alt" /></svg></a></li>
-		</ul>
-		</div>
+		{% include {{ page.sidebar }} %}
+
 	</aside>

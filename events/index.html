@@ -1,14 +1,40 @@
 ---
 layout: page
 title: Events
-permalink: /events/
 main_image_path:
+style: events
+sidebar: events-sidebar.html
 ---
+<section class="main-content with-sidebar">
 <h1 class="page-title">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
-<div class="intro editable"><p>Here's a selection of our future events:</p></div>
-<div class="notice">[<strong>NOTE</strong>] This is pulled automatically a listing of Events on Eventbrite. Once connected up to your Eventbrite listings, this page will show all your events listed there.</p></div>
+<div class="intro editable">
 
-<section id="events">
-    <p>Replace me with your events.</p>
+</div>
+<div class="editable">
+	<h3><a href="{{ site.baseurl }}/events/drop-ins/">Drop-ins</a> and <a href="{{ site.baseurl }}/events/retreats/">day retreats</a></h3>
+	<p>All drop-ins and day retreats are free of charge and are open to anyone who has both completed an eight-week MBCT or MBSR group and who is either a current or ex service user, or current employee of Sussex Partnership. If this applies to you, no booking is required. Drop-ins and day retreats are held at the Sussex Education Centre on Nevill Avenue, Hove, BN3 7HZ on the Mill View hospital and Hove Polyclinic site.</p>
 
+	<h3><a href="{{ site.baseurl }}/events/masterclasses/">Masterclasses</a></h3>
+	<p>Events to support the development of MBCT teachers and people interested in mindfulness. Led by national and internationally renown speakers, as well as local mindfulness teachers with particular areas of expertise. They present cutting edge contemporary mindfulness-oriented approaches in various different contexts.</p>
+
+	<h3><a href="{{ site.baseurl }}/events/conferences/">Conferences</a></h3>
+	<h4>4th Annual Conference</h4>
+  <p><span class="date">30 June, 2017</span> <span class="venue">Friends Meeting House, Ship Street, Brighton</span>
+  <span class="title">Mindfulness and compassion at the heart of our work’</span> <a href="{{ site.baseurl }}/events/conferences/" class="">More details&nbsp;<svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-double_angle_right" /></svg></a>
+  </p>
+
+  <h3><a href="{{ site.baseurl }}/events/compassion-circles/">Compassion circles</a></h3>
+  <p>Compassion circles are an innovation developed by Andy Bradley of <a href="http://www.frameworks4change.co.uk/" target="_blank">Frameworks 4 Change</a> to enable staff in health and social care settings to reconnect with core values of patient centred compassionate care and to contribute to building a compassionate culture.</p>
+
+</div>
+
+	<!--
+	<article id="events">
+	    <p>Replace me with your events.</p>
+	</article>
+	-->
 </section>
+
+<aside class="sidebar">
+	{% include {{ page.sidebar }} %}
+</aside>

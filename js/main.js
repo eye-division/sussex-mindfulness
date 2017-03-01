@@ -18,12 +18,12 @@
     });
 
     // Lightbox2 options
-    lightbox.option({
+    /*lightbox.option({
       'wrapAround': true
     });
-
+    */
     // fitvid on embed
-    $('.media').fitVids();
+    //$('.media').fitVids();
     //
     $('.flexslider').flexslider({
       animation: "fade",

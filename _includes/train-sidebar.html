@@ -1,0 +1,16 @@
+{% assign url = page.url | remove: 'index.html' %}
+<h2 class="h2__promote h2__training"><a href="{{ site.baseurl }}/train-to-teach-mindfulness/">Train to teach</a></h2>
+<ul class="nav__secondary">
+
+{% for link in site.data.nav %}
+	{% if link.title == "Train to teach" %}
+
+		{% for subcategory in link.subcategories %}
+		  <li><a href="{{ subcategory.href | prepend: site.baseurl }}" class="train{% if url contains subcategory.href %} active{% endif %}">{{ subcategory.subtitle }}</a>
+		{% endfor %}
+ 	{% endif %}
+{% endfor %}
+</ul>
+<div class="widget widget__centred">
+	<img src="{{ site.baseurl }}/assets/train-icon.png" title="train icon" class="">
+</div>

@@ -1,0 +1,20 @@
+---
+layout: page
+title: In the workplace
+main_image_path:
+style: practice
+sidebar: practice-sidebar.html
+main_nav: false
+---
+<section class="main-content with-sidebar">
+<h1 class="page-title">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+<div class="intro editable">
+
+</div>
+<div class="editable">
+</div>
+</section>
+
+<aside class="sidebar">
+	{% include {{ page.sidebar }} %}
+</aside>
