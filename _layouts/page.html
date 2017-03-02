@@ -2,13 +2,25 @@
 layout: default
 ---
 
-
 <header id="content-header" class="{% if page.style %}{{ page.style }}{% endif %}">
+
+	{% include breadcrumbs.html %}
+
+	<h1 class="page-title">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+	{% if page.main_image_path %}
+	    <figure>
+
+	      {% include img.html src=page.main_image_path width=1200 alt=page.main_image_description %}
+	      <figcaption>{{ page.main_image_description }}</figcaption>
+	    </figure>
+
+	 {% endif %}
 
 
 </header>
 
 <section id="content" class="{% if page.style %}{{ page.style }}{% endif %}">
-	{% include breadcrumbs.html %}
+
 	{{ content }}
+
 </section>

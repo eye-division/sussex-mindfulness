@@ -110,7 +110,7 @@
 .navigation-menu-button {
     display: block;
     position: fixed;
-    top: 0;
+    top: 1.5em;
     right: 0;
     //float: right;
     margin: 0;
@@ -135,11 +135,20 @@ nav {
 ul.navigation-menu {
     clear: both;
     display: none;
+    position: fixed;
+    top: 6em;
+    right: 0;
     margin: 0 auto;
     overflow: visible;
     padding: 0;
     width: 100%;
+    @include media ($mobile) {
+        top: 8em;
+    }
     @include media ($tablet) {
+        position: relative;
+        top: inherit;
+        right: inherit;
         display: block;
         margin: 0;
         padding: 0;
@@ -151,9 +160,9 @@ ul.navigation-menu {
 // Nav items
 li.nav-link {
     display: block;
-    text-align: right;
+    //text-align: right;
     width: 100%;
-    padding: 0.25em 0;
+    padding: 0.1em 0;
     background: $white;
     @include media ($tablet) {
         background: transparent;
@@ -166,10 +175,13 @@ li.nav-link {
 
 li.nav-link {
     a {
-        display: inline-block;
+        display: block;
         color: $primary-color;
         transition: all 0.2s ease-in-out;
         @include media ($tablet) {
+            display: inline-block;
+        }
+        //@include media ($tablet) {
             border: 1px solid $highlight-color;
             padding: 10px;
             &:hover,&.active {
@@ -205,7 +217,7 @@ li.nav-link {
                     background-color: darken($practice, 0%);
                 }
             }
-        }
+        //}
 
     }
     &:last-child a {
