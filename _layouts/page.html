@@ -3,16 +3,18 @@ layout: default
 ---
 
 <header id="content-header" class="{% if page.style %}{{ page.style }}{% endif %}">
+	<div class="padding10">
+		{% include breadcrumbs.html %}
 
-	{% include breadcrumbs.html %}
+		<h1 class="page-title">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+	</div>
 
-	<h1 class="page-title">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
 	{% if page.main_image_path %}
-	    <figure>
+    <div>
 
-	      {% include img.html src=page.main_image_path width=1200 alt=page.main_image_description %}
-	      <figcaption>{{ page.main_image_description }}</figcaption>
-	    </figure>
+      {% include img.html src=page.main_image_path width=1200 alt=page.main_image_description %}
+
+    </div>
 
 	 {% endif %}
 

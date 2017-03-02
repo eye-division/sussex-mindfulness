@@ -224,9 +224,17 @@ img {
  */
 
 #content-header {
-    padding: 0;
+    //padding: 0;
 }
+.padding10 {
+    padding: 1em;
+    @include media ($tablet) {
 
+    }
+    @include media ($desktop) {
+        padding: 1em 0;
+    }
+}
 /*
 *	Footer
 */
