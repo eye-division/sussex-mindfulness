@@ -44,7 +44,7 @@ carousel:
               </a>
             {% endif %}
               {% if slides.caption %}
-              <p class="flex-caption">{{ slides.caption }}</p>
+              <p class="flex-caption">{% if slides.link %}<a href="{{ site.baseurl }}{{ slides.link }}" title="View project">{% endif %}{{ slides.caption }}{% if slides.link %}</a>{% endif %}</p>
               {% endif %}
             </li>
             {% endfor %}

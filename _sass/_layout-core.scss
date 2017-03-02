@@ -25,12 +25,12 @@ body {
 }
 
 main {
-    padding-top: $header-height;
+    padding-top: $body-height;
     @include media ($mobile) {
-        padding-top: $header-height-mobile;
+        padding-top: $body-height-mobile;
     }
     @include media ($tablet) {
-        padding-top: $header-height-tablet;
+        padding-top: $body-height-tablet;
     }
     display: block;
     @include flex(1 0 auto);
@@ -102,8 +102,20 @@ a:hover .icon__white { /* hover colour */
 .icon-youtube { fill: $youtube; }
 .icon-soundcloud { fill: $soundcloud; }
 .icon-vimeo_square { fill: $vimeo; }
+
 blockquote {
+    padding: 1em 0;
+    border-top: 1px solid $primary-color;
+    border-bottom: 1px solid $primary-color;
     font-style: italic;
+    p {
+        margin-bottom: 0;
+    }
+}
+
+cite {
+    font-size: smaller;
+    font-style: normal;
 }
 
 .image--left {
@@ -380,6 +392,9 @@ img {
 .h2__promote {
     border-bottom: 3px solid $light-gray;
     font-weight: 400;
+    a:hover {
+        text-decoration: none;
+    }
 }
 
 .h2__research {
@@ -500,7 +515,7 @@ img {
         color: lighten($black,20%);
     }
 }
-.events {
+.events, .practice {
     .main-content .nolist li {
         @extend .notice;
     }

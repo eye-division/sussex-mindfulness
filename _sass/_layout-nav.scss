@@ -118,7 +118,7 @@
     padding-top: 0.5em;
     padding-right: 0.5em;
     @include media ($mobile) {
-        top: 2em;
+        top: 3em;
     }
     @include media ($tablet) {
         display: none;
@@ -172,35 +172,35 @@ li.nav-link {
         @include media ($tablet) {
             border: 1px solid $highlight-color;
             padding: 10px;
-            &:hover {
+            &:hover,&.active {
                 color: $white;
                 text-decoration: none;
                 background: darken($primary-color, 10%);
             }
             &.research {
                 color: $research;
-                &:hover {
+                &:hover,&.active {
                     color: $white;
                     background-color: darken($research, 0%);
                 }
             }
             &.outreach {
                 color: $outreach;
-                 &:hover {
+                 &:hover,&.active {
                     color: $white;
                     background-color: darken($outreach, 0%);
                 }
             }
             &.train {
                 color: $training;
-                 &:hover {
+                 &:hover ,&.active{
                     color: $white;
                     background-color: darken($training, 0%);
                 }
             }
             &.practice {
                 color: $practice;
-                 &:hover {
+                 &:hover,&.active {
                     color: $white;
                     background-color: darken($practice, 0%);
                 }
@@ -232,14 +232,20 @@ li.nav-link {
         padding: 0.5rem;
         color: $black;
         background: transparent;
+        border-bottom: 1px solid $primary-color;
         // default
         &:hover, &:active {
             text-decoration: none;
             background-color: tint($primary-color,90%);
         }
+
     }
     a.active {
         background-color: tint($primary-color,90%);
+    }
+    a.train {
+        color: $training;
+        border-bottom: 1px solid $training;
     }
     a.train.active {
         color: $training;
@@ -249,13 +255,20 @@ li.nav-link {
         color: $white;
         background-color: $training;
     }
-
+    a.practice {
+        color: $practice;
+        border-bottom: 1px solid $practice;
+    }
     a.practice.active {
         color: $practice;
     }
     a.practice:hover, a.practice:active {
         color: $white;
         background-color: $practice;
+    }
+    a.research {
+        color: $research;
+        border-bottom: 1px solid $research;
     }
     a.research.active {
         color: $research;
@@ -265,10 +278,13 @@ li.nav-link {
         color: $white;
         background-color: $research;
     }
+    a.outreach {
+        color: $outreach;
+        border-bottom: 1px solid $outreach;
+    }
     a.outreach.active {
         color: $outreach;
     }
-
     a.outreach:hover, a.outreach:hover {
         color: $white;
         background-color: $outreach;

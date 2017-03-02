@@ -22,7 +22,7 @@
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
         {% for link in site.data.nav %}
-          <li class="nav-link{% if page.url contains link.href %} active{% endif %}"><a href="{{ link.href | prepend: site.baseurl }}" class="{% if link.class %}{{ link.class }}{% endif %}">{{ link.title }}</a>
+          <li class="nav-link"><a href="{{ link.href | prepend: site.baseurl }}" class="{% if link.class %}{{ link.class }}{% endif %}{% unless link.title == "Home" %}{% if page.url contains link.href %} active{% endif %}{% endunless %}">{{ link.title }}</a>
         {% endfor %}
 
       </ul>
