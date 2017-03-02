@@ -282,8 +282,13 @@ html[xmlns] .flexslider .slides {
   margin-bottom: 0;
   margin-right: 10px;
   padding: 10px;
-  background-color: rgba($lightblue, 0.9);
-  //background: rgba(255,255,255,0.8);
-  color: $black;
+  background: rgba(41,57,117,0.8);
+  color: $white;
   font-size: large;
+  a {
+    color: $white;
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
