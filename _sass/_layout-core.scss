@@ -526,7 +526,7 @@ img {
         color: lighten($black,20%);
     }
 }
-.events, .practice {
+.events, .practice, .about, .team {
     .main-content .nolist li {
         @extend .notice;
     }
