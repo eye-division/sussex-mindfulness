@@ -27,17 +27,17 @@ layout: default
 
 	{{ content }}
 
-	{% if page.audio %}
+	{% if page.sounds %}
 
-    {% if page.audio[0].audio_path %}
+    {% if page.sounds[0].audio_path %}
 
 			<ul class="nolist">
 
-      {% for sound in page.audio %}
+      {% for soundclip in page.sounds %}
 
-           {% if sound.audio_path %}
+           {% if soundclip.audio_path %}
 
-          	<li>{{ sound.description }} <a class="button" href="{{ sound.audio_path }}">&nbsp;<svg class="icon icon--readmore icon__white"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download_alt" /></svg></a> (MP3)</li>
+          	<li>{{ soundclip.description }} <a class="button" href="{{ soundclip.audio_path }}">&nbsp;<svg class="icon icon--readmore icon__white"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download_alt" /></svg></a> (MP3)</li>
 					{% endif %}
 
 
