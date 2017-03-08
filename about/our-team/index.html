@@ -4,45 +4,26 @@ title: Our team
 main_image_path:
 main_nav: false
 sidebar: about-sidebar.html
-leads:
- - name: Clara Strauss
-   description_markdown: Clara is the Research Lead for the Sussex Mindfulness Centre. She is a consultant clinical psychologist, mindfulness teacher and clinical researcher. In her research, Clara is particularly interested in developing and evaluating new forms of mindfulness-based intervention (MBI), especially for those people who may not be willing or able to access MBCT. Along with other members of her research team, Clara has been evaluating MBIs for people experiencing depression, for people distressed by hearing voices and for people experiencing obsessive-compulsive disorder (OCD). This research has also included research with NHS staff, university students and the wider population.
-   image: /assets/images/clara_strauss.jpg
-trainers:
- - name: Taravajra
-   description_markdown:
-   image:
 ---
 <section class="main-content with-sidebar">
 
 <div class="intro editable">
 	</div>
-
-	{% if page.leads %}
-			<h2>SMC Leads</h2>
+	{% for stafftype in site.data.staff %}
+      <h2>{{ stafftype.name }}</h2>
 			<ul class="nolist">
-      {% for person in page.leads %}
-           {% if person.name %}
-           <li><h3>{{ person.name }}</h3>
-           	<p>{% if person.description_markdown %}{{ person.description_markdown | markdownify }}{% endif %}</p>
-           </li>
-					{% endif %}
-      {% endfor %}
-    </ul>
-  {% endif %}
+	   	{% for staffmember in stafftype.staff %}
+			  <li>
+			  		<h3>{{ staffmember.name }}</h3>
+           	<p>{% if staffmember.description_markdown %}{{ staffmember.description_markdown | markdownify }}{% endif %}</p>
+           	{% if staffmember.image %}
+           		{% include img.html src=staffmember.image width=300 height=300 fit=crop alt=staffmember.name %}
+           	{% endif %}
+        </li>
+			{% endfor %}
+		</ul>
+   {% endfor %}
 
-	{% if page.trainers %}
-			<h2>SMC Trainers</h2>
-			<ul class="nolist">
-      {% for person in page.trainers %}
-           {% if person.name %}
-           <li><h3>{{ person.name }}</h3>
-           	<p>{% if person.description_markdown %}{{ person.description_markdown | markdownify }}{% endif %}</p>
-           </li>
-					{% endif %}
-      {% endfor %}
-    </ul>
-  {% endif %}
 	<div class="editable">
 
 
