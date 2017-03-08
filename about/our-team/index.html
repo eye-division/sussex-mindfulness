@@ -4,13 +4,43 @@ title: Our team
 main_image_path:
 main_nav: false
 sidebar: about-sidebar.html
+staff_leads:
+ - name: Clara Strauss
+   description_markdown: Clara is the Research Lead for the Sussex Mindfulness Centre. She is a consultant clinical psychologist, mindfulness teacher and clinical researcher. In her research, Clara is particularly interested in developing and evaluating new forms of mindfulness-based intervention (MBI), especially for those people who may not be willing or able to access MBCT. Along with other members of her research team, Clara has been evaluating MBIs for people experiencing depression, for people distressed by hearing voices and for people experiencing obsessive-compulsive disorder (OCD). This research has also included research with NHS staff, university students and the wider population.
+   image: /assets/images/clara_strauss.jpg
 ---
 <section class="main-content with-sidebar">
 
 <div class="intro editable">
 	</div>
+
+	{% if page.staff_leads %}
+
+
+
+			<ul class="nolist">
+
+      {% for person in page.staff_leads %}
+
+           {% if person.name %}
+
+           <li><h3>{{ person.name }}</h3>
+           	<p>{% if person.description_markdown %}{{ person.description_markdown | markdownify }}{% endif %}</p>
+           </li>
+					{% endif %}
+
+
+      {% endfor %}
+
+
+
+  {% endif %}
+
 	<div class="editable">
+
+
 	<h2>SMC Leads</h2>
+
 	<h3>Clara Strauss</h3>
 	<img src="/assets/images/clara_strauss.jpg" />
 	<p>Clara is the Research Lead for the Sussex Mindfulness Centre. She is a consultant clinical psychologist, mindfulness teacher and clinical researcher. In her research, Clara is particularly interested in developing and evaluating new forms of mindfulness-based intervention (MBI), especially for those people who may not be willing or able to access MBCT. Along with other members of her research team, Clara has been evaluating MBIs for people experiencing depression, for people distressed by hearing voices and for people experiencing obsessive-compulsive disorder (OCD). This research has also included research with NHS staff, university students and the wider population.</p><h3>Robert Marx</h3><p>Robert is the Training and Governance Lead for the Sussex Mindfulness Centre. He is a consultant clinical psychologist and has been involved in running mindfulness groups for staff and adult service users in primary and secondary care since 2006, and in supervising and training others to do mindfulness work over the last few years. He is interested in relational mindfulness and in adaptations of Mindfulness-based Interventions using compassion practices. &nbsp;He is also interested in integrating relational and mindfulness approaches through Cognitive-Analytic Therapy.</p><h2>Sussex Partnership Directors</h2>
