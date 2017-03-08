@@ -4,6 +4,11 @@
 - title: 'Outreach & national policy'
   href: /outreach-and-national-policy/
   class: outreach
+  subcategories:
+    - subtitle: Mindfulness for other organisations
+      href: /outreach-and-national-policy/mindfulness-for-other-organisations/
+    - subtitle: National work
+      href: /outreach-and-national-policy/national-work/
 - title: Train to teach
   href: /train-to-teach-mindfulness/
   class: train
