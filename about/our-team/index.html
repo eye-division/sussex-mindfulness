@@ -4,11 +4,11 @@ title: Our team
 main_image_path:
 main_nav: false
 sidebar: about-sidebar.html
-SMC_leads:
+leads:
  - name: Clara Strauss
    description_markdown: Clara is the Research Lead for the Sussex Mindfulness Centre. She is a consultant clinical psychologist, mindfulness teacher and clinical researcher. In her research, Clara is particularly interested in developing and evaluating new forms of mindfulness-based intervention (MBI), especially for those people who may not be willing or able to access MBCT. Along with other members of her research team, Clara has been evaluating MBIs for people experiencing depression, for people distressed by hearing voices and for people experiencing obsessive-compulsive disorder (OCD). This research has also included research with NHS staff, university students and the wider population.
    image: /assets/images/clara_strauss.jpg
-SMC_trainers:
+trainers:
  - name: Taravajra
    description_markdown:
    image:
@@ -18,10 +18,10 @@ SMC_trainers:
 <div class="intro editable">
 	</div>
 
-	{% if page.SMC_leads %}
+	{% if page.leads %}
 			<h2>SMC Leads</h2>
 			<ul class="nolist">
-      {% for person in page.SMC_leads %}
+      {% for person in page.leads %}
            {% if person.name %}
            <li><h3>{{ person.name }}</h3>
            	<p>{% if person.description_markdown %}{{ person.description_markdown | markdownify }}{% endif %}</p>
@@ -31,10 +31,10 @@ SMC_trainers:
     </ul>
   {% endif %}
 
-	{% if page.SMC_trainers %}
+	{% if page.trainers %}
 			<h2>SMC Trainers</h2>
 			<ul class="nolist">
-      {% for person in page.SMC_trainers %}
+      {% for person in page.trainers %}
            {% if person.name %}
            <li><h3>{{ person.name }}</h3>
            	<p>{% if person.description_markdown %}{{ person.description_markdown | markdownify }}{% endif %}</p>
