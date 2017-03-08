@@ -18,28 +18,31 @@ SMC_trainers:
 <div class="intro editable">
 	</div>
 
-	{% if page.staff_leads %}
-
-
-
+	{% if page.SMC_leads %}
+			<h2>SMC Leads</h2>
 			<ul class="nolist">
-
-      {% for person in page.staff_leads %}
-
+      {% for person in page.SMC_leads %}
            {% if person.name %}
-
            <li><h3>{{ person.name }}</h3>
            	<p>{% if person.description_markdown %}{{ person.description_markdown | markdownify }}{% endif %}</p>
            </li>
 					{% endif %}
-
-
       {% endfor %}
-
-
-
+    </ul>
   {% endif %}
 
+	{% if page.SMC_trainers %}
+			<h2>SMC Trainers</h2>
+			<ul class="nolist">
+      {% for person in page.SMC_trainers %}
+           {% if person.name %}
+           <li><h3>{{ person.name }}</h3>
+           	<p>{% if person.description_markdown %}{{ person.description_markdown | markdownify }}{% endif %}</p>
+           </li>
+					{% endif %}
+      {% endfor %}
+    </ul>
+  {% endif %}
 	<div class="editable">
 
 
