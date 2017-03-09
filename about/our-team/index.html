@@ -19,7 +19,7 @@ style: team
 			  <li>
 			  		<h3>{{ staffmember.name }}</h3>
 	         	{% if staffmember.image %}
-	         		<figure>{% include img.html class=test src=staffmember.image width=300 height=300 fit=crop alt=staffmember.name %}</figure>
+	         		<figure>{% include img.html class=test src=staffmember.image width=200 height=200 fit=crop alt=staffmember.name %}</figure>
 	         	{% endif %}
 	         	{% if staffmember.description_markdown %}{{ staffmember.description_markdown | markdownify }}{% endif %}</p>
 
