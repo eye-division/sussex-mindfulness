@@ -117,14 +117,15 @@ cite {
     font-size: smaller;
     font-style: normal;
 }
-
-.image--left {
-    float: left;
-    margin-right: 1em;
-}
-.image--right {
-    float: right;
-    margin-left: 1em;
+@include media ($mobile) {
+    .image--left {
+        float: left;
+        margin-right: 1em;
+    }
+    .image--right {
+        float: right;
+        margin-left: 1em;
+    }
 }
 // Buttons
 
@@ -529,12 +530,18 @@ img {
 .events, .practice, .about, .team {
     .main-content .nolist li {
         @extend .notice;
+        @include clearfix;
     }
 }
 .intro {
     font-size: larger;
 }
+/*
+ * TEAM page
+ */
+.team {
 
+}
 /*
  * video embed
  */

@@ -11,24 +11,24 @@ style: team
 <div class="intro editable">
 </div>
 	{% for stafftype in site.data.staff %}
-      <h2>{{ stafftype.name }}</h2>
-      {% if stafftype.description_markdown %}<p>{{ stafftype.description_markdown | markdownify }}</p>{% endif %}
-			<ul class="nolist">
+		<a name="{{ stafftype.title }}"></a><h2>{{ stafftype.name }}</h2>
+    {% if stafftype.description_markdown %}
+    <p>{{ stafftype.description_markdown | markdownify }}</p>{% endif %}
+		<ul class="nolist">
 	   	{% for staffmember in stafftype.staff %}
 			  <li>
 			  		<h3>{{ staffmember.name }}</h3>
-           	<p>{% if staffmember.description_markdown %}{{ staffmember.description_markdown | markdownify }}{% endif %}</p>
-           	{% if staffmember.image %}
-           		{% include img.html src=staffmember.image width=300 height=300 fit=crop alt=staffmember.name %}
-           	{% endif %}
-        </li>
+	         	{% if staffmember.image %}
+	         		<figure>{% include img.html class=test src=staffmember.image width=300 height=300 fit=crop alt=staffmember.name %}</figure>
+	         	{% endif %}
+	         	{% if staffmember.description_markdown %}{{ staffmember.description_markdown | markdownify }}{% endif %}</p>
+
+	      </li>
 			{% endfor %}
 		</ul>
    {% endfor %}
 
 	<div class="editable">
-
-
 
 	</div>
 
