@@ -1,33 +1,35 @@
 ---
-layout: audiopage
+layout: page
 title: Download mindfulness practices
 main_image_path:
 style: practice
 main_nav: false
 sidebar: practice-sidebar.html
-sounds:
-  - audio_path: /assets/audio/compassionate_mindfulness_of_breathing.mp3
-    description: Compassionate Mindfulness of Breathing
-  - audio_path: /assets/audio/compassionate_for_self_and_others.mp3
-    description: Compassion for Self and Others
-  - audio_path: /assets/audio/compassionate_friend.mp3
-    description: Compassionate Friend
-  - audio_path: https://www.dropbox.com/s/bkl1wpl0d77ots4/affectionate_breathing.mp3?dl=0
-    description: Affectionate Breathing
-  - audio_path: /assets/audio/allow_soften_soothe.mp3
-    description: Allow Soften Soothe
-  - audio_path: /assets/audio/giving_and_receiving_compassion.mp3
-    description: Giving and Receiving Compassion
-  - audio_path: /assets/audio/loving_kindness_for_a_loved_one.mp3
-    description: Loving Kindness for a Loved One
-  - audio_path: /assets/audio/self_compassion_break.mp3
-    description: Self Compassion Break
 
 ---
+<section class="main-content with-sidebar">
 <div class="intro editable">
-		<p>Download or listen online to a series of mindfulness practice recordings.</p>
-	</div>
-	<div class="editable">
+	<p>Download or listen online to a series of mindfulness practice recordings.</p>
+</div>
+<div class="editable">
 
-	</div>
+</div>
 
+{% for current in site.data.sounds %}
+   <a name="{{ current.course }}"></a><h2>{{ current.course }}</h2>
+ {% if current.description_markdown %}
+ <p>{{ current.description_markdown | markdownify }}</p>{% endif %}
+   <ul class="nolist">
+      {% for audiofile in current.audio %}
+            {% if audiofile.audio_path %}
+              <li>{{ audiofile.description }} <a class="button" href="{{ audiofile.audio_path }}">&nbsp;<svg class="icon icon--readmore icon__white"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download_alt" /></svg></a> (MP3)</li>
+            {% endif %}
+      {% endfor %}
+   </ul>
+{% endfor %}
+
+</section>
+<aside class="sidebar">
+   {% include {{ page.sidebar }} %}
+
+</aside>
