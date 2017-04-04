@@ -1,0 +1,17 @@
+{% assign url = page.url | remove: 'index.html' %}
+<h2 class="h2__promote"><a href="{{ site.baseurl }}/about/">About</a></h2>
+<ul class="nav__secondary">
+
+{% for link in site.data.nav %}
+	{% if link.title == "About" %}
+
+		{% for subcategory in link.subcategories %}
+		  <li><a href="{{ subcategory.href | prepend: site.baseurl }}" class="about{% if url contains subcategory.href %} active{% endif %}">{{ subcategory.subtitle }}</a>
+		{% endfor %}
+
+ 	{% endif %}
+{% endfor %}
+</ul>
+<div class="widget widget__centred">
+	<a href="{{ site.baseurl }}/about/"><img src="{{ site.baseurl }}/assets/shell.png" title="shell icon" class=""></a>
+</div>

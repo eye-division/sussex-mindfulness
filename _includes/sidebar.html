@@ -1,0 +1,7 @@
+{% assign url = page.url | remove: 'index.html' %}
+<h2><a href="{{ site.baseurl }}/about/">About</a></h2>
+<ul class="nolist">
+	<li{% if url contains 'about' %} class="active"{% endif %}><a href="{{ site.baseurl }}/about/our-team/">Our team</a></li>
+	<li{% if url contains 'about' %} class="active"{% endif %}><a href="{{ site.baseurl }}/about/contact/">Contact</a></li>
+	<li{% if url contains 'about' %} class="active"{% endif %}><a href="{{ site.baseurl }}/about/get-involved/">Get involved</a></li>
+</ul>

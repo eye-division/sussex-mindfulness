@@ -1,0 +1,41 @@
+---
+layout: page
+title: Our team
+main_image_path:
+main_nav: false
+sidebar: about-sidebar.html
+style: team
+---
+<section class="main-content with-sidebar">
+
+<div class="intro editable">
+</div>
+	{% for stafftype in site.data.staff %}
+		<a name="{{ stafftype.title }}"></a><h2>{{ stafftype.name }}</h2>
+    {% if stafftype.description_markdown %}
+    <p>{{ stafftype.description_markdown | markdownify }}</p>{% endif %}
+		<ul class="nolist">
+	   	{% for staffmember in stafftype.staff %}
+			  <li>
+			  		<h3>{{ staffmember.name }}</h3>
+	         	{% if staffmember.image %}
+	         		<figure>{% include img.html class=test src=staffmember.image width=200 height=200 fit=crop alt=staffmember.name %}</figure>
+	         	{% endif %}
+	         	{% if staffmember.description_markdown %}{{ staffmember.description_markdown | markdownify }}{% endif %}</p>
+
+	      </li>
+			{% endfor %}
+		</ul>
+   {% endfor %}
+
+	<div class="editable">
+
+	</div>
+
+</section>
+
+	<aside class="sidebar">
+		{% include {{ page.sidebar }} %}
+
+
+	</aside>

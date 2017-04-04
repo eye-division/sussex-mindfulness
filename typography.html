@@ -2,41 +2,32 @@
 layout: page
 title: "Typography"
 permalink: /typography/
-main_image_path: "/assets/header2.jpg"
+main_image_path: "/assets/images/banners/banner-wave.jpg"
+main_nav: false
 ---
+<p><em>Top of page photograph:</em> these show up only on top level pages</p>
 
-<p>The purpose of this HTML is to help determine what default settings are with Bitters and to make sure that all possible HTML Elements are included in this HTML so as to not miss any possible Elements when designing a site.</p>
+<p class="intro">Larger text in the first <strong>intro</strong> paragraph. The purpose of this page is to show your default website styles. If you want to display some text in a different format, colour, with boxes etc, please contact Eye Division to update your stylesheet.</p>
 
+<h2 id="paragraph">Paragraph</h1>
+  <p>This is a standard paragraph, <a href="#" title="test link">test link</a> adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. <em>italic, or emphasised text</em> Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. <strong>Bold text</strong>. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.</p>
+
+<blockquote>This is a quote. Lorem ipsum dolor sit amet,  consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.</blockquote>
 <hr>
 
-<h1 id="headings">Headings</h1>
+<h2 id="headings">Headings</h1>
 
-<h1>h1. Heading</h1>
-<h2>h2. Heading</h2>
-<h3>h3. Heading</h3>
+<h1>This is a level one heading, used for page titles</h1>
+<h2>This is a second level heading - used for important subdivisions of your pagesg</h2>
+<h3>Level three heading</h3>
 <h4>h4. Heading</h4>
 <h5>h5. Heading</h5>
 <h6>h6. Heading</h6>
 
 <hr>
 
-<h1 id="paragraph">Paragraph</h1>
+<h2 id="list_types">List Types</h1>
 
-<p>Lorem ipsum dolor sit amet, <a href="#" title="test link">test link</a> adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.</p>
-
-<blockquote>Lorem ipsum dolor sit amet, <em>emphasis</em> consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.</blockquote>
-
-<hr>
-
-<h1 id="list_types">List Types</h1>
-
-<p>Lists are unstyled by defualt. To restore the original styling, add the <code>.default</code> class</p>
-
-<h3>Definition List</h3>
-<dl>
-  <dt>Definition List Title</dt>
-  <dd>This is a definition list division.</dd>
-</dl>
 
 <h3>Ordered List</h3>
 <ol>
@@ -52,22 +43,18 @@ main_image_path: "/assets/header2.jpg"
   <li>List Item 3</li>
 </ul>
 
-<h3>Ordered List with <code>.default</code> class</h3>
-<ol class="default">
+
+<h3>Specially styled lists on certain pages</h3>
+  <p>Used in the events section, staff pages</p>
+<div class="events"><div class="main-content">
+<ul class="nolist">
   <li>List Item 1</li>
   <li>List Item 2</li>
   <li>List Item 3</li>
-</ol>
-
-<h3>Unordered List with <code>.default</code> class</h3>
-<ul class="default">
-  <li>List Item 1</li>
-  <li>List Item 2</li>
-  <li>List Item 3</li>
-</ul>
-
+  </ul></div>
+</div>
 <hr>
-
+<!--
 <h1 id="form_elements">Fieldsets and Form Elements</h1>
 
 <fieldset>
@@ -134,10 +121,9 @@ main_image_path: "/assets/header2.jpg"
     <p><input type="submit" value="Submit" /></p>
   </form>
 </fieldset>
+-->
 
-<hr>
-
-<h1 id="tables">Tables</h1>
+<h2 id="tables">Tables</h1>
 
 <table cellspacing="0" cellpadding="0">
   <tr>
@@ -153,5 +139,4 @@ main_image_path: "/assets/header2.jpg"
     <td>Division 1</td><td>Division 2</td><td>Division 3</td>
   </tr>
 </table>
-</div>
 

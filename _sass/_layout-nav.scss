@@ -1,0 +1,301 @@
+/*
+*	Navigation
+*/
+
+
+.navigation {
+    //box-shadow: 0 1px $ochre;
+    padding: 0 1em;
+    margin: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    background-color: $white;
+    height: $header-height;
+    @include media ($mobile) {
+        height: $header-height-mobile;
+    }
+
+    @include media ($tablet) {
+        height: $header-height-tablet;
+    }
+
+}
+
+// Nav menu
+.navigation-wrapper {
+    @include outer-container;
+    @include clearfix;
+    position: relative;
+}
+.logo { // first col
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    @include media ($mobile) {
+        text-align: left;
+        @include span-columns(4);
+    }
+    @include media ($tablet) {
+
+        padding-bottom: 10px;
+        @include span-columns(3);
+    }
+    // when there is no image
+    font-family: $heading-font-family;
+    font-weight: 400;
+    color: $primary-color;
+    text-decoration: none;
+    //height: 4em;
+    span {
+        font-size: 2em;
+        line-height: 1em;
+    }
+    &:hover,&:active {
+        text-decoration: none;
+    }
+}
+
+.nav__logo {
+    max-width: 220px;
+}
+.mission {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    color: $primary-color;
+    text-align: center;
+
+    @include media ($mobile) {
+        @include span-columns(5);
+        padding-top: 4em;
+        line-height: 1.2em;
+    }
+    @include media ($tablet) {
+        @include span-columns(5);
+        //text-align: left;
+        padding-top: 4.5em;
+        font-size: 20px;
+    }
+}
+.trust {
+    text-align: center;
+    @include media ($mobile) {
+        @include span-columns(3);
+        @include omega();
+    }
+    @include media ($tablet) {
+        text-align: right;
+        @include span-columns(4);
+        @include omega();
+    }
+}
+.trustlogo {
+    max-height: 60px;
+    margin-top: 10px;
+    @include media ($mobile) {
+        max-height: inherit;
+    }
+}
+
+/*
+*   Navigation Menu - http://refills.bourbon.io/unstyled/ (see "Navigation")
+*/
+// Mobile view
+.navigation-menu-button {
+    display: block;
+    position: fixed;
+    top: 1.5em;
+    right: 0;
+    //float: right;
+    margin: 0;
+    font-size: 1.5em;
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    @include media ($mobile) {
+        top: 3em;
+    }
+    @include media ($tablet) {
+        display: none;
+    }
+}
+nav {
+    float: none;
+    //padding-top: 1em;
+    @include media ($tablet) {
+        //float: right;
+        line-height: 1.5em;
+    }
+}
+ul.navigation-menu {
+    clear: both;
+    display: none;
+    position: fixed;
+    top: 6em;
+    right: 0;
+    margin: 0 auto;
+    overflow: visible;
+    padding: 0;
+    width: 100%;
+    @include media ($mobile) {
+        top: 8em;
+    }
+    @include media ($tablet) {
+        position: relative;
+        top: inherit;
+        right: inherit;
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    &.show {
+        display: block;
+    }
+}
+// Nav items
+li.nav-link {
+    display: block;
+    //text-align: right;
+    width: 100%;
+    padding: 0.1em 0;
+    background: $white;
+    @include media ($tablet) {
+        background: transparent;
+        display: inline;
+        text-decoration: none;
+        width: auto;
+    }
+}
+
+
+li.nav-link {
+    a {
+        display: block;
+        color: $primary-color;
+        transition: all 0.2s ease-in-out;
+        @include media ($tablet) {
+            display: inline-block;
+        }
+        //@include media ($tablet) {
+            border: 1px solid $highlight-color;
+            padding: 10px;
+            &:hover,&.active {
+                color: $white;
+                text-decoration: none;
+                background: darken($primary-color, 10%);
+            }
+            &.research {
+                color: $research;
+                &:hover,&.active {
+                    color: $white;
+                    background-color: darken($research, 0%);
+                }
+            }
+            &.outreach {
+                color: $outreach;
+                 &:hover,&.active {
+                    color: $white;
+                    background-color: darken($outreach, 0%);
+                }
+            }
+            &.train {
+                color: $training;
+                 &:hover ,&.active{
+                    color: $white;
+                    background-color: darken($training, 0%);
+                }
+            }
+            &.practice {
+                color: $practice;
+                 &:hover,&.active {
+                    color: $white;
+                    background-color: darken($practice, 0%);
+                }
+            }
+        //}
+
+    }
+    &:last-child a {
+        @include media ($tablet) {
+            padding-right: 1em;
+        }
+    }
+}
+
+.active a {
+
+    @include media ($tablet) {
+        background-color: lighten($primary-color,80%);
+    }
+}
+
+/* sidebar menu */
+.nav__secondary {
+    @extend %default-ul;
+
+    a {
+        display: block;
+        padding: 0.5em;
+        padding: 0.5rem;
+        color: $black;
+        background: transparent;
+        border-bottom: 1px solid $primary-color;
+        // default
+        &:hover, &:active {
+            text-decoration: none;
+            background-color: tint($primary-color,90%);
+        }
+
+    }
+    a.active {
+        background-color: tint($primary-color,90%);
+    }
+    a.train {
+        color: $training;
+        border-bottom: 1px solid $training;
+    }
+    a.train.active {
+        color: $training;
+        //background-color: tint($training,50%);
+    }
+    a.train:hover, a.train:active {
+        color: $white;
+        background-color: $training;
+    }
+    a.practice {
+        color: $practice;
+        border-bottom: 1px solid $practice;
+    }
+    a.practice.active {
+        color: $practice;
+    }
+    a.practice:hover, a.practice:active {
+        color: $white;
+        background-color: $practice;
+    }
+    a.research {
+        color: $research;
+        border-bottom: 1px solid $research;
+    }
+    a.research.active {
+        color: $research;
+    }
+
+    a.research:hover, a.research:active {
+        color: $white;
+        background-color: $research;
+    }
+    a.outreach {
+        color: $outreach;
+        border-bottom: 1px solid $outreach;
+    }
+    a.outreach.active {
+        color: $outreach;
+    }
+    a.outreach:hover, a.outreach:hover {
+        color: $white;
+        background-color: $outreach;
+    }
+
+}
+

@@ -1,0 +1,17 @@
+{% assign url = page.url | remove: 'index.html' %}
+
+<h2 class="h2__promote h2__research"><a href="{{ site.baseurl }}/research/">Research</a></h2>
+<ul class="nav__secondary">
+
+{% for link in site.data.nav %}
+	{% if link.title == "Research" %}
+
+		{% for subcategory in link.subcategories %}
+		  <li><a href="{{ subcategory.href | prepend: site.baseurl }}" class="research{% if url contains subcategory.href %} active{% endif %}">{{ subcategory.subtitle }}</a>
+		{% endfor %}
+ 	{% endif %}
+{% endfor %}
+</ul>
+<div class="widget widget__centred">
+	<a href="{{ site.baseurl }}/research/"><img src="{{ site.baseurl }}/assets/research-icon.png" title="research icon" class=""></a>
+</div>

@@ -1,0 +1,35 @@
+---
+layout: page
+title: Download mindfulness practices
+main_image_path:
+style: practice
+main_nav: false
+sidebar: practice-sidebar.html
+
+---
+<section class="main-content with-sidebar">
+<div class="intro editable">
+	<p>Download or listen online to a series of mindfulness practice recordings.</p>
+</div>
+<div class="editable">
+
+</div>
+
+{% for current in site.data.sounds %}
+   <a name="{{ current.course }}"></a><h2>{{ current.course }}</h2>
+ {% if current.description_markdown %}
+ <p>{{ current.description_markdown | markdownify }}</p>{% endif %}
+   <ul class="nolist">
+      {% for audiofile in current.audio %}
+            {% if audiofile.audio_path %}
+              <li>{{ audiofile.description }} <a class="button" href="{{ audiofile.audio_path }}">&nbsp;<svg class="icon icon--readmore icon__white"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download_alt" /></svg></a> (MP3)</li>
+            {% endif %}
+      {% endfor %}
+   </ul>
+{% endfor %}
+
+</section>
+<aside class="sidebar">
+   {% include {{ page.sidebar }} %}
+
+</aside>

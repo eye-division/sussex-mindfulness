@@ -5,7 +5,7 @@
 
   {% assign section = page.url | split: '/' %}
 
-  <body class="">
+  <body class="{% if page.classes %} {{ page.classes }}{% endif %}">
 
     {% include header.html %}
 
