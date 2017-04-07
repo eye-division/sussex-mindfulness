@@ -40,11 +40,10 @@
       image: /assets/images/kate_cavanagh.jpg
     - name: Helga Dittmar
       description_markdown:
-      image:
+      image: /assets/images/helga-dittmar-research.jpg
     - name: Fergal Jones
       description_markdown: 'Fergal Jones is a clinical psychologist and cognitive behavioural therapist who completed mindfulness teacher training at the University of Bangor. He currently works part time in Health in Mind, the primary care well-being service that serves East Sussex. He uses mindfulness in his clinical work, supervises other mindfulness teachers and is involved with a number of research projects concerning mindfulness-based interventions.'
       image:
-
 - title: doctoralstudents
   name: SMC Doctoral Students
   description_markdown:
@@ -67,7 +66,6 @@
     - name: Heather Taylor
       description_markdown: "Heather is a second year PhD student at the University of Sussex, supervised by Clara Strauss and Kate Cavanagh. Heather's research is focusing on evaluating mindfulness-based self-help resources."
       image:
-
 - title: teacherassociates
   name: SMC Mindfulness teacher associates
   description_markdown:
@@ -91,16 +89,11 @@
       description_markdown:
       image:
     - name: Ann Pelling
-      description_markdown: 'Ann is a mindfulness teacher and supervisor and a chartered counselling
-    psychologist. She has been involved in both supporting and facilitating MBCT
-    courses for clients within SPFT since 2006. Ann now works as a associate of
-    the Sussex Mindfulness Centre, providing supervision and teaching 8 week
-    courses for staff and clients.'
+      description_markdown: 'Ann is a mindfulness teacher and supervisor and a chartered counselling psychologist. She has been involved in both supporting and facilitating MBCT courses for clients within SPFT since 2006. Ann now works as a associate of the Sussex Mindfulness Centre, providing supervision and teaching 8 week courses for staff and clients.'
       image:
     - name: Bethan Roberts
       description_markdown:
       image:
-
 - title: employedteachers
   name: Sussex Partnership employed MBCT teachers
   description_markdown:
@@ -126,7 +119,6 @@
     - name: Lynn Ley
       description_markdown: 'Lynn has been facilitating Mindfulness Based Cognitive Therapy Groups (MBCT) within Sussex Partnership Foundation Trust since 2008. Within Health in Mind, there is a rolling eight week MBCT program, and Lynn holds groups in Lewes, Hastings, and Eastbourne/ Hailsham. As with all teachers of MBCT within Sussex Partnership Trust, Lynn has a personal meditation practice which she has found life enhancing. She also contributes to the mindfulness-based interventions practice Network group.'
       image:
-
     - name: Warren Matofsky
       description_markdown: 'Warren has a long term practice and research interest in group process that enriched his experience of training as a mindfulness teacher with the SMC.&nbsp; His current focus is in facilitating MBCT groups for parents &amp; carers of families using CAMH services and engaging CAMHS staff with the possibilities of mindfulness based interventions.'
       image:
@@ -177,7 +169,7 @@
       description_markdown:
       image:
     - name: Liz Stapleton
-      description_markdown: 'Liz is a Psychiatric Nurse and has trained as a CBT therapist. She currently works in the Secondary Care Mental Health service with people who experience severe and enduring difficulties. In 2015 she completed a Mindfulness Teacher Training Course at Sussex Mindfulness Centre. She teaches eight-week Mindfulness courses and is involved in the All Day and Drop In events at Sussex Educational Centre.'
+      description_markdown: Liz is a Psychiatric Nurse and has trained as a CBT therapist. She currently works in the Secondary Care Mental Health service with people who experience severe and enduring difficulties. In 2015 she completed a Mindfulness Teacher Training Course at Sussex Mindfulness Centre. She teaches eight-week Mindfulness courses and is involved in the All Day and Drop In events at Sussex Educational Centre.
       image: /assets/images/liz_stapleton.jpg
     - name: Michael Swan
       description_markdown:
@@ -185,7 +177,6 @@
     - name: Nicola Turner
       description_markdown:
       image:
-
 - title: alsoemployedmbi
   name: The following are Sussex Partnership employed Mindfulness-based Interventions practitioners
   description_markdown: |-
