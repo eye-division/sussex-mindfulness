@@ -5,6 +5,13 @@ main_image_path:
 main_nav: false
 style: events
 sidebar: events-sidebar.html
+event:
+  - date: 30 June 2017
+    title: Sussex Mindfulness Centre annual conference
+    organiser: Ruth Baer, Willoughby Britton
+    description_markdown:
+    booking_url: https://www.eventbrite.co.uk/e/sussex-mindfulness-centre-annual-conference-tickets-29049574058
+    flyer:
 ---
 <section class="main-content with-sidebar">
 
@@ -12,7 +19,30 @@ sidebar: events-sidebar.html
 
 
 </div>
-<div class="editable"><p>See the events listing and download the flyer and booking form below for more details and to apply for a place. Send completed booking forms to <a href="mailto:smc@sussexpartnership.nhs.uk">smc@sussexpartnership.nhs.uk</a></p><ul class="nolist"><li><h3>30 June 2017</h3><h3>Sussex Mindfulness Centre annual conference</h3><p>Ruth Baer<br />Willoughby Britton</p><p><a class="button" target="_blank" href="https://www.eventbrite.co.uk/e/sussex-mindfulness-centre-annual-conference-tickets-29049574058">Book online</a></p></li></ul><p>All events cost &pound;110 each unless otherwise stated. Specific mindfulness events are free to Trust approved mindfulness teachers but booking is still required.</p><p>If you have any queries email: <a href="mailto:smc@sussexpartnership.nhs.uk">smc@sussexpartnership.nhs.uk</a>&nbsp;or call 0300 304 2057.<strong> &nbsp; &nbsp;</strong></p></div>
+<div class="editable"><p>See the events listing and download the flyer and booking form below for more details and to apply for a place. Send completed booking forms to <a href="mailto:smc@sussexpartnership.nhs.uk">smc@sussexpartnership.nhs.uk</a></p>
+</div>
+
+<div>
+{% if page.event %}
+<ul class="nolist">
+	{% for events in page.event %}
+    <li>
+    	{% if events.date %}<h3>{{ events.date }}</h3>{% endif %}
+			{% if events.title %}<h3>{{ events.title }}</h3>{% endif %}
+    	{% if events.organiser %}<p><strong>{{ events.organiser }}</strong></p>{% endif %}
+      {% if events.description_markdown %}<p>{{ events.description_markdown | markdownify }}</strong></p>{% endif %}
+      {% if events.booking_url %}<p><a href="{{ events.booking_url }}" class="button" target="_blank">Book online</a></p>{% endif %}
+      {% if events.flyer %}<p>Download flyer: <a href="{{ events.flyer }}"><svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download_alt" /></svg></a></p>{% endif %}
+    </li>
+    {% endfor %}
+
+    </ul>
+{% endif %}
+</div>
+
+<div class="editable">
+<p>All events cost &pound;110 each unless otherwise stated. Specific mindfulness events are free to Trust approved mindfulness teachers but booking is still required.</p><p>If you have any queries email: <a href="mailto:smc@sussexpartnership.nhs.uk">smc@sussexpartnership.nhs.uk</a>&nbsp;or call 0300 304 2057.<strong> &nbsp; &nbsp;</strong></p>
+</div>
 
 </section>
 

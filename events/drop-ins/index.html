@@ -5,6 +5,31 @@ main_image_path:
 main_nav: false
 style: events
 sidebar: events-sidebar.html
+event:
+  - event_date: 9 January
+    organiser: David Garland and Susan Whiting
+    description:
+  - event_date: 6 February
+    organiser: Heather Ball and Hannah Denton
+    description:
+  - event_date: 6 March
+    organiser: Lucy Edwards and Michael Swan
+    description:
+  - event_date: 3 April
+    organiser: Robert Marx and Liz Stapleton
+    description:
+  - event_date: 8 May
+    organiser: David Garland and Carolyn Pollak
+    description:
+  - event_date: 5 June
+    organiser: Susan Whiting and Lucy Edwards
+    description:
+  - event_date: 3 July
+    organiser: Robert Marx and Michael Swan
+    description:
+  - event_date: 7 August
+    organiser: Heather Ball and Liz Stapleton
+    description:
 ---
 <section class="main-content with-sidebar">
 
@@ -18,19 +43,23 @@ sidebar: events-sidebar.html
 <p>Please note these sessions are for adults. Drop in sessions for young people are held separately and details of these can be found on the Child and Adolescent page of this website.</p>
 
 <p>All drop-in sessions are on the first working Monday of the month from 5pm to 6pm. Below is the list for 2017:</p>
-
-<ul class="nolist">
-	<li>9 January - David Garland and Susan Whiting</li>
-	<li>6 February - Heather Ball and Hannah Denton</li>
-	<li>6 March - Lucy Edwards and Michael Swan</li>
-	<li>3 April - Robert Marx and Liz Stapleton</li>
-	<li>8 May - David Garland and Carolyn Pollak</li>
-	<li>5 June - Susan Whiting and Lucy Edwards</li>
-	<li>3 July - Robert Marx and Michael Swan</li>
-	<li>7 August - Heather Ball and Liz Stapleton</li>
-</ul>
-
 </div>
+<div>
+{% if page.event %}
+<ul class="nolist">
+	{% for events in page.event %}
+    <li>
+      {% if events.event_date %}
+      <strong>{{ events.event_date }}</strong>
+      {% endif %}
+      {% if events.organiser %} &ndash; {{ events.organiser }} {% endif %}
+    </li>
+    {% endfor %}
+
+  </ul>
+{% endif %}
+</div>
+
 </section>
 
 <aside class="sidebar">
