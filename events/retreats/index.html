@@ -8,12 +8,12 @@ sidebar: events-sidebar.html
 event:
   - event_date: 25 March
     organiser: Bridgette O'Neill, Hazel Ragoonanan, Michael Swan, Lucy Edwards and Liz Stapleton
-    description:
+    description_markdown:
   - event_date: 24 June
     organiser: Robert Marx and Heather Ball
   - event_date: 2 December
     organiser: Robert Marx and Catherine Cameron
-    description:
+    description_markdown:
 
 ---
 <section class="main-content with-sidebar">
@@ -31,6 +31,7 @@ event:
       {% endif %}
       {% if events.organiser %} &ndash; {{ events.organiser }}
       {% endif %}
+      {% if events.description_markdown %}<p>{{ events.description_markdown | markdownify }}</p>{% endif %}
     </li>
     {% endfor %}
     </ul>

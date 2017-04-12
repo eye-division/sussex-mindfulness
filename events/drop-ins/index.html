@@ -8,28 +8,28 @@ sidebar: events-sidebar.html
 event:
   - event_date: 9 January
     organiser: David Garland and Susan Whiting
-    description:
+    description_markdown:
   - event_date: 6 February
     organiser: Heather Ball and Hannah Denton
-    description:
+    description_markdown:
   - event_date: 6 March
     organiser: Lucy Edwards and Michael Swan
-    description:
+    description_markdown:
   - event_date: 3 April
     organiser: Robert Marx and Liz Stapleton
-    description:
+    description_markdown:
   - event_date: 8 May
     organiser: David Garland and Carolyn Pollak
-    description:
+    description_markdown:
   - event_date: 5 June
     organiser: Susan Whiting and Lucy Edwards
-    description:
+    description_markdown:
   - event_date: 3 July
     organiser: Robert Marx and Michael Swan
-    description:
+    description_markdown:
   - event_date: 7 August
     organiser: Heather Ball and Liz Stapleton
-    description:
+    description_markdown:
 ---
 <section class="main-content with-sidebar">
 
@@ -49,10 +49,11 @@ event:
 <ul class="nolist">
 	{% for events in page.event %}
     <li>
-      {% if events.event_date %}
+      <p>{% if events.event_date %}
       <strong>{{ events.event_date }}</strong>
       {% endif %}
       {% if events.organiser %} &ndash; {{ events.organiser }} {% endif %}
+      {% if events.description_markdown %} &ndash; {{ events.description_markdown | markdownify }}{% endif %}</p>
     </li>
     {% endfor %}
 

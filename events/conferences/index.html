@@ -11,7 +11,7 @@ event:
     organiser: Ruth Baer, Willoughby Britton
     description_markdown:
     booking_url: https://www.eventbrite.co.uk/e/sussex-mindfulness-centre-annual-conference-tickets-29049574058
-    flyer:
+    flyer_path:
 ---
 <section class="main-content with-sidebar">
 
@@ -30,9 +30,9 @@ event:
     	{% if events.date %}<h3>{{ events.date }}</h3>{% endif %}
 			{% if events.title %}<h3>{{ events.title }}</h3>{% endif %}
     	{% if events.organiser %}<p><strong>{{ events.organiser }}</strong></p>{% endif %}
-      {% if events.description_markdown %}<p>{{ events.description_markdown | markdownify }}</strong></p>{% endif %}
+      {% if events.description_markdown %}<p>{{ events.description_markdown | markdownify }}</p>{% endif %}
       {% if events.booking_url %}<p><a href="{{ events.booking_url }}" class="button" target="_blank">Book online</a></p>{% endif %}
-      {% if events.flyer %}<p>Download flyer: <a href="{{ events.flyer }}"><svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download_alt" /></svg></a></p>{% endif %}
+      {% if events.flyer_path %}<p>Download flyer: <a href="{{ events.flyer_path }}"><svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download_alt" /></svg></a></p>{% endif %}
     </li>
     {% endfor %}
 

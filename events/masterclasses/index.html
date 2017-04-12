@@ -6,35 +6,41 @@ main_nav: false
 style: events
 sidebar: events-sidebar.html
 event:
-  - date: 14 April 2017
+  - datetext: 14 April 2017
     organiser: Ajahn Amaro
-    description: Can we still have meaningful minfulness practice without classical Buddhist teachings and a system of ethics. Open to the public and to people not involved in Mindfulness teaching.
+    description_markdown: Can we still have meaningful minfulness practice without classical Buddhist teachings and a system of ethics. Open to the public and to people not involved in Mindfulness teaching.
     booking_url: https://www.eventbrite.co.uk/e/meaningful-mindfulness-practice-without-classical-buddhist-teachings-tickets-27327234494
-    flyer: /assets/documents/amaro_140417flier.pdf
-  - date: 12 May 2017 9.30-1pm
+    flyer_path: /assets/documents/amaro_140417flier.pdf
+  - datetext: 12 May 2017 9.30-1pm
     organiser: Ines Santos &amp; Robert Marx
-    description: Recognising and responding to trauma in mindfulness-based work
+    description_markdown:  Recognising and responding to trauma in mindfulness-based work
     booking_url:
-  - date: 8 September 2017
+    flyer_path:
+  - datetext: 8 September 2017
     organiser: Christina Feldman
-    description: Buddhist foundations of mindfulness<br />Open to the public and to people not involved in Mindfulness teaching
+    description_markdown: Buddhist foundations of mindfulness<br />Open to the public and to people not involved in Mindfulness teaching
     booking_url: https://www.eventbrite.co.uk/e/buddhist-foundations-of-mindfulness-tickets-27327383941
-  - date: 16-20 October 2017
+    flyer_path:
+  - datetext: 16-20 October 2017
     organiser: Bal De Buitl&eacute;ar, Martin Thomson-Jones &amp; Robert Marx
-    description: Five day Mindful Self-Compassion Intensive (the 8 week programme in 5 days)<br />Friends&rsquo; Meeting House, Ship St, Brighton, BN1 1AF.
+    description_markdown: Five day Mindful Self-Compassion Intensive (the 8 week programme in 5 days)<br />Friends&rsquo; Meeting House, Ship St, Brighton, BN1 1AF.
     booking_url:
-  - date: 31 October 2017
+    flyer_path:
+  - datetext: 31 October 2017
     organiser:  Rebecca Crane
-    description: Psychological processes in mindfulness-based work<br />Open to the public and to people not involved in Mindfulness teaching
+    description_markdown: Psychological processes in mindfulness-based work<br />Open to the public and to people not involved in Mindfulness teaching
     booking_url: https://www.eventbrite.co.uk/e/psychological-processes-in-mindfulness-based-work-tickets-27327477220
-  - date: 16 March 2018
+    flyer_path:
+  - datetext: 16 March 2018
     organiser: Nick Diggins
-    description: Mindfulness, improvisation and inquiry
+    description_markdown: Mindfulness, improvisation and inquiry
     booking_url:
-  - date: 28 Sept 2018
+    flyer_path:
+  - datetext: 28 Sept 2018
     organiser: John Peacock
-    description: Buddhist foundations of mindfulness
+    description_markdown: Buddhist foundations of mindfulness
     booking_url:
+    flyer_path:
 
 ---
 <section class="main-content with-sidebar">
@@ -50,11 +56,11 @@ event:
 <ul class="nolist">
 	{% for events in page.event %}
     <li>
-    	{% if events.date %}<h3>{{ events.date }}</h3>{% endif %}
+    	{% if events.datetext %}<h3>{{ events.datetext }}</h3>{% endif %}
     	{% if events.organiser %}<p><strong>{{ events.organiser }}</strong></p>{% endif %}
-      {% if events.description %}<p>{{ events.description }}</strong></p>{% endif %}
+      {% if events.description_markdown %}<p>{{ events.description_markdown | markdownify }}</strong></p>{% endif %}
       {% if events.booking_url %}<p><a href="{{ events.booking_url }}" class="button" target="_blank">Book online</a></p>{% endif %}
-      {% if events.flyer %}<p>Download flyer: <a href="{{ events.flyer }}"><svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download_alt" /></svg></a></p>{% endif %}
+      {% if events.flyer_path:  %}<p>Download flyer: <a href="{{ events.flyer_path:  }}"><svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download_alt" /></svg></a></p>{% endif %}
     </li>
     {% endfor %}
 
