@@ -1,3 +1,23 @@
+- title: leads
+  name: SMC leads
+  description_markdown:
+  staff:
+    - name: Clara Strauss
+      description_markdown: 'Clara is the Research Lead for the Sussex Mindfulness Centre. She is a consultant clinical psychologist, mindfulness teacher and clinical researcher. In her research, Clara is particularly interested in developing and evaluating new forms of mindfulness-based intervention (MBI), especially for those people who may not be willing or able to access MBCT. Along with other members of her research team, Clara has been evaluating MBIs for people experiencing depression, for people distressed by hearing voices and for people experiencing obsessive-compulsive disorder (OCD). This research has also included research with NHS staff, university students and the wider population.'
+      image: /assets/images/clara_strauss.jpg
+    - name: Robert Marx
+      description_markdown: 'Robert is the Training and Governance Lead for the Sussex Mindfulness Centre. He is a consultant clinical psychologist and has been involved in running mindfulness groups for staff and adult service users in primary and secondary care since 2006, and in supervising and training others to do mindfulness work over the last few years. He is interested in relational mindfulness and in adaptations of Mindfulness-based Interventions using compassion practices. He is also interested in integrating relational and mindfulness approaches through Cognitive-Analytic Therapy.'
+      image: /assets/images/robert_marx.jpg
+- title: directors
+  name: Sussex Partnership Directors
+  description_markdown:
+  staff:
+    - name: Adrian Whittington
+      description_markdown: 'Adrian Whittington is Director of Education and Training at Sussex Partnership NHS Foundation Trust. A Consultant Clinical Psychologist, Adrian is passionate about delivering evidence-based psychological interventions to more people who can benefit. Adrian has been involved alongside colleagues in establishing the Sussex Mindfulness Centre. Adrian leads on education and Training for the Trust.; In his clinical practice Adrian specialises in trauma-focused cognitive behavioural therapy for post-traumatic stress disorder.'
+      image: /assets/images/adrian_whittington.jpg
+    - name: Mark Hayward
+      description_markdown: Mark Hayward is Director of Research at Sussex Partnership NHS Foundation Trust and supports the research activity of the Sussex Mindfulness Centre. He played a key part in the establishment of the SMC.
+      image: /assets/images/mark_hayward.jpg
 - title: trainers
   name: SMC Trainers
   description_markdown:
@@ -11,16 +31,6 @@
     - name: "Bridgette O'Neill"
       description_markdown: 'Bridgette is a mindfulness teacher and supervisor, and a consultant clinical psychologist. She previously held a leadership position within SPFT and has been involved in the development and governance of mindfulness interventions in the Trust. Bridgette now works as an associate of the Sussex Mindfulness Centre, providing supervision, teaching 8 week courses for staff and clients and having some involvement in the Trust&rsquo;s year long training of mindfulness teachers.'
       image: /assets/images/bridgette_oneill.jpg
-- title: leads
-  name: SMC leads
-  description_markdown:
-  staff:
-    - name: Clara Strauss
-      description_markdown: 'Clara is the Research Lead for the Sussex Mindfulness Centre. She is a consultant clinical psychologist, mindfulness teacher and clinical researcher. In her research, Clara is particularly interested in developing and evaluating new forms of mindfulness-based intervention (MBI), especially for those people who may not be willing or able to access MBCT. Along with other members of her research team, Clara has been evaluating MBIs for people experiencing depression, for people distressed by hearing voices and for people experiencing obsessive-compulsive disorder (OCD). This research has also included research with NHS staff, university students and the wider population.'
-      image: /assets/images/clara_strauss.jpg
-    - name: Robert Marx
-      description_markdown: 'Robert is the Training and Governance Lead for the Sussex Mindfulness Centre. He is a consultant clinical psychologist and has been involved in running mindfulness groups for staff and adult service users in primary and secondary care since 2006, and in supervising and training others to do mindfulness work over the last few years. He is interested in relational mindfulness and in adaptations of Mindfulness-based Interventions using compassion practices. He is also interested in integrating relational and mindfulness approaches through Cognitive-Analytic Therapy.'
-      image: /assets/images/robert_marx.jpg
 - title: researchers
   name: SMC Researchers
   description_markdown:
@@ -56,67 +66,6 @@
     - name: Heather Taylor
       description_markdown: "Heather is a second year PhD student at the University of Sussex, supervised by Clara Strauss and Kate Cavanagh. Heather's research is focusing on evaluating mindfulness-based self-help resources."
       image:
-- title: teacherassociates
-  name: SMC Mindfulness teacher associates
-  description_markdown:
-  staff:
-    - name: Claire Cole
-      description_markdown:
-      image:
-    - name: Nick Diggins
-      description_markdown: 'Nick is an independent mindfulness teacher who has taught mindfulness courses and classes extensively over a ten-year period in a variety of contexts: for the general public, for businesses and for carers. He is a mindfulness supervisor for the Mindfulness Network CIC, an organisation set up and run by senior faculty from Bangor University’s Centre for Mindfulness Research and Practice (CMRP), the Oxford Mindfulness Centre (OMC) and the University of Exeter.  Nick is also a Distance Learning Teacher for CMRP. He has an MA training at Bangor University in Teaching Mindfulness-based Courses (with Distinction) and a Certificate of Competence to Teach Mindfulness Based Courses.'
-      image: /assets/images/nick_diggins.jpg
-    - name: Kate Gooch
-      description_markdown:
-      image:
-    - name: Ed Halliwell
-      description_markdown: 'Ed leads public mindfulness courses, workshops and retreats in Sussex, London and Surrey, and has introduced and taught mindfulness in many organisations. He is the author of *Into The Heart of Mindfulness*, and *Mindfulness: How To Live Well By Paying Attention*, and co-author of *The Mindful Manifesto*. He is also an advisor to and former co-director of The Mindfulness Initiative, which is supporting the All-Party Parliamentary Group on Mindfulness (MAPPG) to develop mindfulness-based policies for the UK. His website is [edhalliwell.com](http://www.edhalliwell.com)'
-      image:
-    - name: Nicky Mouat
-      description_markdown: 'Nicky is a Mental Health Nurse and Mindfulness teacher. She works in the NHS at Pavilions Drug and Alcohol Service, where she has been facilitating Mindfulness Based Relapse Prevention courses,  and holding a weekly drop in for Service. Users and Staff.  She has been teaching MBCT for the Wellbeing Service, and Recovery College in Brighton. She is also part of the Myriad Mindfulness in Schools Research Project, and will be involved in teaching Mindfulness for Life to teachers in Sussex Schools in 2017. She has a particular interest in working with Service Users with ‘Dual Diagnosis’ (Substance Misuse and Mental Health Issues), and the way that Mindfulness can be helpful to this client group.'
-      image:
-    - name: Jiva Mashader
-      description_markdown:
-      image:
-    - name: Ann Pelling
-      description_markdown: 'Ann is a mindfulness teacher and supervisor and a chartered counselling psychologist. She has been involved in both supporting and facilitating MBCT courses for clients within SPFT since 2006. Ann now works as a associate of the Sussex Mindfulness Centre, providing supervision and teaching 8 week courses for staff and clients.'
-      image:
-    - name: Bethan Roberts
-      description_markdown:
-      image:
-- title: directors
-  name: Sussex Partnership Directors
-  description_markdown:
-  staff:
-    - name: Adrian Whittington
-      description_markdown: 'Adrian Whittington is Director of Education and Training at Sussex Partnership NHS Foundation Trust. A Consultant Clinical Psychologist, Adrian is passionate about delivering evidence-based psychological interventions to more people who can benefit. Adrian has been involved alongside colleagues in establishing the Sussex Mindfulness Centre. Adrian leads on education and Training for the Trust.; In his clinical practice Adrian specialises in trauma-focused cognitive behavioural therapy for post-traumatic stress disorder.'
-      image: /assets/images/adrian_whittington.jpg
-    - name: Mark Hayward
-      description_markdown: Mark Hayward is Director of Research at Sussex Partnership NHS Foundation Trust and supports the research activity of the Sussex Mindfulness Centre. He played a key part in the establishment of the SMC.
-      image: /assets/images/mark_hayward.jpg
-- title: alsoemployedmbi
-  name: The following are Sussex Partnership employed Mindfulness-based Interventions practitioners
-  description_markdown: |-
-    * Mandy Nicholson
-
-    * Mary Bond
-
-    * Erika Langen
-
-    * Gemma Davies
-
-    * Hilary Whitehall
-
-    * Kate Axford
-
-    * Martin Stent
-
-    * Tamara Leeuwerick
-
-    * Fliss Boulton
-
-    * Stuart Clark
-  staff:
 - title: employedteachers
   name: Sussex Partnership employed MBCT teachers
   description_markdown:
@@ -197,36 +146,35 @@
     - name: Nicola Turner
       description_markdown:
       image:
-- title: advocates
-  name: Mindfulness Advocates
+- title: alsoemployedmbi
+  name: The following are Sussex Partnership employed Mindfulness-based Interventions practitioners
+  description_markdown: |-
+    * Mandy Nicholson
+
+    * Mary Bond
+
+    * Erika Langen
+
+    * Gemma Davies
+
+    * Hilary Whitehall
+
+    * Kate Axford
+
+    * Martin Stent
+
+    * Tamara Leeuwerick
+
+    * Fliss Boulton
+
+    * Stuart Clark
+  staff:
+- title: teacherassociates
+  name: SMC Mindfulness teacher associates
   description_markdown:
   staff:
-    - name: Helen Leigh-Phippard
-      description_markdown: "Helen is a former long-term user of SPFT services. She took the Trust's MBCT course several years ago and mindfulness has continued to be an essential and valued part her daily life ever since. Helen currently represents the interests of service users on SPFT's Mindfulness Practice Network."
-      image:
-- title:
-  name: The following are also mindfulness advocates
-  description_markdown:
-  staff:
-    - name: Helga Dittmar
-      description_markdown: 'I see the way I am now, and the way my life is now, as a testament to the transformative and healing power of mindfulness. It is not a path for the faint-hearted if, like me, you come from a particularly dark place. Like the panther in Rilke’s poem, I existed in a cage for many years, behind bars of emotional distress, loneliness, and livelessness. What I learnt in the MBCT courses, the way mindfulness was embodied by the teachers, and my own daily mindfulness practice combined to give me the strength, clarity, and courage, to free myself into a new existence, where there is joy, connectedness with others, and emotional expressiveness. Life will always have its challenges, but I have never felt more alive; in my work, in my relationships, and - maybe above all - in re-finding, sharing, and living, music.'
-      image: /assets/images/helga_dittmar_r.jpg
-    - name: Julia Racster-Szostak
+    - name: Claire Cole
       description_markdown:
       image:
-    - name: Gareth Strachan
-      description_markdown:
-      image:
-    - name: Barbara Vincent
-      description_markdown:
-      image:
-- title: administrators
-  name: SMC administrators
-  description_markdown:
-  staff:
-    - name: Caroline Windley
-      description_markdown: 'Caroline oversees administration for various professional education courses, including the Mindfulness Masterclasses and staff groups. Her role involves managing application forms, tracking bookings, booking venues and &nbsp;extracting data for reports for Mindfulness events.'
-      image:
-    - name: Joanne Smith
-      description_markdown: 'Jo joined the education and training team at Sussex Partnership NHS Foundation Trust in January 2015.  As well as promoting mindfulness events via this website and through other media, she supported the running of the Sussex Mindfulness Centre Conferences.'
-      image:
+    - name: Nick Diggins
+      description_markdown: 'Nick is an independent mindfulness teacher who has taught mindfulness courses and classes extensively over a ten-year period in a variety of contexts: for the general public, for businesses and for carers. He is a mindfulness supervisor for the Mindfulness Network CIC, an organisation set up and run by senior faculty from Bangor University’s Centre for Mindfulness Research and Practice (CMRP), the Oxford Mindfulness Centre (OMC) and the University of Exeter.  Nick is also a Distance Learning Teacher for CMRP. He has an MA train
