@@ -59,7 +59,7 @@ event:
     	{% if events.datetext %}<h3>{{ events.datetext }}</h3>{% endif %}
     	{% if events.organiser %}<p><strong>{{ events.organiser }}</strong></p>{% endif %}
       {% if events.description_markdown %}<p>{{ events.description_markdown | markdownify }}</p>{% endif %}
-      {% if events.booking_url %}<p><a href="{{ events.booking_url }}" class="button" target="_blank">Book online</a></p>{% endif %}
+
       {% if events.flyer_path:  %}<p>Download flyer: <a href="{{ events.flyer_path:  }}"><svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download_alt" /></svg></a></p>{% endif %}
     </li>
     {% endfor %}
