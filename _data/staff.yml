@@ -201,12 +201,12 @@
   name: Sussex Partnership Directors
   description_markdown:
   staff:
-    - name: Adrian Whittington
-      description_markdown: 'Adrian Whittington is Director of Education and Training at Sussex Partnership NHS Foundation Trust. A Consultant Clinical Psychologist, Adrian is passionate about delivering evidence-based psychological interventions to more people who can benefit. Adrian has been involved alongside colleagues in establishing the Sussex Mindfulness Centre. Adrian leads on education and Training for the Trust.; In his clinical practice Adrian specialises in trauma-focused cognitive behavioural therapy for post-traumatic stress disorder.'
-      image: /assets/images/adrian_whittington.jpg
-    - name: Mark Hayward
-      description_markdown: Mark Hayward is Director of Research at Sussex Partnership NHS Foundation Trust and supports the research activity of the Sussex Mindfulness Centre. He played a key part in the establishment of the SMC.
-      image: /assets/images/mark_hayward.jpg
+    - name:
+      description_markdown:
+      image:
+    - name:
+      description_markdown:
+      image:
 - title: advocates
   name: Mindfulness Advocates
   description_markdown:
