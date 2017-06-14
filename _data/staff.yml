@@ -219,7 +219,7 @@
       image:
     - name: Barbara Vincent
       description_markdown:
-      image:
+      image: /assets/images/barbara-vincent-image.jpg
 - title: administrators
   name: SMC administrators
   description_markdown:
