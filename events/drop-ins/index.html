@@ -44,7 +44,7 @@ event:
 	{% for events in page.event %}
     <li>
       <p>{% if events.event_date %}
-      <strong>{{ events.event_date }}</strong>
+      <strong>{{ events.event_date  | date: "%-d %B" }}</strong>
       {% endif %}
       {% if events.organiser %} &ndash; {{ events.organiser }} {% endif %}
       {% if events.description_markdown %} &ndash; {{ events.description_markdown | markdownify }}{% endif %}</p>
