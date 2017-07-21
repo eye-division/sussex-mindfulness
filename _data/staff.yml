@@ -62,7 +62,7 @@
       image:
     - name: Tamara Leeuwerik
       description_markdown: 'Tamara is a second year PhD student at the University of Sussex, supervised by Clara Strauss and Kate Cavanagh. Tamara is exploring the potential of mindfulness courses for people experiencing obsessive compulsive disorder (OCD).'
-      image:
+      image: /assets/images/smc-tamara-leeuwerik.jpeg
     - name: Heather Taylor
       description_markdown: "Heather is a second year PhD student at the University of Sussex, supervised by Clara Strauss and Kate Cavanagh. Heather's research is focusing on evaluating mindfulness-based self-help resources."
       image:
