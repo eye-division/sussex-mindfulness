@@ -177,17 +177,17 @@
       description_markdown:
       image:
     - name: Nick Diggins
-      description_markdown: 'Nick is an independent mindfulness teacher who has taught mindfulness courses and classes extensively over a ten-year period in a variety of contexts: for the general public, for businesses and for carers. He is a mindfulness supervisor for the Mindfulness Network CIC, an organisation set up and run by senior faculty from Bangor University’s Centre for Mindfulness Research and Practice (CMRP), the Oxford Mindfulness Centre (OMC) and the University of Exeter.  Nick is also a Distance Learning Teacher for CMRP. He has an MA training at Bangor University in Teaching Mindfulness-based Courses (with Distinction) and a Certificate of Competence to Teach Mindfulness Based Courses.'
+      description_markdown: 'Nick is an independent mindfulness teacher who has taught mindfulness courses and classes extensively over a ten-year period in a variety of contexts: for the general public, for businesses and for carers. He is a mindfulness supervisor for the Mindfulness Network CIC, an organisation set up and run by senior faculty from Bangor University’s Centre for Mindfulness Research and Practice (CMRP), the Oxford Mindfulness Centre (OMC) and the University of Exeter. Nick is also a Distance Learning Teacher for CMRP. He has an MA training at Bangor University in Teaching Mindfulness-based Courses (with Distinction) and a Certificate of Competence to Teach Mindfulness Based Courses.'
       image: /assets/images/nick_diggins.jpg
     - name: Kate Gooch
       description_markdown:
       image:
     - name: Ed Halliwell
       description_markdown: 'Ed leads public mindfulness courses, workshops and retreats in Sussex, London and Surrey, and has introduced and taught mindfulness in many organisations. He is the author of *Into The Heart of Mindfulness*, and *Mindfulness: How To Live Well By Paying Attention*, and co-author of *The Mindful Manifesto*. He is also an advisor to and former co-director of The Mindfulness Initiative, which is supporting the All-Party Parliamentary Group on Mindfulness (MAPPG) to develop mindfulness-based policies for the UK. His website is [edhalliwell.com](http://www.edhalliwell.com)'
-      image:
+      image: /assets/images/smc-ed-halliwell.jpeg
     - name: Nicky Mouat
-      description_markdown: 'Nicky is a Mental Health Nurse and Mindfulness teacher. She works in the NHS at Pavilions Drug and Alcohol Service, where she has been facilitating Mindfulness Based Relapse Prevention courses,  and holding a weekly drop in for Service. Users and Staff.  She has been teaching MBCT for the Wellbeing Service, and Recovery College in Brighton. She is also part of the Myriad Mindfulness in Schools Research Project, and will be involved in teaching Mindfulness for Life to teachers in Sussex Schools in 2017. She has a particular interest in working with Service Users with ‘Dual Diagnosis’ (Substance Misuse and Mental Health Issues), and the way that Mindfulness can be helpful to this client group.'
-      image:
+      description_markdown: 'Nicky is a Mental Health Nurse and Mindfulness teacher. She works in the NHS at Pavilions Drug and Alcohol Service, where she has been facilitating Mindfulness Based Relapse Prevention courses, and holding a weekly drop in for Service. Users and Staff. She has been teaching MBCT for the Wellbeing Service, and Recovery College in Brighton. She is also part of the Myriad Mindfulness in Schools Research Project, and will be involved in teaching Mindfulness for Life to teachers in Sussex Schools in 2017. She has a particular interest in working with Service Users with ‘Dual Diagnosis’ (Substance Misuse and Mental Health Issues), and the way that Mindfulness can be helpful to this client group.'
+      image: /assets/images/smc-nicky-mouat.jpeg
     - name: Jiva Mashader
       description_markdown:
       image:
