@@ -29,7 +29,7 @@
       description_markdown: 'Karunavira has taught mindfulness based approaches within the local and wider community since 2005. He now teaches on the Masters course at Bangor University (School of Psychology) and trains mindfulness teachers for the local NHS trust.He has specialised in teaching mindfulness-based approaches (MBCT) with carers, teenagers and Older People. In 2010 he gained an Fd Sc in Person Centred Counselling and now works part-time within the NHS with parents of children who have newly diagnosed complex needs.'
       image: /assets/images/karunavira.jpg
     - name: "Bridgette O'Neill"
-      description_markdown: 'Bridgette is a mindfulness teacher and supervisor, and a consultant clinical psychologist. She previously held a leadership position within SPFT and has been involved in the development and governance of mindfulness interventions in the Trust. Bridgette now works as an associate of the Sussex Mindfulness Centre, providing supervision, teaching 8 week courses for staff and clients and having some involvement in the Trust&rsquo;s year long training of mindfulness teachers.'
+      description_markdown: 'Bridgette is a mindfulness teacher and supervisor, and a consultant clinical psychologist. She previously held a leadership position within SPFT and has been involved in the development and governance of mindfulness interventions in the Trust. Bridgette now works as an associate of the Sussex Mindfulness Centre, providing supervision, teaching 8 week courses for staff and clients and having some involvement in the Trust’s year long training of mindfulness teachers.'
       image: /assets/images/bridgette_oneill.jpg
 - title: researchers
   name: SMC Researchers
@@ -73,9 +73,6 @@
     - name: Heather Ball
       description_markdown: 'Heather is a Psychiatric Nurse and Cognitive-Behavioural Therapist working in secondary care mental health with people who experience severe and enduring difficulties. Alongside running formal 8-week Mindfulness Based Cognitive Therapy groups for SPFT clients, she has been involved in Mindfulness for Voices Groups and the Brief Mindfulness Interventions trial. She regularly runs MBCT drop-in sessions at the Sussex Education Centre, Brighton Buddhist Centre, and a mindfulness drop-in for SPFT staff at East Brighton Mental Health Centre. She also gains inspiration from poetry and nature.'
       image: /assets/images/heather_ball.jpg
-    - name: Adele Bright
-      description_markdown: 'Adele Bright is based in Canterbury, Kent. She is an occupational therapist based within the specialist services in CHYPS. She works with young people with learning disabilities who have mental health issues or behaviours that challenge. After running a mindfulness staff group for Kent based staff, Adlee is now setting up a group for parents and carers.'
-      image:
     - name: Catherine Cameron
       description_markdown: 'Catherine is a clinical psychologist working in the department of pain medicine at Hove Polyclinic, where she runs mindfulness for pain groups. She has a particular interest in mindfulness and self compassion in pain. She is a member of the mindfulness practice network, and is involved in the all days run for those who have attended the 8 week courses within the trust. She presented on mindfulness in pain at the 2013 SMC conference and will be offering a master class on mindfulness and pain in the autumn.'
       image: /assets/images/catherine_cameron.jpg
@@ -231,5 +228,5 @@
       description_markdown: 'Caroline oversees administration for various professional education courses, including the Mindfulness Masterclasses and staff groups. Her role involves managing application forms, tracking bookings, booking venues and &nbsp;extracting data for reports for Mindfulness events.'
       image:
     - name: Joanne Smith
-      description_markdown: 'Jo joined the education and training team at Sussex Partnership NHS Foundation Trust in January 2015.  As well as promoting mindfulness events via this website and through other media, she supported the running of the Sussex Mindfulness Centre Conferences.'
+      description_markdown: 'Jo joined the education and training team at Sussex Partnership NHS Foundation Trust in January 2015. As well as promoting mindfulness events via this website and through other media, she supported the running of the Sussex Mindfulness Centre Conferences.'
       image:
