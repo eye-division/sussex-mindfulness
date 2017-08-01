@@ -117,8 +117,18 @@
       description_markdown:
       image: /assets/images/david_garland.jpg
     - name: Fiona Holden
-      description_markdown:
-      image:
+      description_markdown: >-
+        I am a mindfulness practitioner and enjoy facilitation MBCT groups to NHS
+        staff and young people in CAMHS. I can provide more independent work and
+        am particularly interested in working with teachers or non clinical
+        participants. This can be translated as allowing people to discover
+        mindfulness as a way to enrich their lives and to enhance their life
+        balance through Mindfulness based practices.
+
+
+
+        I work in the NHS as a Consultant Child and Adolescent Psychiatrist.
+      image: /assets/images/fiona-holden-pic.jpg
     - name: Sue Huggett
       description_markdown:
       image:
