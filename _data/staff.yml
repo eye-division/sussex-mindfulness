@@ -65,7 +65,7 @@
       image: /assets/images/smc-tamara-leeuwerik.jpeg
     - name: Heather Taylor
       description_markdown: "Heather is a second year PhD student at the University of Sussex, supervised by Clara Strauss and Kate Cavanagh. Heather's research is focusing on evaluating mindfulness-based self-help resources."
-      image:
+      image: /assets/images/heather-taylor-pic.jpg
 - title: employedteachers
   name: Sussex Partnership employed MBCT teachers
   description_markdown:
