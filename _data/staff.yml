@@ -56,7 +56,7 @@
       image:
     - name: Jenny Gu
       description_markdown: 'Jenny is a final year PhD student at the University of Sussex, supervised by Clara Strauss and Kate Cavanagh. Her research interests include understanding how mindfulness-based interventions improve mental health and wellbeing. She is currently working on developing a new questionnaire measure of compassion (towards other and the self).'
-      image:
+      image: /assets/images/jenny-gu.jpg
     - name: Emily Ironmonger
       description_markdown: 'Emily is a trainee clinical psychologist at Canterbury Christ Church University (Salmons), supervised by Clara Strauss, Fergal Jones and Kate Cavanagh. For her major research project Emily is running a randomised controlled trial of a self-help MBCT course for NHS staff.'
       image:
