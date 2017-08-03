@@ -181,8 +181,8 @@
   description_markdown:
   staff:
     - name: Claire Cole
-      description_markdown:
-      image:
+      description_markdown: 'I have a background in Social Work and Counselling and continue to work in both these fields on an independent basis. I developed an interest in Mindfulness approximately 10 years ago and trained to teach MBCT through my daily life and I have a particular interest in running groups with teachers, NHS staff and foster carers.&nbsp;'
+      image: /assets/images/claire-cole-photo-smc.jpg
     - name: Nick Diggins
       description_markdown: 'Nick is an independent mindfulness teacher who has taught mindfulness courses and classes extensively over a ten-year period in a variety of contexts: for the general public, for businesses and for carers. He is a mindfulness supervisor for the Mindfulness Network CIC, an organisation set up and run by senior faculty from Bangor University’s Centre for Mindfulness Research and Practice (CMRP), the Oxford Mindfulness Centre (OMC) and the University of Exeter. Nick is also a Distance Learning Teacher for CMRP. He has an MA training at Bangor University in Teaching Mindfulness-based Courses (with Distinction) and a Certificate of Competence to Teach Mindfulness Based Courses.'
       image: /assets/images/nick_diggins.jpg
