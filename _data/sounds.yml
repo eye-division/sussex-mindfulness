@@ -56,3 +56,18 @@
       description: prelims to movement
     - audio_path: 'https://www.dropbox.com/s/umq6ispihwmd4s9/prelims%20to%20sitting.mp3?dl=0'
       description: prelims to sitting
+- course: Brighton CAMHS MBCT group
+  description_markdown:
+  audio:
+    - audio_path: 'https://www.dropbox.com/s/mv7frp7qyex9krl/1%20Body%20Scan.mp3?dl=0'
+      description: 1 Body scan
+    - audio_path: 'https://www.dropbox.com/s/ox5qg4iwa7pcqxt/2%203%20Minute%20Breathing%20Space.mp3?dl=0'
+      description: 2 3 Minute Breathing Space
+    - audio_path: 'https://www.dropbox.com/s/1cgh8rd6j010scx/3%20Mindfulness%20of%20the%20Breath%20and%20Body.mp3?dl=0'
+      description: 3 Mindfulness of the Breath and Body
+    - audio_path: 'https://www.dropbox.com/s/ho0sdcpesdr0pt7/4%20Stage%20Sitting%20Practice.mp3?dl=0'
+      description: 4 Stage Sitting Practice
+    - audio_path: 'https://www.dropbox.com/s/pzjlgrf1f2mh65c/5%20Mountain%20Meditation.mp3?dl=0'
+      description: 5 Mountain Meditation
+    - audio_path: 'https://www.dropbox.com/s/4ekr6w90ernsndr/6%20Coping%20Breathing%20Space.mp3?dl=0'
+      description: 6 Coping Breathing Space
