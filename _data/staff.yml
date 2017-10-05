@@ -511,12 +511,8 @@
   description_markdown:
   staff:
     - name: Caroline Windley
-      description_markdown: >-
-        Caroline oversees administration for various professional education
-        courses, including the Mindfulness Masterclasses and staff groups. Her
-        role involves managing application forms, tracking bookings, booking
-        venues and &nbsp;extracting data for reports for Mindfulness events.
-      image:
+      description_markdown: "Caroline oversees administration for various professional education courses, including the Mindfulness Masterclasses and staff groups. Her role involves managing application forms, tracking bookings, booking venues and \_extracting data for reports for Mindfulness events."
+      image: /assets/images/Caroline Windley_Administrator.jpg
     - name: Joanne Smith
       description_markdown: >-
         Jo joined the education and training team at Sussex Partnership NHS
