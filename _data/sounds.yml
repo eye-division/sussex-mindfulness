@@ -1,73 +1,118 @@
 - course: Robert Marx - practices for MSC
   description_markdown:
   audio:
-    - audio_path: 'https://www.dropbox.com/s/c53b5gegql1zzmk/compassionate_mindfulness_of_breathing.mp3?dl=0'
+    - audio_path: >-
+        https://www.dropbox.com/s/c53b5gegql1zzmk/compassionate_mindfulness_of_breathing.mp3?dl=0
       description: Compassionate Mindfulness of Breathing
       author: Robert Marx
-    - audio_path: 'https://www.dropbox.com/s/oi0ud4cv9y9rp5n/compassion_for_self_and_others.mp3?dl=0'
+    - audio_path: >-
+        https://www.dropbox.com/s/oi0ud4cv9y9rp5n/compassion_for_self_and_others.mp3?dl=0
       description: Compassion for Self and Others
       author: Robert Marx
     - audio_path: 'https://www.dropbox.com/s/xym43a8tnsx6ou2/compassionate_friend.mp3?dl=0'
       description: Compassionate Friend
       author: Robert Marx
-    - audio_path: 'https://www.dropbox.com/s/v74ncwdy4adtmds/affectionate_breathing.mp3?dl=0'
+    - audio_path: >-
+        https://www.dropbox.com/s/v74ncwdy4adtmds/affectionate_breathing.mp3?dl=0
       description: Affectionate Breathing
       author: Robert Marx
     - audio_path: 'https://www.dropbox.com/s/yaogighg5x41hlv/allow_soften_soothe.mp3?dl=0'
       description: Allow Soften Soothe
       author: Robert Marx
-    - audio_path: 'https://www.dropbox.com/s/tb4uer8bs8dsief/giving_and_receiving_compassion.mp3?dl=0'
+    - audio_path: >-
+        https://www.dropbox.com/s/tb4uer8bs8dsief/giving_and_receiving_compassion.mp3?dl=0
       description: Giving and Receiving Compassion
       author: Robert Marx
-    - audio_path: 'https://www.dropbox.com/s/ovsgul2af6h01vs/loving_kindness_for_a_loved_one.mp3?dl=0'
+    - audio_path: >-
+        https://www.dropbox.com/s/ovsgul2af6h01vs/loving_kindness_for_a_loved_one.mp3?dl=0
       description: Loving Kindness for a Loved One
       author: Robert Marx
     - audio_path: 'https://www.dropbox.com/s/t0t6005l3b3vfyh/self_compassion_break.mp3?dl=0'
       description: Self Compassion Break
       author: Robert Marx
-    - audio_path: 'https://www.dropbox.com/s/qvmmdmx7mvj0rvk/loving_kindness_for_self.mp3?dl=0'
+    - audio_path: >-
+        https://www.dropbox.com/s/qvmmdmx7mvj0rvk/loving_kindness_for_self.mp3?dl=0
       description: Loving Kindness for Self
 - course: Robert Marx - practices for MBCT
   description_markdown:
   audio:
-    - audio_path: 'https://www.dropbox.com/s/2ldqumyo09x2298/21%20min%20mindfulness%20of%20breathing.mp3?dl=0'
+    - audio_path: >-
+        https://www.dropbox.com/s/2ldqumyo09x2298/21%20min%20mindfulness%20of%20breathing.mp3?dl=0
       description: 21 min mindfulness of breathing
-    - audio_path: 'https://www.dropbox.com/s/kgrjlsagi4sdkwd/30%20minute%20mindful%20movement.mp3?dl=0'
+    - audio_path: >-
+        https://www.dropbox.com/s/kgrjlsagi4sdkwd/30%20minute%20mindful%20movement.mp3?dl=0
       description: 30 minute mindful movement
-    - audio_path: 'https://www.dropbox.com/s/hefbmjxypcdtror/30%20minute%20mindful%20walking.mp3?dl=0'
+    - audio_path: >-
+        https://www.dropbox.com/s/hefbmjxypcdtror/30%20minute%20mindful%20walking.mp3?dl=0
       description: 30 minute mindful walking
-    - audio_path: 'https://www.dropbox.com/s/i62z5f30mrqpcxj/36%20min%20sitting%20mindfulness%20of%20breath%20and%20body.mp3?dl=0'
+    - audio_path: >-
+        https://www.dropbox.com/s/i62z5f30mrqpcxj/36%20min%20sitting%20mindfulness%20of%20breath%20and%20body.mp3?dl=0
       description: 36 min sitting mindfulness of breath and body
-    - audio_path: 'https://www.dropbox.com/s/14njftktqh1hjck/38%20min%20body%20scan.mp3?dl=0'
+    - audio_path: >-
+        https://www.dropbox.com/s/14njftktqh1hjck/38%20min%20body%20scan.mp3?dl=0
       description: 38 min body scan
-    - audio_path: 'https://www.dropbox.com/s/axh8iaa8q2emsvs/coping%20breathing%20space.mp3?dl=0'
+    - audio_path: >-
+        https://www.dropbox.com/s/axh8iaa8q2emsvs/coping%20breathing%20space.mp3?dl=0
       description: coping breathing space
-    - audio_path: 'https://www.dropbox.com/s/cq4hu9v56go8v5q/loving%20kindness%20practice%20%2830%20mins%29.mp3?dl=0'
+    - audio_path: >-
+        https://www.dropbox.com/s/cq4hu9v56go8v5q/loving%20kindness%20practice%20%2830%20mins%29.mp3?dl=0
       description: loving kindness practice (30 mins)
-    - audio_path: 'https://www.dropbox.com/s/et03fhk0vq34kc0/mostly%20unguided%2035%20min%20sitting%20practice.mp3?dl=0'
+    - audio_path: >-
+        https://www.dropbox.com/s/et03fhk0vq34kc0/mostly%20unguided%2035%20min%20sitting%20practice.mp3?dl=0
       description: mostly unguided 35 min sitting practice
-    - audio_path: 'https://www.dropbox.com/s/kxzeso5cxgti0es/mostly%20unguided%20body%20scan.mp3?dl=0'
+    - audio_path: >-
+        https://www.dropbox.com/s/kxzeso5cxgti0es/mostly%20unguided%20body%20scan.mp3?dl=0
       description: mostly unguided body scan
-    - audio_path: 'https://www.dropbox.com/s/ara65vidm10gkyo/mountain%20meditation%2016%20mins.mp3?dl=0'
+    - audio_path: >-
+        https://www.dropbox.com/s/ara65vidm10gkyo/mountain%20meditation%2016%20mins.mp3?dl=0
       description: mountain meditation 16 mins
-    - audio_path: 'https://www.dropbox.com/s/mnqjvmd4ya580w3/prelims%20to%20body%20scan.mp3?dl=0'
+    - audio_path: >-
+        https://www.dropbox.com/s/mnqjvmd4ya580w3/prelims%20to%20body%20scan.mp3?dl=0
       description: prelims to body scan
-    - audio_path: 'https://www.dropbox.com/s/gjrzkr0ry4tsllo/prelims%20to%20movement.mp3?dl=0'
+    - audio_path: >-
+        https://www.dropbox.com/s/gjrzkr0ry4tsllo/prelims%20to%20movement.mp3?dl=0
       description: prelims to movement
-    - audio_path: 'https://www.dropbox.com/s/umq6ispihwmd4s9/prelims%20to%20sitting.mp3?dl=0'
+    - audio_path: >-
+        https://www.dropbox.com/s/umq6ispihwmd4s9/prelims%20to%20sitting.mp3?dl=0
       description: prelims to sitting
 - course: Brighton CAMHS MBCT group
   description_markdown:
   audio:
     - audio_path: 'https://www.dropbox.com/s/mv7frp7qyex9krl/1%20Body%20Scan.mp3?dl=0'
       description: 1 Body scan
-    - audio_path: 'https://www.dropbox.com/s/ox5qg4iwa7pcqxt/2%203%20Minute%20Breathing%20Space.mp3?dl=0'
+    - audio_path: >-
+        https://www.dropbox.com/s/ox5qg4iwa7pcqxt/2%203%20Minute%20Breathing%20Space.mp3?dl=0
       description: 2 3 Minute Breathing Space
-    - audio_path: 'https://www.dropbox.com/s/1cgh8rd6j010scx/3%20Mindfulness%20of%20the%20Breath%20and%20Body.mp3?dl=0'
+    - audio_path: >-
+        https://www.dropbox.com/s/1cgh8rd6j010scx/3%20Mindfulness%20of%20the%20Breath%20and%20Body.mp3?dl=0
       description: 3 Mindfulness of the Breath and Body
-    - audio_path: 'https://www.dropbox.com/s/ho0sdcpesdr0pt7/4%20Stage%20Sitting%20Practice.mp3?dl=0'
+    - audio_path: >-
+        https://www.dropbox.com/s/ho0sdcpesdr0pt7/4%20Stage%20Sitting%20Practice.mp3?dl=0
       description: 4 Stage Sitting Practice
-    - audio_path: 'https://www.dropbox.com/s/pzjlgrf1f2mh65c/5%20Mountain%20Meditation.mp3?dl=0'
+    - audio_path: >-
+        https://www.dropbox.com/s/pzjlgrf1f2mh65c/5%20Mountain%20Meditation.mp3?dl=0
       description: 5 Mountain Meditation
-    - audio_path: 'https://www.dropbox.com/s/4ekr6w90ernsndr/6%20Coping%20Breathing%20Space.mp3?dl=0'
+    - audio_path: >-
+        https://www.dropbox.com/s/4ekr6w90ernsndr/6%20Coping%20Breathing%20Space.mp3?dl=0
       description: 6 Coping Breathing Space
+- course: Hastings CAMHS group
+  description_markdown:
+  audio:
+    - audio_path: >-
+        https://www.dropbox.com/s/l0m53dfzx797kkr/Body%20Scan%20for%20adolescents.mp3?dl=0
+      description: Body  Scan for adolescents
+    - audio_path: >-
+        https://www.dropbox.com/s/0rx0ahihpzgz7ww/Mindfulness%20of%20Breath%20and%20Body%20for%20adolescents%20%281%29.mp3?dl=0
+      description: Mindfulness of Breath and Body for adolescents
+    - audio_path: >-
+        https://www.dropbox.com/s/5kmk5ht9j0vazpe/Sitting%20Practice%20for%20adolescents.mp3?dl=0
+      description: Sitting Practice for adolescents
+    - audio_path: >-
+        https://www.dropbox.com/s/nvrq2vyszbrkygf/Stretching%20%20Breathing%20Practice%20for%20adolescents.mp3?dl=0
+      description: Stretching Breathing Practice for adolescents
+    - audio_path: >-
+        https://www.dropbox.com/s/jkz45gw270vy5lj/Three%20step%20breathing%20space.mp3?dl=0
+      description: Three step breathing space
+    - audio_path: >-
+        https://www.dropbox.com/s/8qxn2f8awo8lto0/Turning%20Towards%20Difficult%20Experience%20Sitting%20Pract.mp3?dl=0
+      description: Turning Towards Difficult Experience - Sitting Practice
