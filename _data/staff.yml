@@ -285,21 +285,12 @@
   name: The following are also Sussex Partnership employed MBCT trained teachers
   description_markdown:
   staff:
-    - name:
-      description_markdown:
-      image:
     - name: Brenda Davis
       description_markdown:
       image: /assets/images/brenda_davis.jpg
     - name: Hannah Denton
       description_markdown:
       image: /assets/images/hannah_denton.jpg
-    - name:
-      description_markdown:
-      image:
-    - name:
-      description_markdown:
-      image:
     - name: Sue Huggett
       description_markdown:
       image:
@@ -334,9 +325,6 @@
         and Drop In events at Sussex Educational Centre.
       image: /assets/images/liz_stapleton.jpg
     - name: Michael Swan
-      description_markdown:
-      image:
-    - name:
       description_markdown:
       image:
 - title: alsoemployedmbi
@@ -510,9 +498,6 @@
         - in re-finding, sharing, and living, music.
       image: /assets/images/helga_dittmar_r.jpg
     - name: Julia Racster-Szostak
-      description_markdown:
-      image:
-    - name:
       description_markdown:
       image:
     - name: Barbara Vincent
