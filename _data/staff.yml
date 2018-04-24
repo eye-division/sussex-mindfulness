@@ -302,7 +302,13 @@
       description_markdown:
       image: /assets/images/smc-hazel-ragoonanan.jpeg
     - name: Miranda Rose
-      description_markdown:
+      description_markdown: >-
+        Miranda is a clinical nurse specialist and team leader in CAMHS, East
+        Susssex. She has a long standing interest in mindfulness and personal
+        meditation practice over the past 30 years. Miranda completed her MBCT
+        teacher training in 2015 and now facilitates mindfulness courses for
+        adolescents experiencing clinically significant episodes of anxiety and
+        low mood within the CAMHS service.
       image:
     - name: Ruth Sequeira
       description_markdown: >-
