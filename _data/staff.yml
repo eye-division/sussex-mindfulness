@@ -290,7 +290,13 @@
       description_markdown:
       image: /assets/images/brenda_davis.jpg
     - name: Hannah Denton
-      description_markdown:
+      description_markdown: >-
+        Hannah Denton is a Counselling Psychologist working within Adult Mental
+        Health in Sussex Partnership.&nbsp; Following a personal interest in
+        mindfulness and yoga she trained as an MBCT teacher with the Sussex
+        Mindfulness Centre in 2011.&nbsp; She has been teaching MBCT courses
+        since as well as regularly facilitating drop in sessions for
+        staff.&nbsp;
       image: /assets/images/hannah_denton.jpg
     - name: Sue Huggett
       description_markdown:
