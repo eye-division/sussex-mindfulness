@@ -1,9 +1,9 @@
 {% assign url = page.url | remove: 'index.html' %}
-<h2 class="h2__promote h2__outreach"><a href="{{ site.baseurl }}/outreach-and-national-policy/">Outreach</a></h2>
+<h2 class="h2__promote h2__outreach"><a href="{{ site.baseurl }}/our-work-with-other-organisations/">Our work with other organisations</a></h2>
 <ul class="nav__secondary">
 
 {% for link in site.data.nav %}
-	{% if link.title == "Outreach & national policy" %}
+	{% if link.title == "Our work with other organisations" %}
 
 		{% for subcategory in link.subcategories %}
 		  <li><a href="{{ subcategory.href | prepend: site.baseurl }}" class="outreach{% if url contains subcategory.href %} active{% endif %}">{{ subcategory.subtitle }}</a>
@@ -12,6 +12,6 @@
 {% endfor %}
 </ul>
 <div class="widget widget__centred">
-	<a href="{{ site.baseurl }}/outreach-and-national-policy/"><img src="{{ site.baseurl }}/assets/outreach-icon.png" title="outreach icon" class=""></a>
+	<a href="{{ site.baseurl }}/our-work-with-other-organisations/"><img src="{{ site.baseurl }}/assets/outreach-icon.png" title="outreach icon" class=""></a>
 </div>
 
