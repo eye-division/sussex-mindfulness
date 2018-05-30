@@ -6,21 +6,6 @@ main_nav: false
 style: events
 _sidebar: events-sidebar.html
 event:
-  - event_date: 2018-01-08 00:00:00
-    organiser: Heather Ball and Liz Stapleton
-    description_markdown:
-  - event_date: 2018-02-05 00:00:00
-    organiser: Robert Marx and Lucy Edwards
-    description_markdown:
-  - event_date: 2018-03-05 00:00:00
-    organiser: Susan Whiting and Tamsin Hemingray
-    description_markdown:
-  - event_date: 2018-04-09 00:00:00
-    organiser: Catherine Cameron and Lee Jones
-    description_markdown:
-  - event_date: 2018-05-14 00:00:00
-    organiser: Susan Whiting and Liz Stapleton
-    description_markdown:
   - event_date: 2018-06-04 00:00:00
     organiser: Robert Marx  and Carolyn Pollak
     description_markdown:
@@ -56,10 +41,10 @@ event:
       {% for event in current.eventlist %}
           <li>
             {% if event.event_date %}
-              {{ event.event_date  | date: "%-d %B" }}<br>
+              {{ event.event_date  | date: "%-d %B" }}<br />
             {% endif %}
             {% if event.organiser %}
-              {{ event.organiser }}<br>
+              {{ event.organiser }}<br />
             {% endif %}
             {% if event.description_markdown %}
               <p>{{ event.description_markdown | markdownify }}</p>
