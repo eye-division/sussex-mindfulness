@@ -1,21 +1,21 @@
-- location: Arun House
-  name: Arun House
+- location: Hove
+  name: Hove venue
   description_markdown:
   eventlist:
-    - event_date: '2018-01-08 00:00:00'
-      organiser: 'Heather Ball and Liz Stapleton'
+    - event_date: 2018-01-08 00:00:00
+      organiser: Heather Ball and Liz Stapleton
       description_markdown:
 - location: Arundel
   name: Arun House
   description_markdown:
   eventlist:
-    - event_date: '2018-01-08 00:00:00'
-      organiser: 'Heather Ball and Liz Stapleton'
+    - event_date: 2018-01-08 00:00:00
+      organiser: Heather Ball and Liz Stapleton
       description_markdown:
 - location: Swandean
   name: Arun House
   description_markdown:
   eventlist:
-    - event_date: '2018-01-08 00:00:00'
-      organiser: 'Heather Ball and Liz Stapleton'
+    - event_date: 2018-01-08 00:00:00
+      organiser: Heather Ball and Liz Stapleton
       description_markdown:
