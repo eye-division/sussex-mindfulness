@@ -3,9 +3,10 @@ layout: page
 title: Mindfulness drop-ins
 main_image_path:
 main_nav: false
-style: events
-sidebar: events-sidebar.html
-
+_style: events
+_sidebar: events-sidebar.html
+_comments:
+  title: Edit drop-ins using the Data menu
 ---
 
 <section class="main-content with-sidebar">
@@ -38,5 +39,5 @@ sidebar: events-sidebar.html
 </section>
 
 <aside class="sidebar">
-  {% include {{ page.sidebar }} %}
+  {% include {{ page._sidebar }} %}
 </aside>
