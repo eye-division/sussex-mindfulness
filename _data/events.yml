@@ -26,19 +26,33 @@
       organiser: Susan Whiting and Carolyn Pollak
       description_markdown:
 - location: Arundel
-  name: Arun House
-  description_markdown: >-
-    **Arun House** drop ins will take place on the second Wednesday of every
-    month from 1.30pm.
+  name: 'Arun House  (16 Liverpool Gardens, Worthing - room 1)'
+  description_markdown: 'All drop-in sessions are on the second Wednesday of the month from 1:30-2pm.'
   eventlist:
-    - event_date: 2018-01-08 00:00:00
-      organiser: Heather Ball and Liz Stapleton
+    - event_date: 2018-06-13 00:00:00
+      organiser: Stuart Clark
+      description_markdown:
+    - event_date: 2018-07-11 00:00:00
+      organiser: Stuart Clark
+      description_markdown:
+    - event_date: 2018-08-08 00:00:00
+      organiser: Stuart Clark
+      description_markdown:
+    - event_date: 2018-09-12 00:00:00
+      organiser: Stuart Clark
+      description_markdown:
+    - event_date: 2018-10-10 00:00:00
+      organiser: Stuart Clark
+      description_markdown:
+    - event_date: 2018-11-14 00:00:00
+      organiser: Stuart Clark
+      description_markdown:
+    - event_date: 2018-12-12 00:00:00
+      organiser: Stuart Clark
       description_markdown:
 - location: Swandean
-  name: Swandean
-  description_markdown: >-
-    **Swandean** drop ins will take place on the third Tuesday of every month
-    from 1.30pm.
+  name: Swandean site
+  description_markdown: 'All drop-in sessions are on the fourth Tuesday of the month from 1:30-2pm.'
   eventlist:
     - event_date: 2018-01-08 00:00:00
       organiser: Heather Ball and Liz Stapleton
