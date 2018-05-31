@@ -1,23 +1,9 @@
 - location: Hove
-  name: Sussex Education Centre, Hove
+  name: 'Sussex Education Centre, Hove'
   description_markdown: >-
-    All drop-in sessions are on the first working Monday of the month from 5pm to 6pm.
+    All drop-in sessions are on the first working Monday of the month from 5pm
+    to 6pm.
   eventlist:
-    - event_date: 2018-01-08 00:00:00
-      organiser: Heather Ball and Liz Stapleton
-      description_markdown:
-    - event_date: 2018-02-05 00:00:00
-      organiser: Robert Marx and Lucy Edwards
-      description_markdown:
-    - event_date: 2018-03-05 00:00:00
-      organiser: Susan Whiting and Tamsin Hemingray
-      description_markdown:
-    - event_date: 2018-04-09 00:00:00
-      organiser: Catherine Cameron and Lee Jones
-      description_markdown:
-    - event_date: 2018-05-14 00:00:00
-      organiser: Susan Whiting and Liz Stapleton
-      description_markdown:
     - event_date: 2018-06-04 00:00:00
       organiser: Robert Marx  and Carolyn Pollak
       description_markdown:
@@ -30,7 +16,8 @@
 - location: Arundel
   name: Arun House
   description_markdown: >-
-    **Arun House** drop ins will take place on the second Wednesday of every month from 1.30pm.
+    **Arun House** drop ins will take place on the second Wednesday of every
+    month from 1.30pm.
   eventlist:
     - event_date: 2018-01-08 00:00:00
       organiser: Heather Ball and Liz Stapleton
@@ -38,7 +25,8 @@
 - location: Swandean
   name: Swandean
   description_markdown: >-
-    **Swandean** drop ins will take place on the third Tuesday of every month from 1.30pm.
+    **Swandean** drop ins will take place on the third Tuesday of every month
+    from 1.30pm.
   eventlist:
     - event_date: 2018-01-08 00:00:00
       organiser: Heather Ball and Liz Stapleton
