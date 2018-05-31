@@ -27,7 +27,7 @@ _sidebar: events-sidebar.html
    <p>{{ current.description_markdown | markdownify }}</p>
   {% endif %}
    <ul class="nolist">
-      {% for event in current.eventlist %}
+      {% for event in current.drop-in %}
           <li>
             {% if event.event_date %}
               {{ event.event_date  | date: "%-d %B" }}<br />

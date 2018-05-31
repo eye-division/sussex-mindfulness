@@ -3,7 +3,7 @@
   description_markdown: >-
     All drop-in sessions are on the first working Monday of the month from 5pm
     to 6pm.
-  eventlist:
+  drop-in:
     - event_date: 2018-06-04 00:00:00
       organiser: Robert Marx  and Carolyn Pollak
       description_markdown:
@@ -28,7 +28,7 @@
 - location: Arundel
   name: 'Arun House  (16 Liverpool Gardens, Worthing - room 1)'
   description_markdown: 'All drop-in sessions are on the second Wednesday of the month from 1:30-2pm.'
-  eventlist:
+  drop-in:
     - event_date: 2018-06-13 00:00:00
       organiser: Stuart Clark
       description_markdown:
@@ -53,7 +53,7 @@
 - location: Swandean
   name: Swandean site
   description_markdown: 'All drop-in sessions are on the fourth Tuesday of the month from 1:30-2pm.'
-  eventlist:
+  drop-in:
     - event_date: 2018-06-26 00:00:00
       organiser: Lucy Edwards
       description_markdown: First floor meeting room - Swandean HQ
