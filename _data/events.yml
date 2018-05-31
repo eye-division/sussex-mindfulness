@@ -54,6 +54,21 @@
   name: Swandean site
   description_markdown: 'All drop-in sessions are on the fourth Tuesday of the month from 1:30-2pm.'
   eventlist:
-    - event_date: 2018-01-08 00:00:00
-      organiser: Heather Ball and Liz Stapleton
-      description_markdown:
+    - event_date: 2018-06-26 00:00:00
+      organiser: Lucy Edwards
+      description_markdown: First floor meeting room - Swandean HQ
+    - event_date: 2018-07-24 00:00:00
+      organiser: Lucy Edwards
+      description_markdown: Meadowfield meeting room
+    - event_date: 2018-08-28 00:00:00
+      organiser: Lucy Edwards
+      description_markdown: Meadowfield meeting room
+    - event_date: 2018-09-25 00:00:00
+      organiser: Lucy Edwards
+      description_markdown: Meadowfield meeting room
+    - event_date: 2018-10-23 00:00:00
+      organiser: Lucy Edwards
+      description_markdown: Meadowfield meeting room
+    - event_date: 2018-11-27 00:00:00
+      organiser: Lucy Edwards
+      description_markdown: Meadowfield meeting room
