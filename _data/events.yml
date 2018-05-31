@@ -10,8 +10,20 @@
     - event_date: 2018-07-02 00:00:00
       organiser: Heather Ball and Lucy Edwards
       description_markdown:
-    - event_date: 2018-06-13 00:00:00
-      organiser: Stuart Clark and Lucy Edwards
+    - event_date: 2018-08-13 00:00:00
+      organiser: Heather Ball and Liz Stapleton
+      description_markdown:
+    - event_date: 2018-09-03 00:00:00
+      organiser: Susan Whiting and Robert Marx
+      description_markdown:
+    - event_date: 2018-10-01 00:00:00
+      organiser: Robert Marx and Tamsin Hemingray
+      description_markdown:
+    - event_date: 2018-11-05 00:00:00
+      organiser: Heather Ball and Lucy Edwards
+      description_markdown:
+    - event_date: 2018-12-03 00:00:00
+      organiser: Susan Whiting and Carolyn Pollak
       description_markdown:
 - location: Arundel
   name: Arun House
