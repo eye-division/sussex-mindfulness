@@ -302,7 +302,13 @@
       description_markdown:
       image:
     - name: Sarah Pratap
-      description_markdown:
+      description_markdown: >-
+        Sarah is a Clinical Psychologist who works within Adult Mental Health in
+        Brighton and Hove. Sarah trained as a mindfulness teacher with the
+        Sussex Mindfulness Centre in 2011 and since then has facilitated
+        mindfulness for voices and MBCT groups. Sarah uses variety of approaches
+        in her individual clinical work and enjoys integrating aspects of
+        mindfulness into this work where it is helpful.
       image:
     - name: Hazel Ragoonanan
       description_markdown:
