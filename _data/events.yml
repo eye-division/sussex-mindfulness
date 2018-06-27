@@ -4,9 +4,6 @@
     All drop-in sessions are on the first working Monday of the month from 5pm
     to 6pm.
   drop-in:
-    - event_date: 2018-06-04 00:00:00
-      organiser: Robert Marx  and Carolyn Pollak
-      description_markdown:
     - event_date: 2018-07-02 00:00:00
       organiser: Heather Ball and Lucy Edwards
       description_markdown:
