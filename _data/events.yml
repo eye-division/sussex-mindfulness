@@ -1,3 +1,25 @@
+- location: Arundel
+  name: 'Arun House  (16 Liverpool Gardens, Worthing - room 1)'
+  description_markdown: 'All drop-in sessions are on the second Wednesday of the month from 1:30-2pm.'
+  drop-in:
+    - event_date: 2018-07-11 00:00:00
+      organiser: Stuart Clark
+      description_markdown:
+    - event_date: 2018-08-08 00:00:00
+      organiser: Stuart Clark
+      description_markdown:
+    - event_date: 2018-09-12 00:00:00
+      organiser: Stuart Clark
+      description_markdown:
+    - event_date: 2018-10-10 00:00:00
+      organiser: Stuart Clark
+      description_markdown:
+    - event_date: 2018-11-14 00:00:00
+      organiser: Stuart Clark
+      description_markdown:
+    - event_date: 2018-12-12 00:00:00
+      organiser: Stuart Clark
+      description_markdown:
 - location: Hove
   name: 'Sussex Education Centre, Hove'
   description_markdown: >-
@@ -22,28 +44,6 @@
     - event_date: 2018-12-03 00:00:00
       organiser: Susan Whiting and Carolyn Pollak
       description_markdown:
-- location: Arundel
-  name: 'Arun House  (16 Liverpool Gardens, Worthing - room 1)'
-  description_markdown: 'All drop-in sessions are on the second Wednesday of the month from 1:30-2pm.'
-  drop-in:
-    - event_date: 2018-07-11 00:00:00
-      organiser: Stuart Clark
-      description_markdown:
-    - event_date: 2018-08-08 00:00:00
-      organiser: Stuart Clark
-      description_markdown:
-    - event_date: 2018-09-12 00:00:00
-      organiser: Stuart Clark
-      description_markdown:
-    - event_date: 2018-10-10 00:00:00
-      organiser: Stuart Clark
-      description_markdown:
-    - event_date: 2018-11-14 00:00:00
-      organiser: Stuart Clark
-      description_markdown:
-    - event_date: 2018-12-12 00:00:00
-      organiser: Stuart Clark
-      description_markdown:
 - location: Swandean
   name: Swandean site
   description_markdown: 'All drop-in sessions are on the fourth Tuesday of the month from 1:30-2pm.'
@@ -63,11 +63,14 @@
     - event_date: 2018-11-27 00:00:00
       organiser: Lucy Edwards
       description_markdown: Meadowfield meeting room
-    - event_date: 2018-07-02 00:00:00
+    - event_date: 2018-07-03 00:00:00
       organiser: >-
         Hannah Denton and Sarah Pratap alternate a weekly SPFT staff drop-in
         with Michael Swan
       description_markdown: >-
+        **Mill View staff drop-in**
+
+
         **This is a Sussex Partnership staff drop in on the Mill View Hospital
         site, every Tuesday morning.**
 
