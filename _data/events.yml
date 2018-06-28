@@ -82,3 +82,22 @@
 
 
         Duration:&nbsp;**30 mins**
+- location: Mill View Hospital
+  name: Mill View Hospital
+  description_markdown: |-
+    **When:** Tuesdays 8.30 am
+
+    **Where**: Activity room, first floor Millview
+
+    **How long:** 30 mins
+
+    **Who can attend:** It’s for staff so any staff can attend.
+  drop-in:
+    - event_date: 2018-07-03 00:00:00
+      organiser:
+      description_markdown: |-
+        Where, Activity room, first floor millview
+
+        How long, 30 mins
+
+        Who can attend, It’s for staff so any staff can attend.
