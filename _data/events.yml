@@ -88,6 +88,6 @@
 
     **Who can attend:** It’s for staff so any staff can attend.
   drop-in:
-    - event_date: Invalid date
+    - event_date: 
       organiser:
       description_markdown:
