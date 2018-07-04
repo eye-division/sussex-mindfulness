@@ -533,7 +533,7 @@
         master-classes. Well done you guys in the Practice Network!
       image: /assets/images/mike-hales-picture.jpg
 - title:
-  name: The following are also mindfulness advocates
+  name:
   description_markdown:
   staff:
     - name: Helga Dittmar
@@ -558,7 +558,7 @@
       description_markdown:
       image: /assets/images/barbara-vincent-image.jpg
 - title: administrators
-  name: SMC administrators
+  name: SMC administration
   description_markdown:
   staff:
     - name: Caroline Windley
