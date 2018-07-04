@@ -39,7 +39,7 @@
       organiser: Robert Marx and Tamsin Hemingray
       description_markdown:
     - event_date: 2018-11-05 00:00:00
-      organiser: Heather Ball and Lucy Edwards
+      organiser: Heather Ball and Susan Whiting
       description_markdown:
     - event_date: 2018-12-03 00:00:00
       organiser: Susan Whiting and Carolyn Pollak
@@ -88,6 +88,6 @@
 
     **Who can attend:** It’s for staff so any staff can attend.
   drop-in:
-    - event_date: 
+    - event_date:
       organiser:
       description_markdown:
