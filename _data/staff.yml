@@ -506,14 +506,6 @@
   name: Mindfulness Advocates
   description_markdown:
   staff:
-    - name: Helen Leigh-Phippard
-      description_markdown: >-
-        Helen is a former long-term user of SPFT services. She took the Trust's
-        MBCT course several years ago and mindfulness has continued to be an
-        essential and valued part her daily life ever since. Helen currently
-        represents the interests of service users on SPFT's Mindfulness Practice
-        Network.
-      image:
     - name: Mike Hales
       description_markdown: >-
         Diagnosed with recurrent depression, Mike participated in the Trust's
@@ -532,6 +524,14 @@
         body of research in-progress and professional-development
         master-classes. Well done you guys in the Practice Network!
       image: /assets/images/mike-hales-picture.jpg
+    - name: Helen Leigh-Phippard
+      description_markdown: >-
+        Helen is a former long-term user of SPFT services. She took the Trust's
+        MBCT course several years ago and mindfulness has continued to be an
+        essential and valued part her daily life ever since. Helen currently
+        represents the interests of service users on SPFT's Mindfulness Practice
+        Network.
+      image:
 - title:
   name:
   description_markdown:
