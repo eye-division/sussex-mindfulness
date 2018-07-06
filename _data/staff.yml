@@ -410,71 +410,6 @@
         Mindfulness-based Courses (with Distinction) and a Certificate of
         Competence to Teach Mindfulness Based Courses.
       image: /assets/images/nick_diggins.jpg
-    - name: Ed Halliwell
-      description_markdown: >-
-        Ed leads public mindfulness courses, workshops and retreats in Sussex,
-        London and Surrey, and has introduced and taught mindfulness in many
-        organisations. He is the author of *Into The Heart of Mindfulness*, and
-        *Mindfulness: How To Live Well By Paying Attention*, and co-author of
-        *The Mindful Manifesto*. He is also an advisor to and former co-director
-        of The Mindfulness Initiative, which is supporting the All-Party
-        Parliamentary Group on Mindfulness (MAPPG) to develop mindfulness-based
-        policies for the UK. His website is
-        [edhalliwell.com](http://www.edhalliwell.com)
-      image: /assets/images/smc-ed-halliwell.jpeg
-    - name: Nicky Mouat
-      description_markdown: >-
-        Nicky is a Mental Health Nurse and Mindfulness teacher. She works in the
-        NHS at Pavilions Drug and Alcohol Service, where she has been
-        facilitating Mindfulness Based Relapse Prevention courses, and holding a
-        weekly drop in for Service. Users and Staff. She has been teaching MBCT
-        for the Wellbeing Service, and Recovery College in Brighton. She is also
-        part of the Myriad Mindfulness in Schools Research Project, and will be
-        involved in teaching Mindfulness for Life to teachers in Sussex Schools
-        in 2017. She has a particular interest in working with Service Users
-        with ‘Dual Diagnosis’ (Substance Misuse and Mental Health Issues), and
-        the way that Mindfulness can be helpful to this client group.
-      image: /assets/images/smc-nicky-mouat.jpeg
-    - name: Jiva Mashader
-      description_markdown: >-
-        Jiva has an MSc in Mindfulness-Based Cognitive Therapies from Exeter
-        University and has gone through the strict assessment involved in
-        gaining her Certificate of Competence in Teaching Mindfulness Based
-        Approaches from the Centre for Mindfulness Research and Practice at
-        Bangor University. She has taught the 8-week mindfulness course over 80
-        times both to groups and 1-1 and worked with a wide variety of people
-        from all ages and backgrounds.&nbsp;<br>Jiva is also a mindfulness
-        supervisor, both on Exeter University's MSc programme in Mindfulness
-        Based Cognitive Therapies, through the Mindfulness Network CIC and
-        privately. She recently taught for a research trial at Sussex University
-        and is part of the MYRIAD trial at Oxford Centre for Mindfulness, as
-        well as mentoring for Bangor University's Teacher Training
-        Pathway.<br>She has been practising mindfulness since 1997 and has seen
-        herself becoming calmer, happier and more emotionally stable over that
-        time.
-      image: /assets/images/jiva-masheder-pic.jpg
-    - name: Ann Pelling
-      description_markdown: >-
-        Ann is a mindfulness teacher and supervisor and a chartered counselling
-        psychologist. She has been involved in both supporting and facilitating
-        MBCT courses for clients within SPFT since 2006. Ann now works as a
-        associate of the Sussex Mindfulness Centre, providing supervision and
-        teaching 8 week courses for staff and clients.
-      image: /assets/images/ann-pelling.jpg
-    - name: Bethan Roberts
-      description_markdown: >-
-        Bethan is one of the Core Trainers at Bangor University’s Centre for
-        Mindfulness Research and Practice (CMRP) teaching teacher training
-        retreats and offering supervision. She has been teaching 8-week
-        ‘Mindfulness Based Stress Reduction’ (MBSR) courses since 2008 and has
-        taught Mindfulness in a variety of organisations including the NHS, the
-        Welsh Assembly, Families First Projects and the Office for National
-        Statistics. She has also been teaching Mindfulness to distance learners
-        since 2010. Bethan is also a Mental Health First Aid Instructor
-        (approved in 2008) and teaches courses on mental health at Cardiff
-        University as well running training on mental health and unconscious
-        bias for the Civil Service.
-      image: /assets/images/bethan-roberts2-1.jpg
     - name: Robert Foreman
       description_markdown: >-
         Robert trained to teach with Oxford Mindfulness Centre and University of
@@ -498,6 +433,71 @@
         Mindfulness supervisor for the Mindfulness Network. She also has a
         Speech and Language Therapy background.
       image: /assets/images/kate-gooch.jpg
+    - name: Ed Halliwell
+      description_markdown: >-
+        Ed leads public mindfulness courses, workshops and retreats in Sussex,
+        London and Surrey, and has introduced and taught mindfulness in many
+        organisations. He is the author of *Into The Heart of Mindfulness*, and
+        *Mindfulness: How To Live Well By Paying Attention*, and co-author of
+        *The Mindful Manifesto*. He is also an advisor to and former co-director
+        of The Mindfulness Initiative, which is supporting the All-Party
+        Parliamentary Group on Mindfulness (MAPPG) to develop mindfulness-based
+        policies for the UK. His website is
+        [edhalliwell.com](http://www.edhalliwell.com)
+      image: /assets/images/smc-ed-halliwell.jpeg
+    - name: Jiva Mashader
+      description_markdown: >-
+        Jiva has an MSc in Mindfulness-Based Cognitive Therapies from Exeter
+        University and has gone through the strict assessment involved in
+        gaining her Certificate of Competence in Teaching Mindfulness Based
+        Approaches from the Centre for Mindfulness Research and Practice at
+        Bangor University. She has taught the 8-week mindfulness course over 80
+        times both to groups and 1-1 and worked with a wide variety of people
+        from all ages and backgrounds.&nbsp;<br>Jiva is also a mindfulness
+        supervisor, both on Exeter University's MSc programme in Mindfulness
+        Based Cognitive Therapies, through the Mindfulness Network CIC and
+        privately. She recently taught for a research trial at Sussex University
+        and is part of the MYRIAD trial at Oxford Centre for Mindfulness, as
+        well as mentoring for Bangor University's Teacher Training
+        Pathway.<br>She has been practising mindfulness since 1997 and has seen
+        herself becoming calmer, happier and more emotionally stable over that
+        time.
+      image: /assets/images/jiva-masheder-pic.jpg
+    - name: Nicky Mouat
+      description_markdown: >-
+        Nicky is a Mental Health Nurse and Mindfulness teacher. She works in the
+        NHS at Pavilions Drug and Alcohol Service, where she has been
+        facilitating Mindfulness Based Relapse Prevention courses, and holding a
+        weekly drop in for Service. Users and Staff. She has been teaching MBCT
+        for the Wellbeing Service, and Recovery College in Brighton. She is also
+        part of the Myriad Mindfulness in Schools Research Project, and will be
+        involved in teaching Mindfulness for Life to teachers in Sussex Schools
+        in 2017. She has a particular interest in working with Service Users
+        with ‘Dual Diagnosis’ (Substance Misuse and Mental Health Issues), and
+        the way that Mindfulness can be helpful to this client group.
+      image: /assets/images/smc-nicky-mouat.jpeg
+    - name: Ann Pelling
+      description_markdown: >-
+        Ann is a mindfulness teacher and supervisor and a chartered counselling
+        psychologist. She has been involved in both supporting and facilitating
+        MBCT courses for clients within SPFT since 2006. Ann now works as a
+        associate of the Sussex Mindfulness Centre, providing supervision and
+        teaching 8 week courses for staff and clients.
+      image: /assets/images/ann-pelling.jpg
+    - name: Bethan Roberts
+      description_markdown: >-
+        Bethan is one of the Core Trainers at Bangor University’s Centre for
+        Mindfulness Research and Practice (CMRP) teaching teacher training
+        retreats and offering supervision. She has been teaching 8-week
+        ‘Mindfulness Based Stress Reduction’ (MBSR) courses since 2008 and has
+        taught Mindfulness in a variety of organisations including the NHS, the
+        Welsh Assembly, Families First Projects and the Office for National
+        Statistics. She has also been teaching Mindfulness to distance learners
+        since 2010. Bethan is also a Mental Health First Aid Instructor
+        (approved in 2008) and teaches courses on mental health at Cardiff
+        University as well running training on mental health and unconscious
+        bias for the Civil Service.
+      image: /assets/images/bethan-roberts2-1.jpg
 - title: advocates
   name: Mindfulness Advocates
   description_markdown:
