@@ -502,6 +502,21 @@
   name: Mindfulness Advocates
   description_markdown:
   staff:
+    - name: Helga Dittmar
+      description_markdown: >-
+        I see the way I am now, and the way my life is now, as a testament to
+        the transformative and healing power of mindfulness. It is not a path
+        for the faint-hearted if, like me, you come from a particularly dark
+        place. Like the panther in Rilke’s poem, I existed in a cage for many
+        years, behind bars of emotional distress, loneliness, and livelessness.
+        What I learnt in the MBCT courses, the way mindfulness was embodied by
+        the teachers, and my own daily mindfulness practice combined to give me
+        the strength, clarity, and courage, to free myself into a new existence,
+        where there is joy, connectedness with others, and emotional
+        expressiveness. Life will always have its challenges, but I have never
+        felt more alive; in my work, in my relationships, and - maybe above all
+        - in re-finding, sharing, and living, music.
+      image: /assets/images/helga_dittmar_r.jpg
     - name: Mike Hales
       description_markdown: >-
         Diagnosed with recurrent depression, Mike participated in the Trust's
@@ -528,21 +543,6 @@
         represents the interests of service users on SPFT's Mindfulness Practice
         Network.
       image:
-    - name: Helga Dittmar
-      description_markdown: >-
-        I see the way I am now, and the way my life is now, as a testament to
-        the transformative and healing power of mindfulness. It is not a path
-        for the faint-hearted if, like me, you come from a particularly dark
-        place. Like the panther in Rilke’s poem, I existed in a cage for many
-        years, behind bars of emotional distress, loneliness, and livelessness.
-        What I learnt in the MBCT courses, the way mindfulness was embodied by
-        the teachers, and my own daily mindfulness practice combined to give me
-        the strength, clarity, and courage, to free myself into a new existence,
-        where there is joy, connectedness with others, and emotional
-        expressiveness. Life will always have its challenges, but I have never
-        felt more alive; in my work, in my relationships, and - maybe above all
-        - in re-finding, sharing, and living, music.
-      image: /assets/images/helga_dittmar_r.jpg
     - name: Julia Racster-Szostak
       description_markdown:
       image:
