@@ -121,7 +121,7 @@
     //padding-right: 0.5em;
     @include media ($mobile) {
         top: auto;
-        @include span-columns(1);
+        //@include span-columns(1);
         //top: 3em;
     }
     @include media ($tablet) {
