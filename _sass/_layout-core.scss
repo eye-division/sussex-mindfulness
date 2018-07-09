@@ -63,6 +63,11 @@ code {
     padding: 0 3px;
 }
 /* SVG icons */
+/// vertical align SVG icons in the centre
+a svg {
+    display: inline-block;
+    vertical-align: middle;
+}
 .icon {
     display: inline-block;
     width: 30px;
@@ -104,10 +109,13 @@ a:hover .icon__white { /* hover colour */
 .icon-vimeo_square { fill: $vimeo; }
 
 blockquote {
-    padding: 1em 0;
+    padding: 0;
     border-top: 1px solid $primary-color;
     border-bottom: 1px solid $primary-color;
     font-style: italic;
+    @include media ($mobile) {
+        padding: 1em 0;
+    }
     p {
         margin-bottom: 0;
     }
@@ -580,6 +588,26 @@ img {
 .flexslider {
 
 }
+.flexslider--quote {
+   display: none;
+    @include media($mobile) {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-bottom: 0;
+        margin-right: 10px;
+        padding: 10px;
+        background: rgba(41, 57, 117, 0.8);
+        max-width: 30%;
+        color: white;
+    }
+    cite {
+        display: block;
+        text-align: right;
+    }
+}
+
 .notice {
     border: 1px solid $light-gray;
     padding: 10px;

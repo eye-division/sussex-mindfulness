@@ -262,7 +262,7 @@ html[xmlns] .flexslider .slides {
 /* ====================================================================================================================
  * RESPONSIVE
  * ====================================================================================================================*/
-@media screen and (max-width: 860px) {
+@include media($mobile) {
   .flex-direction-nav .flex-prev {
     opacity: 1;
     left: 10px;
@@ -275,12 +275,8 @@ html[xmlns] .flexslider .slides {
 
 /* caption */
 .flex-caption {
-  position: absolute;
-  //width: 100%;
-  left: 0;
-  bottom: 0;
-  margin-bottom: 0;
-  margin-right: 10px;
+
+  display: block;
   padding: 10px;
   background: rgba(41,57,117,0.8);
   color: $white;
@@ -289,6 +285,22 @@ html[xmlns] .flexslider .slides {
     color: $white;
     &:hover {
       text-decoration: none;
+    }
+  }
+  @include media($mobile) {
+
+    position: absolute;
+    //width: 100%;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 0;
+    margin-right: 10px;
+
+    a {
+      color: $white;
+      &:hover {
+        text-decoration: none;
+      }
     }
   }
 }

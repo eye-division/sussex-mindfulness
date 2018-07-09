@@ -74,8 +74,8 @@ ga_tracking_id: "UA-90753631-1"
 social:
   - name: Twitter
     icon: twitter
-    username:
-    url:
+    username: 'SMCmindful_SPFT'
+    url: https://twitter.com/SMCmindful_SPFT
     desc: Follow us on Twitter
     share: true
 

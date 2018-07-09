@@ -27,12 +27,14 @@ carousel:
     link: /about/contact/
   - image: /assets/images/banners/banner-wave.jpg
     caption:
+carousel_quote: I see the way I am now, and the way my life is now, as a testament to the transformative and healing power of mindfulness.
+carousel_quote_author: Helga Dittmar, MBCT course
 ---
 
 <article class="head article__home">
 
-      {% if page.carousel %}
-      <!-- <div class="two-thirds no-gutter"> -->
+{% if page.carousel %}
+
 
         <div class="flexslider">
           <ul class="slides">
@@ -45,21 +47,32 @@ carousel:
               {% if slides.link %}
               </a>
             {% endif %}
+
               {% if slides.caption %}
+
               <p class="flex-caption">{% if slides.link %}<a href="{{ site.baseurl }}{{ slides.link }}" title="View project">{% endif %}{{ slides.caption }}{% if slides.link %}&nbsp;<svg class="icon icon__white icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-double_angle_right" /></svg></a>{% endif %}</p>
+
               {% endif %}
+
+              {% if page.carousel_quote %}
+
+              <blockquote class="flexslider--quote">
+                <p>{{ page.carousel_quote }}
+                {% if page.carousel_quote_author %}
+                <br><cite>{{ page.carousel_quote_author }}</cite>
+                {% endif %}
+                </p>
+              </blockquote>
+
+              {% endif %}
+
+
             </li>
             {% endfor %}
           </ul>
         </div>
 
-      <!-- </div> -->
-      {% endif %}
-
-      <!--
-      <div class="third editable about">
-      -->
-
+ {% endif %}
   </article>
 
 
@@ -67,14 +80,18 @@ carousel:
 
     <div class="half editable">
 
-      <blockquote><p>I see the way I am now, and the way my life is now, as a testament to the transformative and healing power of mindfulness.<br /><cite>Helga Dittmar, MBCT course</cite></p></blockquote>
       <p><img src="{{ site.baseurl }}/assets/shell.png" title="shell icon" class="image--left" /> At <strong>Sussex Mindfulness Centre</strong> we aim to improve wellbeing through mindfulness.  We bring together mindfulness practice, research and training. We do this for the benefit of people with mental or physical health challenges and the wider community. We want to learn more about who and how mindfulness can help. We have heartfelt values: helping those in need, with compassion, based on evidence.   <a href="/what-is-mindfulness/">What is mindfulness?&nbsp;<svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-double_angle_right" /></svg></a></p>
+
+      <div class="flex--twitter">
+          <a class="twitter-timeline" data-height="300" href="https://twitter.com/SMCmindful_SPFT?ref_src=twsrc%5Etfw">Tweets by SMCmindful_SPFT</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+
     </div>
 
   <div class="half event editable">
-    <h3>Watch a new video about the work of Sussex Mindfulness Centre</h3>
+    <h3 class="widget__centred">Watch a new video about the work of Sussex Mindfulness Centre</h3>
     <section class="video-wrapper"><iframe src="https://player.vimeo.com/video/237372809" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></section>
-    <p>This film was commissioned by the <a href="http://www.implementing-mbct.com/">http://www.implementing-mbct.com/</a><a target="new" href="http://aspire.omcmultisite.wpengine.com">ASPIRE Project</a>, led by Prof Willem Kuyken, Director of the Oxford Mindfulness Centre, funded by the National Institute for Health Research (NIHR) and made by Tyson Joseph, Director, and Nikki Nime, Producer, <a href="http://www.storieslikeus.com">Stories Like Us</a>.</p>
+    <p>This film was commissioned by the <a target="new"  href="http://www.implementing-mbct.com/">ASPIRE Project</a>, led by Prof Willem Kuyken, Director of the Oxford Mindfulness Centre, funded by the National Institute for Health Research (NIHR) and made by Tyson Joseph, Director, and Nikki Nime, Producer, <a href="http://www.storieslikeus.com">Stories Like Us</a>.</p>
   </div>
 
  </article>
