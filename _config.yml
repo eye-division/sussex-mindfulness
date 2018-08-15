@@ -15,7 +15,7 @@ description: Mindfulness and compassion with integrity
 # root of your server.
 baseurl: ""
 # the base hostname & protocol for your site
-url: "http://www.sussexmindfulnesscentre.nhs.uk"
+url: "https://www.sussexmindfulnesscentre.nhs.uk"
 logo:
 email: support@eyedivision.com
 
@@ -29,8 +29,8 @@ permalink: pretty
 uploads_dir: "assets/images"
 # Image CDN
 imagecdn:
-  staging: "http://ed-smc-dev.imgix.net"
-  production: "http://ed-smc.imgix.net"
+  staging: "https://ed-smc-dev.imgix.net"
+  production: "https://ed-smc.imgix.net"
 
 # Collections
 #collections:
