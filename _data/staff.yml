@@ -213,17 +213,6 @@
         teaches 8 week mindfulness courses, as well as being involved in the all
         day and drop in events at the Sussex Education Centre.
       image: /assets/images/smc-lucy-edwards.jpeg
-    - name: Sharon Grattan
-      description_markdown: >-
-        Sharon is a UKCP registered psychotherapist and has a long standing
-        interest in the integration of mindfulness and psychological therapy.
-        After training as a counsellor, she trained a psychotherapist, gaining a
-        Masters in a mindfulness-based relational approach. Sharon has worked as
-        a psychotherapeutic counsellor in Sussex Partnership for nearly twelve
-        years and, since training with SMC to teach mindfulness in 2011, has
-        been co-facilitating Mindfulness-based Cognitive Therapy courses in
-        Health in Mind.
-      image:
     - name: Lana Jackson
       description_markdown: >-
         Lana is a Clinical Psychologist, Mindfulness Teacher, and Yoga Therapist
@@ -318,7 +307,9 @@
         mindfulness into this work where it is helpful.
       image:
     - name: Hazel Ragoonanan
-      description_markdown:
+      description_markdown: >-
+        Hazel is a nurse by background and now works as a mindfulness teacher in
+        the Group Treatment Services in Brighton.
       image: /assets/images/smc-hazel-ragoonanan.jpeg
     - name: Miranda Rose
       description_markdown: >-
