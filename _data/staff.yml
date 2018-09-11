@@ -541,9 +541,6 @@
     - name: Julia Racster-Szostak
       description_markdown:
       image:
-    - name: Barbara Vincent
-      description_markdown:
-      image: /assets/images/barbara-vincent-image.jpg
 - title: administrators
   name: SMC administration
   description_markdown:
