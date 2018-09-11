@@ -286,7 +286,11 @@
         the North West Sussex Secondary Care Service.
       image: /assets/images/sue-huggett.jpg
     - name: Brenda Davis
-      description_markdown:
+      description_markdown: >-
+        Brenda is a consultant clinical psychologist and lead for mindfulness in
+        Sussex Partnership CAMHS services.&nbsp; She has developed a new
+        adaptation of MBCT for young people and plays a national role convening
+        mindfulness teachers working with young people.&nbsp;
       image: /assets/images/brenda_davis.jpg
     - name: Hannah Denton
       description_markdown: >-
