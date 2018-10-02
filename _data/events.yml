@@ -23,15 +23,6 @@
     All drop-in sessions are on the first working Monday of the month from 5pm
     to 6pm.
   drop-in:
-    - event_date: 2018-08-13 00:00:00
-      organiser: Heather Ball and Liz Stapleton
-      description_markdown:
-    - event_date: 2018-09-03 00:00:00
-      organiser: Susan Whiting and Robert Marx
-      description_markdown:
-    - event_date: 2018-10-01 00:00:00
-      organiser: Robert Marx and Tamsin Hemingray
-      description_markdown:
     - event_date: 2018-11-05 00:00:00
       organiser: Heather Ball and Susan Whiting
       description_markdown:
