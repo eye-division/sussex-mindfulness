@@ -596,14 +596,15 @@ img {
 .larger {
     font-size: larger;
 }
-.credit {
-    position: absolute;
-    right: 0;
-    bottom: -1em;
-}
+
 // to media file
 .image--featured {
     position: relative;
+    .credit {
+        position: absolute;
+        right: 0;
+        bottom: -1em;
+    }
 }
 /*
  * Sidebar - aside
