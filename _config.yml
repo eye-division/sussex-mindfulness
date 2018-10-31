@@ -1,9 +1,6 @@
-# External gems
-gems:
-  - jekyll-sitemap
-
-exclude:
-  - "/vendor/"
+plugins:
+   - jekyll-seo-tag
+   - jekyll-sitemap
 
 # Site settings
 title: Sussex Mindfulness Centre
@@ -21,10 +18,11 @@ email: support@eyedivision.com
 
 # Build settings
 markdown: kramdown
-paginate: 5
-paginate_path: "/page:num/"
-inter_post_navigation: false
+#paginate: 5
+#paginate_path: "/page:num/"
+#inter_post_navigation: false
 permalink: pretty
+highlightjs_theme: "monokai-sublime"
 
 uploads_dir: "assets/images"
 # Image CDN
