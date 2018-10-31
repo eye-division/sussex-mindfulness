@@ -1,9 +1,6 @@
-# External gems
-gems:
-  - jekyll-sitemap
-
-exclude:
-  - "/vendor/"
+plugins:
+   - jekyll-seo-tag
+   - jekyll-sitemap
 
 # Site settings
 title: Sussex Mindfulness Centre
@@ -15,22 +12,23 @@ description: Mindfulness and compassion with integrity
 # root of your server.
 baseurl: ""
 # the base hostname & protocol for your site
-url: "http://www.sussexmindfulnesscentre.nhs.uk"
+url: "https://www.sussexmindfulnesscentre.nhs.uk"
 logo:
 email: support@eyedivision.com
 
 # Build settings
 markdown: kramdown
-paginate: 5
-paginate_path: "/page:num/"
-inter_post_navigation: false
+#paginate: 5
+#paginate_path: "/page:num/"
+#inter_post_navigation: false
 permalink: pretty
+highlightjs_theme: "monokai-sublime"
 
 uploads_dir: "assets/images"
 # Image CDN
 imagecdn:
-  staging: "http://ed-smc-dev.imgix.net"
-  production: "http://ed-smc.imgix.net"
+  staging: "https://ed-smc-dev.imgix.net"
+  production: "https://ed-smc.imgix.net"
 
 # Collections
 #collections:
