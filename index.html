@@ -1,32 +1,47 @@
 ---
 layout: home
 carousel:
-  - image: /assets/images/banners/banner-barnacles.jpg
+  - image: /assets/images/banners/banner-research.jpg
     caption: Research
+    credit: 'Photo by <a href="https://www.shutterstock.com/g/lanceb" target="new">Lance Bellers</a>'
     link: /research/
-  - image: /assets/images/banners/banner-outatsea.jpg
+    style: bg--research
+  - image: /assets/images/banners/banner-practice.jpg
     caption: Practice and governance
     link: /practice-and-governance/
-  - image: /assets/images/banners/banner-sea.jpg
+    credit: 'Photo by <a href="https://www.shutterstock.com/g/lanceb" target="new">Lance Bellers</a>'
+    style: bg--practice
+  - image: /assets/images/banners/banner-train.jpg
     caption: Train to teach mindfulness
     link: /train-to-teach-mindfulness/
-  - image: /assets/images/banners/banner-mosstuft.jpg
+    credit: 'Photo by <a href="https://www.shutterstock.com/g/lanceb" target="new">Lance Bellers</a>'
+    style: bg--train
+  - image: /assets/images/banners/banner-work.jpg
     caption: Our work with other organisations
     link: /our-work-with-other-organisations/
-  - image: /assets/images/banners/banner-mosswall.jpg
+    credit: 'Photo by <a href="https://www.shutterstock.com/g/lanceb" target="new">Lance Bellers</a>'
+    style: bg--outreach
+  - image: /assets/images/banners/banner-events.jpg
     caption: Events at the SMC
     link: /events/
-  - image: /assets/images/banners/banner-rottingdean.jpg
+    credit: 'Photo by <a href="https://www.shutterstock.com/g/lanceb" target="new">Lance Bellers</a>'
+    style: bg--event
+  - image: /assets/images/banners/banner-about.jpg
     caption: Find out more about the SMC
     link: /about/
+    credit: 'Photo by <a href="https://www.flickr.com/photos/lunaman/" target="new">Alun Ward</a>'
+    style: bg--about
   - image: /assets/images/banners/banner-sand-footprint.jpg
-    caption: What is mindfulness
+    caption: What is mindfulness?
     link: /what-is-mindfulness/
-  - image: /assets/images/banners/banner-seapink.jpg
+    credit: 'Photo by <a href="https://www.flickr.com/photos/lunaman/" target="new">Alun Ward</a>'
+    style: bg--about
+  - image: /assets/images/banners/banner-contact.jpg
     caption: Contact us
     link: /about/contact/
-  - image: /assets/images/banners/banner-wave.jpg
-    caption:
+    credit: 'Photo by <a href="https://www.flickr.com/photos/lunaman/" target="new">Alun Ward</a>'
+    style: bg--contact
+
 carousel_quote: I see the way I am now, and the way my life is now, as a testament to the transformative and healing power of mindfulness.
 carousel_quote_author: Helga Dittmar, MBCT course
 ---
@@ -43,28 +58,34 @@ carousel_quote_author: Helga Dittmar, MBCT course
               {% if slides.link %}
               <a href="{{ site.baseurl }}{{ slides.link }}" title="View project">
               {% endif %}
-              {% include img.html src=slides.image width=960 height=508 %}
+              {% include img.html src=slides.image width=1200 height=454 %}
               {% if slides.link %}
               </a>
             {% endif %}
 
-              {% if slides.caption %}
+            {% if slides.caption %}
 
-              <p class="flex-caption">{% if slides.link %}<a href="{{ site.baseurl }}{{ slides.link }}" title="View project">{% endif %}{{ slides.caption }}{% if slides.link %}&nbsp;<svg class="icon icon__white icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-double_angle_right" /></svg></a>{% endif %}</p>
+            <p class="flex-caption {{ slides.style }}">
 
+              {% if slides.link %}<a href="{{ site.baseurl }}{{ slides.link }}" title="View  {{ slides.caption }}" class="larger">{% endif %}{{ slides.caption }}{% if slides.link %}&nbsp;<svg class="icon icon__white"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-double_angle_right" /></svg></a>{% endif %}
+              {% if slides.credit %}
+              <br><span class="smaller credit">{{ slides.credit }}</span>
               {% endif %}
+            </p>
 
-              {% if page.carousel_quote %}
+            {% endif %}
 
-              <blockquote class="flexslider--quote">
-                <p>{{ page.carousel_quote }}
-                {% if page.carousel_quote_author %}
-                <br /><cite>{{ page.carousel_quote_author }}</cite>
-                {% endif %}
-                </p>
-              </blockquote>
+            {% if page.carousel_quote %}
 
+            <blockquote class="flexslider--quote">
+              <p>{{ page.carousel_quote }}
+              {% if page.carousel_quote_author %}
+              <br /><cite>{{ page.carousel_quote_author }}</cite>
               {% endif %}
+              </p>
+            </blockquote>
+
+            {% endif %}
 
 
             </li>
@@ -89,8 +110,9 @@ carousel_quote_author: Helga Dittmar, MBCT course
     </div>
 
   <div class="half event editable">
-    <h3 class="widget__centred">Watch a new video about the work of Sussex Mindfulness Centre</h3>
+
     <section class="video-wrapper"><iframe src="https://player.vimeo.com/video/237372809" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></section>
+    <h3 class="widget__centred">Watch a new video about the work of Sussex Mindfulness Centre</h3>
     <p>This film was commissioned by the <a target="new" href="http://www.implementing-mbct.com/">ASPIRE Project</a>, led by Prof Willem Kuyken, Director of the Oxford Mindfulness Centre, funded by the National Institute for Health Research (NIHR) and made by Tyson Joseph, Director, and Nikki Nime, Producer, <a href="http://www.storieslikeus.com">Stories Like Us</a>.</p>
   </div>
 

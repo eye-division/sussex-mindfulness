@@ -33,7 +33,7 @@ event:
     description_markdown: Buddhist foundations of mindfulness
     booking_url: >-
       https://www.eventbrite.co.uk/e/buddhist-foundations-of-mindfulness-tickets-38531478690
-    flyer_path: >-
+    flyer_path:
       /assets/images/christina-feldman-buddhist-foundations-of-mindfulness-200919-flyer.doc
 ---
 
@@ -57,7 +57,7 @@ event:
     	{% if events.organiser %}<p><strong>{{ events.organiser }}</strong></p>{% endif %}
       {% if events.description_markdown %}<p>{{ events.description_markdown | markdownify }}</p>{% endif %}
 
-      {% if events.flyer_path:  %}<p>Download flyer: <a href="{{ events.flyer_path:  }}"><svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download_alt" /></svg></a></p>{% endif %}
+      {% if events.flyer_path  %}<p>Download flyer: <a href="{{ events.flyer_path }}"><svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download_alt" /></svg></a></p>{% endif %}
     </li>
     {% endfor %}
 

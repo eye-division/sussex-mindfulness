@@ -95,8 +95,8 @@ event:
       [Complete booking form](/booking form_2 day core skills MSC_Germer and
       Hope_Nov2019.pdf){: target="_blank"}
     booking_url:
-    flyer_path: >-
-      /assets/images/msc-flyer-22-and-23-nov-2018-chrisgermer-and-vanessa-hope.pdf
+    flyer_path:
+        /assets/images/msc-flyer-22-and-23-nov-2018-chrisgermer-and-vanessa-hope.pdf
   - datetext:
     organiser:
     description_markdown:
@@ -122,7 +122,7 @@ event:
     	{% if events.organiser %}<p><strong>{{ events.organiser }}</strong></p>{% endif %}
       {% if events.description_markdown %}<p>{{ events.description_markdown | markdownify }}</p>{% endif %}
 
-      {% if events.flyer_path:  %}<p>Download flyer: <a href="{{ events.flyer_path:  }}"><svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download_alt" /></svg></a></p>{% endif %}
+      {% if events.flyer_path  %}<p>Download flyer: <a href="{{ events.flyer_path }}"><svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download_alt" /></svg></a></p>{% endif %}
     </li>
     {% endfor %}
 

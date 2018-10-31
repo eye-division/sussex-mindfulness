@@ -1,10 +1,12 @@
+// 3. Vendors
+@import 'vendor/flexslider';
+@import 'vendor-extensions/flexslider';
 
 @import
     "better-bourbon-buttons/bbb",
      "layout-core",
-     "layout-nav",
-	   "flexslider"
-
-
-   //"layout-projects"
+     "layout-nav"
 ;
+
+// 5. Components
+@import 'components/svg';

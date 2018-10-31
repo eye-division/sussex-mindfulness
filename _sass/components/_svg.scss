@@ -1,0 +1,56 @@
+// -----------------------------------------------------------------------------
+// This file contains styles for SVG icons
+// -----------------------------------------------------------------------------
+/* SVG icons */
+/// vertical align SVG icons in the centre
+a svg {
+    display: inline-block;
+    vertical-align: middle;
+}
+.icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+a:hover .icon { /* hover colour */
+    fill: darken($secondary-color,20%);
+}
+a:hover .icon__white { /* hover colour */
+    fill: $highlight-color;
+}
+.icon--readmore {
+    fill: $tertiary-color;
+    margin-bottom: -5px;
+    width: 20px;
+    height: 20px;
+}
+.icon--post {
+    fill: $action-color;
+    margin-bottom: -5px;
+    width: 20px;
+    height: 20px;
+}
+.icon--inactive {
+    fill: $medium-gray;
+}
+.icon--logo {
+    fill: $secondary-color;
+    width: 40px;
+    height: 40px;
+}
+.icon__white {
+    fill: $white;
+}
+.icon-facebook_sign { fill: $facebook; }
+.icon-twitter_sign { fill: $twitter; }
+.icon-youtube { fill: $youtube; }
+.icon-soundcloud { fill: $soundcloud; }
+.icon-vimeo_square { fill: $vimeo; }
+
+
+.icon--light {
+    fill: $white;
+}
+a:hover .icon--light { /// hover colour
+    fill: shade($white, 20%);
+}

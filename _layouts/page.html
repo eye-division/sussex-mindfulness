@@ -10,9 +10,14 @@ layout: default
 	</div>
 
 	{% if page.main_image_path %}
-    <div>
+
+    <div class="image--featured">
 
       {% include img.html src=page.main_image_path width=1200 alt=page.main_image_description %}
+
+      {% if page.main_image_credit %}
+        <br><span class="smaller credit">{{ page.main_image_credit }}</span>
+      {% endif %}
 
     </div>
 

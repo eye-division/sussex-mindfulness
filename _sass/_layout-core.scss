@@ -62,51 +62,6 @@ code {
     border-radius: 3px;
     padding: 0 3px;
 }
-/* SVG icons */
-/// vertical align SVG icons in the centre
-a svg {
-    display: inline-block;
-    vertical-align: middle;
-}
-.icon {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-}
-a:hover .icon { /* hover colour */
-    fill: darken($secondary-color,20%);
-}
-a:hover .icon__white { /* hover colour */
-    fill: $highlight-color;
-}
-.icon--readmore {
-    fill: $tertiary-color;
-    margin-bottom: -5px;
-    width: 20px;
-    height: 20px;
-}
-.icon--post {
-    fill: $action-color;
-    margin-bottom: -5px;
-    width: 20px;
-    height: 20px;
-}
-.icon--inactive {
-    fill: $medium-gray;
-}
-.icon--logo {
-    fill: $secondary-color;
-    width: 40px;
-    height: 40px;
-}
-.icon__white {
-    fill: $white;
-}
-.icon-facebook_sign { fill: $facebook; }
-.icon-twitter_sign { fill: $twitter; }
-.icon-youtube { fill: $youtube; }
-.icon-soundcloud { fill: $soundcloud; }
-.icon-vimeo_square { fill: $vimeo; }
 
 blockquote {
     padding: 0;
@@ -556,6 +511,29 @@ img {
         border: 1px solid $dark-gray;
     }
 }
+
+.bg--about {
+    background-color: transparentize($tertiary-color,0.1);
+}
+.bg--event {
+    background-color: transparentize($primary-color,0.1);
+}
+.bg--train {
+    background-color: transparentize($training,0.1);
+}
+.bg--practice {
+    background-color: transparentize($practice,0.1);
+}
+.bg-outreach {
+    background-color: transparentize($primary-color,0.1);
+}
+.bg--research {
+    background-color: transparentize($research,0.1);
+}
+.bg--contact {
+    background-color: transparentize($tertiary-color,0.1);
+}
+
 /*
  * video embed
  */
@@ -585,9 +563,7 @@ img {
 .breadcrumb__sep {
     color: $medium-gray;
 }
-.flexslider {
 
-}
 .flexslider--quote {
    display: none;
     @include media($mobile) {
@@ -612,6 +588,22 @@ img {
     border: 1px solid $light-gray;
     padding: 10px;
     margin: 1rem;
+}
+// typography
+.smaller {
+    font-size: smaller;
+}
+.larger {
+    font-size: larger;
+}
+.credit {
+    position: absolute;
+    right: 0;
+    bottom: -1em;
+}
+// to media file
+.image--featured {
+    position: relative;
 }
 /*
  * Sidebar - aside
