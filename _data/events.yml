@@ -2,15 +2,6 @@
   name: 'Arun House  (16 Liverpool Gardens, Worthing - room 1)'
   description_markdown: 'All drop-in sessions are on the second Wednesday of the month from 1:30-2pm.'
   drop-in:
-    - event_date: 2018-08-08 00:00:00
-      organiser: Stuart Clark
-      description_markdown:
-    - event_date: 2018-09-12 00:00:00
-      organiser: Stuart Clark
-      description_markdown:
-    - event_date: 2018-10-10 00:00:00
-      organiser: Stuart Clark
-      description_markdown:
     - event_date: 2018-11-14 00:00:00
       organiser: Stuart Clark
       description_markdown:
