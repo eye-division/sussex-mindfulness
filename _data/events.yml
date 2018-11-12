@@ -23,9 +23,6 @@
     All drop-in sessions are on the first working Monday of the month from 5pm
     to 6pm.
   drop-in:
-    - event_date: 2018-11-05 00:00:00
-      organiser: Heather Ball and Susan Whiting
-      description_markdown:
     - event_date: 2018-12-03 00:00:00
       organiser: Susan Whiting and Carolyn Pollak
       description_markdown:
