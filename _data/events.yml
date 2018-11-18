@@ -2,11 +2,14 @@
   name: 'Arun House  (16 Liverpool Gardens, Worthing - room 1)'
   description_markdown: 'All drop-in sessions are on the second Wednesday of the month from 1:30-2pm.'
   drop-in:
-    - event_date: 2018-11-14 00:00:00
-      organiser: Stuart Clark
-      description_markdown:
     - event_date: 2018-12-12 00:00:00
       organiser: Stuart Clark
+      description_markdown:
+    - event_date: 2019-01-09 00:00:00
+      organiser: Stuart Clark
+      description_markdown:
+    - event_date: 2019-01-09 00:00:00
+      organiser:
       description_markdown:
 - location: Hove
   name: 'Sussex Education Centre, Hove'
