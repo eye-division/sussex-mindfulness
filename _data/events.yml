@@ -1,5 +1,5 @@
-- location: Arundel
-  name: 'Staff Drop-in: Arun House  (16 Liverpool Gardens, Worthing - room 1)'
+- location: Arundel staff drop-in
+  name: 'Arun House  (16 Liverpool Gardens, Worthing - room 1)'
   description_markdown: 'All drop-in sessions are on the second Wednesday of the month from 1:30-2pm.'
   drop-in:
     - event_date: 2018-12-12 00:00:00
@@ -60,7 +60,7 @@
     - event_date: 2018-12-03 00:00:00
       organiser: Susan Whiting and Carolyn Pollak
       description_markdown:
-- location: 'Staff drop- in: Swandean'
+- location: Swandean staff drop-in
   name: Swandean site
   description_markdown: >-
     All drop-in sessions are on the fourth Tuesday of the month from
@@ -87,7 +87,7 @@
     - event_date: 2019-06-25 00:00:00
       organiser: Lucy Edwards
       description_markdown: Meadowfield conference room
-- location: Mill View Hospital
+- location: Mill View Hospital staff drop-in
   name: Mill View Hospital
   description_markdown: >-
     Mill View staff drop-in
