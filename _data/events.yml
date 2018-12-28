@@ -66,6 +66,9 @@
     - event_date: 2019-04-01 00:00:00
       organiser: Hannah Denton and Helen Igo
       description_markdown:
+    - event_date: 2019-05-13 00:00:00
+      organiser: Susan Whiting and Liz Stapleton
+      description_markdown:
 - location: Swandean staff drop-in
   name: Swandean site
   description_markdown: >-
