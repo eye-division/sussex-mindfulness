@@ -60,6 +60,9 @@
     - event_date: 2019-02-04 00:00:00
       organiser: Lucy Edwards and Robert Marx
       description_markdown:
+    - event_date: 2019-03-04 00:00:00
+      organiser: Heather Ball and Robert Marx
+      description_markdown:
 - location: Swandean staff drop-in
   name: Swandean site
   description_markdown: >-
