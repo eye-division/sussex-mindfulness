@@ -1,5 +1,5 @@
 - location: Arundel staff drop-in
-  name: 'Arun House  (16 Liverpool Gardens, Worthing - room 1)'
+  name: 'Arundel staff drop-in Arun House  (16 Liverpool Gardens, Worthing - room 1)'
   description_markdown: 'All drop-in sessions are on the second Wednesday of the month from 1:30-2pm.'
   drop-in:
     - event_date: 2019-01-09 00:00:00
@@ -27,32 +27,7 @@
     Sussex Education Centre drop ins are held on Mondays 5-6pm
 
 
-    7th Jan 2019&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    Hannah Denton and Susan Whiting
-
-
-    4th Feb &nbsp;2019&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp;Lucy Edwards and Robert Marx
-
-
-    4th March 2019&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Heather Ball
-    and Robert Marx
-
-
-    1st April 2019&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    Hannah Denton and Helen Igo
-
-
-    13th May 2019&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Susan
-    Whiting and Liz Stapleton
-
-
-    3rd June 2019&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp;Heather Ball and Helen Igo
-
-
-    1st July 2019&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp;Lucy Edwards and Tamsin Bishton
+    &nbsp;
   drop-in:
     - event_date: 2019-01-07 00:00:00
       organiser: Hannah Denton and Susan Whiting
@@ -76,7 +51,7 @@
       organiser: Lucy Edwards and Tamsin Bishton
       description_markdown:
 - location: Swandean staff drop-in
-  name: Swandean site
+  name: Swandean staff drop-in Swandean site
   description_markdown: >-
     All drop-in sessions are on the fourth Tuesday of the month from
     1:30-2pm.&nbsp;
@@ -100,7 +75,7 @@
       organiser: Lucy Edwards
       description_markdown: Meadowfield conference room
 - location: Mill View Hospital staff drop-in
-  name: Mill View Hospital
+  name: Mill View Hospital staff drop-in
   description_markdown: >-
     Mill View staff drop-in
 
@@ -127,10 +102,10 @@
     - event_date:
       organiser:
 - location: 'East Brighton CMHT, Brighton General Hospital: staff drop-in'
-  name: Group room 1
+  name: 'Brighton General Hospital: staff drop-in'
   description_markdown: >-
     This is a Sussex Partnership staff drop in on the Brighton General Hospital
-    site, every Thursday morning.
+    site, every Thursday morning. (in Group Room 1)
 
 
     Hazel Ragoonanan, Susan Whiting, Helen Igo, Rhianon Hale and Robert Marx run
