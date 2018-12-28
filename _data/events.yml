@@ -114,3 +114,27 @@
   drop-in:
     - event_date:
       organiser:
+- location: 'East Brighton CMHT, Brighton General Hospital: staff drop-in'
+  name: Group room 1
+  description_markdown: >-
+    This is a Sussex Partnership staff drop in on the Brighton General Hospital
+    site, every Thursday morning.
+
+
+    Hazel Ragoonanan, Susan Whiting, Helen Igo, Rhianon Hale and Robert Marx run
+    a weekly SPFT staff drop-in.
+
+
+    When: Thursdays 8.30 am
+
+
+    Where: Group room 1
+
+
+    Duration: 30 mins
+
+
+    Who can attend: Sussex Partnership staff
+  drop-in:
+    - event_date:
+      organiser:
