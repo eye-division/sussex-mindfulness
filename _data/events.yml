@@ -29,9 +29,6 @@
 
     &nbsp;
   drop-in:
-    - event_date: 2019-01-07 00:00:00
-      organiser: Hannah Denton and Susan Whiting
-      description_markdown:
     - event_date: 2019-02-04 00:00:00
       organiser: Lucy Edwards and Robert Marx
       description_markdown:
