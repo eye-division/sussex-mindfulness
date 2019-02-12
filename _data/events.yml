@@ -69,9 +69,9 @@
     - event_date: 2019-07-23 00:00:00
       organiser: Lucy Edwards and Stuart Clark
       description_markdown: Meadowfield Conference Room
-    - event_date: 2019-06-25 00:00:00
-      organiser:
-      description_markdown:
+    - event_date: 2019-08-27 00:00:00
+      organiser: Lucy Edwards and Stuart Clark
+      description_markdown: Meadowfield Confererence Room
 - location: Mill View Hospital staff drop-in
   name: Mill View Hospital staff drop-in
   description_markdown: >-
