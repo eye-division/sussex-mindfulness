@@ -2,8 +2,8 @@
   name:
   description_markdown:
   drop-in:
-    - event_date: 2019-05-08 00:00:00
-      organiser: Sturart Clark
+    - event_date: Invalid date
+      organiser:
       description_markdown:
 - location: Hove
   name: 'Sussex Education Centre, Hove'
