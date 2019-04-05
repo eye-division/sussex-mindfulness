@@ -1,0 +1,68 @@
+---
+layout: page
+title: Regional mindfulness teachers meetings
+main_image_path:
+main_nav: false
+style: events
+sidebar: events-sidebar.html
+event:
+  - datetext: Thursday 30th May 6pm - 8pm
+    organiser:
+    description_markdown:
+    booking_url:
+    flyer_path:
+  - datetext: Wednesday 24th July 6pm - 8pm
+    organiser:
+    description_markdown:
+    booking_url:
+    flyer_path:
+  - datetext: Tuesday 24th September 6pm - 8pm
+    organiser:
+    description_markdown:
+    booking_url:
+    flyer_path:
+  - datetext: Thursday 28th November 6pm - 8pm
+    organiser:
+    description_markdown:
+    booking_url:
+    flyer_path:
+---
+
+<section class="main-content with-sidebar">
+
+<div class="intro editable">
+  <p>This is a gathering for mindfulness teachers and practitioners in Sussex that happens every other month. The purpose of the gathering is to hold a space for mindfulness teachers to practice together, share experience and just be. The format of the session is very open - some sessions are themed, other sessions are just open spaces for practice together. You do not have to be teaching mindfulness for Sussex Partnership NHS Foundation Trust or in a clinical setting to join this gathering - all teachers working in Sussex are welcome. Trainee teachers are also very welcome..</p>
+</div>
+<div class="editable">
+
+  <p>Gatherings begin at 6pm with a check-in and longer practice. It's fine to join a little later if 6pm is too early. Just come in and get settled. Some cushions and mats will be available but feel free to bring your own.</p>
+  <p>The gathering is hosted at Sussex Education Centre, Nevill Avenue, Hove, BN3 7HZ (on the Mill View Hospital and Hove Polyclinic site), 6pm - 8pm.</p>
+
+</div>
+<div>
+{% if page.event %}
+<ul class="nolist">
+  {% for events in page.event %}
+    <li>
+      {% if events.datetext %}<h3>{{ events.datetext }}</h3>{% endif %}
+      {% if events.organiser %}<p><strong>{{ events.organiser }}</strong></p>{% endif %}
+      {% if events.description_markdown %}<p>{{ events.description_markdown | markdownify }}</p>{% endif %}
+
+      {% if events.flyer_path  %}<p>Download flyer: <a href="{{ events.flyer_path }}"><svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download_alt" /></svg></a></p>{% endif %}
+    </li>
+    {% endfor %}
+
+    </ul>
+{% endif %}
+</div>
+
+<div class="editable">
+  <p>To stay up to date on gatherings please <a href="http://eepurl.com/dwYunb">sign up to the mailing list</a></p>
+  <p>We're always keen to hear from teachers who are interested in hosting a gathering or would like to focus on a particular theme. Contact Robert Marx or gatherings administrator Tamsin Bishton (<a href="mailto:tamsinbishton@gmail.com">tamsinbishton@gmail.com</a>) for more information.</p>
+</div>
+
+</section>
+
+<aside class="sidebar">
+  {% include {{ page.sidebar }} %}
+</aside>
