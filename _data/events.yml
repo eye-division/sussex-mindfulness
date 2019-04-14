@@ -136,6 +136,12 @@
   drop-in:
     - event_date:
       organiser:
+- location:
+  name:
+  description_markdown:
+  drop-in:
+    - event_date:
+      organiser:
 - location: '18 Preston Park Avenue, BN1 6HL'
   name: Southdown drop in
   description_markdown: >-
