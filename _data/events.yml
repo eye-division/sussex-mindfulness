@@ -129,3 +129,23 @@
   drop-in:
     - event_date:
       organiser:
+- location: '18 Preston Park Avenue, BN1 6HL'
+  name: Southdown drop in
+  description_markdown: >-
+    These drop ins are for staff and current/recent service users who have
+    completed the 8-week course.
+
+
+    The drop ins will be led by Nicky Mouat, Abbie Mead and Tamsin Bishton.
+
+
+    For more information, please contact 01273 565 049.
+
+
+    &nbsp;
+
+
+    &nbsp;
+  drop-in:
+    - event_date:
+      organiser:
