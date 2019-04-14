@@ -29,6 +29,33 @@
     - event_date: 2019-07-01 00:00:00
       organiser: Lucy Edwards and Tamsin Bishton
       description_markdown:
+- location: '18 Preston Park Avenue, BN1 6HL'
+  name: Southdown drop in
+  description_markdown: >-
+    South Down drop ins are held:
+
+
+    on the **3rd Tuesday** of the month<br>**6-7pm**<br>**18 Preston Park
+    Avenue, BN1 6HL**.
+
+
+    These drop ins are for staff and current/recent service users who have
+    completed an 8-week MBCT course.
+
+
+    The drop ins will be led by Nicky Mouat, Abbie Mead and Tamsin Bishton.
+
+
+    For more information, please contact **01273 565 049**.
+
+
+    &nbsp;
+
+
+    &nbsp;
+  drop-in:
+    - event_date:
+      organiser:
 - location: Swandean staff drop-in
   name: Swandean staff drop-in Swandean site
   description_markdown: >-
@@ -139,33 +166,6 @@
 - location:
   name:
   description_markdown:
-  drop-in:
-    - event_date:
-      organiser:
-- location: '18 Preston Park Avenue, BN1 6HL'
-  name: Southdown drop in
-  description_markdown: >-
-    South Down drop ins are held:
-
-
-    on the **3rd Tuesday** of the month<br>**6-7pm**<br>**18 Preston Park
-    Avenue, BN1 6HL**.
-
-
-    These drop ins are for staff and current/recent service users who have
-    completed an 8-week MBCT course.
-
-
-    The drop ins will be led by Nicky Mouat, Abbie Mead and Tamsin Bishton.
-
-
-    For more information, please contact **01273 565 049**.
-
-
-    &nbsp;
-
-
-    &nbsp;
   drop-in:
     - event_date:
       organiser:
