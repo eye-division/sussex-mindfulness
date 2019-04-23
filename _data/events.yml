@@ -68,6 +68,8 @@
   drop-in:
     - event_date: 2019-05-21 00:00:00
       organiser:
+    - event_date: 2019-06-18 00:00:00
+      organiser:
 - location: Swandean staff drop-in
   name: Swandean staff drop-in
   description_markdown: >-
