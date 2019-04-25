@@ -130,3 +130,18 @@
       description: Short Grounding Practice
     - audio_path: 'https://www.dropbox.com/s/i7hd2jvn65v22lb/sounds-practice-nicky.mp3?dl=0'
       description: Sounds Practice
+- course: Four-session LiveMind Mindfulness course
+  description_markdown:
+  audio:
+    - audio_path: >-
+        https://www.dropbox.com/s/lw0ijszlb8g5sm5/1.%20mindfulness%20of%20body%20and%20breath.mp3?dl=0
+      description: 1. Mindfulness of body and breath
+    - audio_path: >-
+        https://www.dropbox.com/s/vxnidtz1t0qkvls/2.%20mindful%20walking.mp3?dl=0
+      description: 2. Mindful walking
+    - audio_path: >-
+        https://www.dropbox.com/s/jj1v8y3lyz7iyls/3.%20mindfulness%20of%20sounds%20and%20thoughts.mp3?dl=0
+      description: 3. Mindfulness of sounds and thoughts
+    - audio_path: >-
+        https://www.dropbox.com/s/ibc70opy14u8jfz/4.%20breathing%20space.mp3?dl=0
+      description: 4. Breathing space
