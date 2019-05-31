@@ -17,9 +17,6 @@
 
     &nbsp;
   drop-in:
-    - event_date: 2019-05-13 00:00:00
-      organiser: Susan Whiting and Liz Stapleton
-      description_markdown:
     - event_date: 2019-06-03 00:00:00
       organiser: Heather Ball and Helen Igo
       description_markdown:
@@ -33,7 +30,7 @@
       organiser: Robert Marx and Hannah Shutt
       description_markdown:
     - event_date: 2019-10-07 00:00:00
-      organiser: Susan Whiting and Hannah Sale
+      organiser: Heather Ball and Hannah Sale
       description_markdown:
     - event_date: 2019-11-04 00:00:00
       organiser: Helen Igo and Tamsin Hemingray
