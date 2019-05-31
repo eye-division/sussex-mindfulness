@@ -93,11 +93,8 @@
     - event_date: 2019-06-25 00:00:00
       organiser: Lucy Edwards
       description_markdown: Meadowfield conference room
-    - event_date: 2019-05-08 00:00:00
-      organiser: Lucy Edwards and Stuart Clark
-      description_markdown: Meadowfield Conference Room
     - event_date: 2019-07-23 00:00:00
-      organiser: Lucy Edwards and Stuart Clark
+      organiser: Lucy Edwards
       description_markdown: Meadowfield Conference Room
     - event_date: 2019-08-27 00:00:00
       organiser: Lucy Edwards and Stuart Clark
