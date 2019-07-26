@@ -255,6 +255,14 @@
         Lana also runs staff MBCT courses, mindfulness workshops, and training
         for professionals working with children, young people and families.
       image: /assets/images/lana_jackson.jpg
+    - name: Ruth Kendall
+      description_markdown: >-
+        Ruth trained at the Sussex Mindfulness Centre in 2017 after recognising
+        the benefits of mindfulness on a personal level, as well as for the
+        young people, parents, and staff she worked with. Ruth is keen to
+        develop mindfulness workshops and groups for parents in Paediatrics and
+        has a growing interest in trauma and the body.<br>&nbsp;
+      image: /assets/images/Ruth Kendall.jpg
     - name: Lynn Ley
       description_markdown: >-
         Lynn has been facilitating Mindfulness Based Cognitive Therapy Groups
@@ -304,20 +312,6 @@
         Wellbeing Service. As part of her role within this service she regularly
         co facilitates mindfulness based cognitive therapy (MBCT) courses.
       image: /assets/images/jo-rockwood-pic2.jpg
-    - name: Jo Chittenden
-      description_markdown: >-
-        Jo works as an Occupational Therapist in the Sussex Partnership’s low
-        secure forensic inpatient service in Chichester.&nbsp; She is a
-        passionate advocate for developing new models of patient care and
-        trained as an occupational therapist in part so she could offer
-        Mindfulness within the health service.&nbsp; Jo has a committed practice
-        of 25 years and has trained with a number of teachers worldwide.&nbsp;
-        Jo offers drop in Mindfulness sessions to staff and patients in the
-        secure service and is working towards a model that better suits forensic
-        inpatients.&nbsp; Jo also offers regular MBSR/CT courses to staff at the
-        Office of National Statistics and supports individuals in their
-        practice.
-      image: /assets/images/Jo Chittendon1.jpg
     - name: Miranda Rose
       description_markdown: >-
         Miranda is a clinical nurse specialist and team leader in CAMHS, East
@@ -361,14 +355,6 @@
         Consultant Clinical Psychologist and has a lead role within Psychology
         and Psychological Therapy community adult mental health services.
       image: /assets/images/susan_whiting.jpg
-    - name: Ruth Kendall
-      description_markdown: >-
-        Ruth trained at the Sussex Mindfulness Centre in 2017 after recognising
-        the benefits of mindfulness on a personal level, as well as for the
-        young people, parents, and staff she worked with. Ruth is keen to
-        develop mindfulness workshops and groups for parents in Paediatrics and
-        has a growing interest in trauma and the body.<br>&nbsp;
-      image: /assets/images/Ruth Kendall.jpg
 - title: alsoemployedmbi
   name: >-
     The following are Sussex Partnership employed Mindfulness-based
@@ -495,6 +481,16 @@
         inpatients.&nbsp; Jo also offers regular MBSR/CT courses to staff at the
         Office of National Statistics and supports individuals in their
         practice.
+      image:
+    - name: Carolyn Pollak
+      description_markdown: >-
+        Carolyn trained to be a mindfulness teacher at the University of Bangor
+        in 2009. She has worked in Sussex Partnership for over 11 years - in
+        that time she has initiated a drop-in Mindfulness weekly mindfulness
+        session in the women's acute ward at Mill View Hospital, and in addition
+        she works with Lynn Ley as a Mindfulness Practitioner for Health in
+        Mind, co-facilitating the 8-week MBCT course in East Brighton and
+        offering groups in Lewes and Hailsham.
       image:
 - title: advocates
   name: Mindfulness Advocates
