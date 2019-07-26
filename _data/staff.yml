@@ -196,6 +196,30 @@
         2013 SMC conference and will be offering a master class on mindfulness
         and pain in the autumn.
       image: /assets/images/catherine_cameron.jpg
+    - name: Brenda Davis
+      description_markdown: >-
+        Brenda is a consultant clinical psychologist and lead for mindfulness in
+        Sussex Partnership CAMHS services.&nbsp; She has developed a new
+        adaptation of MBCT for young people and plays a national role convening
+        mindfulness teachers working with young people.&nbsp;
+      image: /assets/images/brenda_davis.jpg
+    - name: Claire Deaves
+      description_markdown: >-
+        Claire Deaves has worked as a CBT therapist at Health in Mind in East
+        Sussex since 2008. She trained as a mindfulness teacher in 2017 and runs
+        courses for clients at Health in Mind in Eastbourne. Claire has been
+        practicing meditation since 2006. Claire is interested in cooking,
+        reading and walking in the countryside.
+      image: /assets/images/claire-deaves1.jpg
+    - name: Hannah Denton
+      description_markdown: >-
+        Hannah Denton is a Counselling Psychologist working within Adult Mental
+        Health in Sussex Partnership.&nbsp; Following a personal interest in
+        mindfulness and yoga she trained as an MBCT teacher with the Sussex
+        Mindfulness Centre in 2011.&nbsp; She has been teaching MBCT courses
+        since as well as regularly facilitating drop in sessions for
+        staff.&nbsp;
+      image: /assets/images/hannah_denton.jpg
     - name: Lucy Edwards
       description_markdown: >-
         Lucy is a Clinical Psychologist working in secondary care adult mental
@@ -206,6 +230,17 @@
         teaches 8 week mindfulness courses, as well as being involved in the all
         day and drop in events at the Sussex Education Centre.
       image: /assets/images/smc-lucy-edwards.jpeg
+    - name: Sue Huggett
+      description_markdown: >-
+        Sue is a Senior Counselling Psychologist who has been working in&nbsp;
+        Secondary Care Adult Mental Health Services within the Sussex
+        Partnership Foundation Trust since 1998. She was introduced to
+        Mindfulness six years ago joining an eight-week Staff MBCT course.
+        Experiencing great benefits from this, in 2015 she completed the
+        one-year MBCT Teacher Training Programme provided by the Sussex
+        Mindfulness Centre. She now facilitates eight-week MBCT Courses within
+        the North West Sussex Secondary Care Service.
+      image: /assets/images/sue-huggett.jpg
     - name: Lana Jackson
       description_markdown: >-
         Lana is a Clinical Psychologist, Mindfulness Teacher, and Yoga Therapist
@@ -249,52 +284,6 @@
         Mind, co-facilitating the 8-week MBCT course in East Brighton and
         offering groups in Lewes and Hailsham.
       image: /assets/images/carolyn_pollak.jpg
-    - name: Jo Rockwood
-      description_markdown: >-
-        Jo is a cognitive behavioural therapist working for Brighton and Hove
-        Wellbeing Service. As part of her role within this service she regularly
-        co facilitates mindfulness based cognitive therapy (MBCT) courses.
-      image: /assets/images/jo-rockwood-pic2.jpg
-    - name: Susan Whiting
-      description_markdown: >-
-        Susan has been facilitating Mindfulness Based Cognitive Therapy groups
-        since training as a mindfulness teacher with the Sussex Mindfulness
-        Centre in 2011, and supports the drop-in mindfulness sessions and silent
-        all days for SMC.&nbsp; Her clinical work is mainly in the specialist
-        older adult mental health services in Brighton & Hove, and Susan has
-        been involved in researching the benefits of MBCT for older people and
-        has also been delivering adapted group based mindfulness interventions
-        for people experiencing dementia and their family and carers. Susan is
-        Consultant Clinical Psychologist and has a lead role within Psychology
-        and Psychological Therapy community adult mental health services.
-      image: /assets/images/susan_whiting.jpg
-    - name: Sue Huggett
-      description_markdown: >-
-        Sue is a Senior Counselling Psychologist who has been working in&nbsp;
-        Secondary Care Adult Mental Health Services within the Sussex
-        Partnership Foundation Trust since 1998. She was introduced to
-        Mindfulness six years ago joining an eight-week Staff MBCT course.
-        Experiencing great benefits from this, in 2015 she completed the
-        one-year MBCT Teacher Training Programme provided by the Sussex
-        Mindfulness Centre. She now facilitates eight-week MBCT Courses within
-        the North West Sussex Secondary Care Service.
-      image: /assets/images/sue-huggett.jpg
-    - name: Brenda Davis
-      description_markdown: >-
-        Brenda is a consultant clinical psychologist and lead for mindfulness in
-        Sussex Partnership CAMHS services.&nbsp; She has developed a new
-        adaptation of MBCT for young people and plays a national role convening
-        mindfulness teachers working with young people.&nbsp;
-      image: /assets/images/brenda_davis.jpg
-    - name: Hannah Denton
-      description_markdown: >-
-        Hannah Denton is a Counselling Psychologist working within Adult Mental
-        Health in Sussex Partnership.&nbsp; Following a personal interest in
-        mindfulness and yoga she trained as an MBCT teacher with the Sussex
-        Mindfulness Centre in 2011.&nbsp; She has been teaching MBCT courses
-        since as well as regularly facilitating drop in sessions for
-        staff.&nbsp;
-      image: /assets/images/hannah_denton.jpg
     - name: Sarah Pratap
       description_markdown: >-
         Sarah is a Clinical Psychologist who works within Adult Mental Health in
@@ -309,6 +298,26 @@
         Hazel is a nurse by background and now works as a mindfulness teacher in
         the Group Treatment Services in Brighton.
       image: /assets/images/smc-hazel-ragoonanan.jpeg
+    - name: Jo Rockwood
+      description_markdown: >-
+        Jo is a cognitive behavioural therapist working for Brighton and Hove
+        Wellbeing Service. As part of her role within this service she regularly
+        co facilitates mindfulness based cognitive therapy (MBCT) courses.
+      image: /assets/images/jo-rockwood-pic2.jpg
+    - name: Jo Chittenden
+      description_markdown: >-
+        Jo works as an Occupational Therapist in the Sussex Partnership’s low
+        secure forensic inpatient service in Chichester.&nbsp; She is a
+        passionate advocate for developing new models of patient care and
+        trained as an occupational therapist in part so she could offer
+        Mindfulness within the health service.&nbsp; Jo has a committed practice
+        of 25 years and has trained with a number of teachers worldwide.&nbsp;
+        Jo offers drop in Mindfulness sessions to staff and patients in the
+        secure service and is working towards a model that better suits forensic
+        inpatients.&nbsp; Jo also offers regular MBSR/CT courses to staff at the
+        Office of National Statistics and supports individuals in their
+        practice.
+      image: /assets/images/Jo Chittendon1.jpg
     - name: Miranda Rose
       description_markdown: >-
         Miranda is a clinical nurse specialist and team leader in CAMHS, East
@@ -339,28 +348,19 @@
         teaches eight-week Mindfulness courses and is involved in the All Day
         and Drop In events at Sussex Educational Centre.
       image: /assets/images/liz_stapleton.jpg
-    - name: Claire Deaves
+    - name: Susan Whiting
       description_markdown: >-
-        Claire Deaves has worked as a CBT therapist at Health in Mind in East
-        Sussex since 2008. She trained as a mindfulness teacher in 2017 and runs
-        courses for clients at Health in Mind in Eastbourne. Claire has been
-        practicing meditation since 2006. Claire is interested in cooking,
-        reading and walking in the countryside.
-      image: /assets/images/claire-deaves1.jpg
-    - name: Jo Chittenden
-      description_markdown: >-
-        Jo works as an Occupational Therapist in the Sussex Partnership’s low
-        secure forensic inpatient service in Chichester.&nbsp; She is a
-        passionate advocate for developing new models of patient care and
-        trained as an occupational therapist in part so she could offer
-        Mindfulness within the health service.&nbsp; Jo has a committed practice
-        of 25 years and has trained with a number of teachers worldwide.&nbsp;
-        Jo offers drop in Mindfulness sessions to staff and patients in the
-        secure service and is working towards a model that better suits forensic
-        inpatients.&nbsp; Jo also offers regular MBSR/CT courses to staff at the
-        Office of National Statistics and supports individuals in their
-        practice.
-      image: /assets/images/Jo Chittendon1.jpg
+        Susan has been facilitating Mindfulness Based Cognitive Therapy groups
+        since training as a mindfulness teacher with the Sussex Mindfulness
+        Centre in 2011, and supports the drop-in mindfulness sessions and silent
+        all days for SMC.&nbsp; Her clinical work is mainly in the specialist
+        older adult mental health services in Brighton & Hove, and Susan has
+        been involved in researching the benefits of MBCT for older people and
+        has also been delivering adapted group based mindfulness interventions
+        for people experiencing dementia and their family and carers. Susan is
+        Consultant Clinical Psychologist and has a lead role within Psychology
+        and Psychological Therapy community adult mental health services.
+      image: /assets/images/susan_whiting.jpg
     - name: Ruth Kendall
       description_markdown: >-
         Ruth trained at the Sussex Mindfulness Centre in 2017 after recognising
