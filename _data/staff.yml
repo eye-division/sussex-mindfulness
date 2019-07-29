@@ -185,6 +185,9 @@
         also a supervisor of mindfulness teachers. She also gains inspiration
         from poetry and nature.
       image: /assets/images/heather-ball-2.JPG
+    - name: Kim Bates
+      description_markdown:
+      image:
     - name: Catherine Cameron
       description_markdown: >-
         Catherine is a clinical psychologist working in the department of pain
@@ -196,6 +199,9 @@
         2013 SMC conference and will be offering a master class on mindfulness
         and pain in the autumn.
       image: /assets/images/catherine_cameron.jpg
+    - name: Jo Coldwell
+      description_markdown:
+      image:
     - name: Brenda Davis
       description_markdown: >-
         Brenda is a consultant clinical psychologist and lead for mindfulness in
@@ -211,6 +217,9 @@
         practicing meditation since 2006. Claire is interested in cooking,
         reading and walking in the countryside.
       image: /assets/images/claire-deaves1.jpg
+    - name: Juan Du
+      description_markdown:
+      image:
     - name: Hannah Denton
       description_markdown: >-
         Hannah Denton is a Counselling Psychologist working within Adult Mental
@@ -220,6 +229,9 @@
         since as well as regularly facilitating drop in sessions for
         staff.&nbsp;
       image: /assets/images/hannah_denton.jpg
+    - name: Edwyna Dyer
+      description_markdown:
+      image:
     - name: Lucy Edwards
       description_markdown: >-
         Lucy is a Clinical Psychologist working in secondary care adult mental
@@ -230,6 +242,9 @@
         teaches 8 week mindfulness courses, as well as being involved in the all
         day and drop in events at the Sussex Education Centre.
       image: /assets/images/smc-lucy-edwards.jpeg
+    - name: Sarah Goodfellow
+      description_markdown:
+      image:
     - name: Sue Huggett
       description_markdown: >-
         Sue is a Senior Counselling Psychologist who has been working in&nbsp;
@@ -241,6 +256,15 @@
         Mindfulness Centre. She now facilitates eight-week MBCT Courses within
         the North West Sussex Secondary Care Service.
       image: /assets/images/sue-huggett.jpg
+    - name: Gerry Harris
+      description_markdown:
+      image:
+    - name: Sarah Hubbard
+      description_markdown:
+      image:
+    - name: Helen Igo
+      description_markdown:
+      image:
     - name: Lana Jackson
       description_markdown: >-
         Lana is a Clinical Psychologist, Mindfulness Teacher, and Yoga Therapist
@@ -255,6 +279,9 @@
         Lana also runs staff MBCT courses, mindfulness workshops, and training
         for professionals working with children, young people and families.
       image: /assets/images/lana_jackson.jpg
+    - name: Lee Jones
+      description_markdown:
+      image:
     - name: Ruth Kendall
       description_markdown: >-
         Ruth trained at the Sussex Mindfulness Centre in 2017 after recognising
@@ -306,6 +333,9 @@
         Hazel is a nurse by background and now works as a mindfulness teacher in
         the Group Treatment Services in Brighton.
       image: /assets/images/smc-hazel-ragoonanan.jpeg
+    - name: Anita Raybould
+      description_markdown:
+      image:
     - name: Jo Rockwood
       description_markdown: >-
         Jo is a cognitive behavioural therapist working for Brighton and Hove
@@ -355,42 +385,6 @@
         Consultant Clinical Psychologist and has a lead role within Psychology
         and Psychological Therapy community adult mental health services.
       image: /assets/images/susan_whiting.jpg
-    - name:
-      description_markdown:
-      image:
-    - name: Edwyna Dyer
-      description_markdown:
-      image:
-    - name: Jo Coldwell
-      description_markdown:
-      image:
-    - name: Lee Jones
-      description_markdown:
-      image:
-    - name: Kim Bates
-      description_markdown:
-      image:
-    - name: Anita Raybould
-      description_markdown:
-      image:
-    - name: Juan Du
-      description_markdown:
-      image:
-    - name:
-      description_markdown:
-      image:
-    - name: Gerry Harris
-      description_markdown:
-      image:
-    - name: Sarah Goodfellow
-      description_markdown:
-      image:
-    - name: Sarah Hubbard
-      description_markdown:
-      image:
-    - name: Helen Igo
-      description_markdown:
-      image:
 - title: alsoemployedmbi
   name: >-
     The following are Sussex Partnership employed Mindfulness-based
