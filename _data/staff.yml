@@ -121,51 +121,44 @@
   name: SMC Doctoral Students
   description_markdown:
   staff:
-    - name: Moitree Banerjee
-      description_markdown: >-
-        Moitree successfully completed her PhD student at the University of
-        Sussex in 2016, supervised by Clara Strauss and Kate Cavanagh. Her
-        research interests include the understanding the facets of engagement in
-        mindfulness interventions and how these can be measured. She is also
-        interested in identifying the factors associated with engagement in
-        mindfulness interventions and how these can be improved.
-      image: /assets/images/moirtree_banerjee.jpg
-    - name: Hannah Droscher
-      description_markdown: >-
-        Hannah has completed her clinical psychology training at Canterbury
-        Christ Church University (Salmons), supervised by Clara Strauss, Fergal
-        Jones and Kate Cavanagh. For her major research project Hannah evaluated
-        a feasibility randomised controlled trial of a brief mindfulness course
-        in adult secondary care mental health services.
-      image: /assets/images/hannah-droscher-pic.png
-    - name: Jenny Gu
-      description_markdown: >-
-        Jenny is a final year PhD student at the University of Sussex,
-        supervised by Clara Strauss and Kate Cavanagh. Her research interests
-        include understanding how mindfulness-based interventions improve mental
-        health and wellbeing. She is currently working on developing a new
-        questionnaire measure of compassion (towards other and the self).
-      image: /assets/images/jenny-gu.jpg
-    - name: Emily Ironmonger
-      description_markdown: >-
-        Emily is a trainee clinical psychologist at Canterbury Christ Church
-        University (Salmons), supervised by Clara Strauss, Fergal Jones and Kate
-        Cavanagh. For her major research project Emily is running a randomised
-        controlled trial of a self-help MBCT course for NHS staff.
-      image: /assets/images/emily-ironmonger.jpg
-    - name: Tamara Leeuwerik
-      description_markdown: >-
-        Tamara is a second year PhD student at the University of Sussex,
-        supervised by Clara Strauss and Kate Cavanagh. Tamara is exploring the
-        potential of mindfulness courses for people experiencing obsessive
-        compulsive disorder (OCD).
-      image: /assets/images/smc-tamara-leeuwerik.jpeg
     - name: Heather Taylor
       description_markdown: >-
         Heather is a final year PhD student at the University of Sussex,
         supervised by Clara Strauss and Kate Cavanagh. Heather's research is
         focusing on evaluating mindfulness-based self-help resources.
       image: /assets/images/heather-taylor-pic.jpg
+    - name: Alison Roberts
+      description_markdown: >-
+        Alison is undertaking a PhD at the University of Sussex, supervised by
+        Helen Startup and Clara Strauss with Claire Rosten and Richard de
+        Visser. She has been a clinical psychologist for 14 years and has worked
+        in the NHS since 1999. She works part-time clinically in the
+        neurobehavioural service and part-time as a doctoral researcher at the
+        University of Sussex.
+
+
+        People diagnosed with 'Emotionally Unstable Personality Disorder" can
+        experience enduring and intense emotions and high levels of
+        distress.&nbsp; It can be hard to get access to the right kind of
+        psychological treatment and health practitioners working with this group
+        of people often find it hard to know what to offer. The diagnostic label
+        itself can sometimes be stigmatising and a barrier to treatment. We know
+        that Mindfulness Based Interventions can be acceptable and effective for
+        some people and this may be by helping them to be less troubled by
+        emotional states.
+
+
+        Alison's research project will explore what kind of adaptations might
+        need to be made to standard Mindfulness Based Interventions to increase
+        their acceptability, suitability, safety and effectiveness for people
+        with this diagnosis. She will review the existing research literature
+        before consulting with relevant staff and people with lived experience.
+        She hopes to go on to adapt a standard MBI protocol and run a
+        feasibility and acceptability trial and subsequent qualitative
+        interviews. The hope is that this will increase the options available
+        for people diagnosed with "Emotionally Unstable Personality Disorder" so
+        that they can more easily access psychological help.
+      image: /assets/images/alison-roberts.jpeg
 - title: employedteachers
   name: Sussex Partnership-employed MBCT teachers
   description_markdown:
