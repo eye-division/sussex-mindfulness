@@ -121,6 +121,9 @@
   name: SMC Doctoral Students
   description_markdown:
   staff:
+    - name: Charlotte Dunkeld
+      description_markdown:
+      image:
     - name: Alison Roberts
       description_markdown: >-
         Alison is undertaking a PhD at the University of Sussex, supervised by
@@ -159,9 +162,6 @@
         supervised by Clara Strauss and Kate Cavanagh. Heather's research is
         focusing on evaluating mindfulness-based self-help resources.
       image: /assets/images/heather-taylor-pic.jpg
-    - name: Charlotte Dunkeld
-      description_markdown:
-      image:
 - title: employedteachers
   name: Sussex Partnership-employed MBCT teachers
   description_markdown:
