@@ -123,7 +123,7 @@
   staff:
     - name: Charlotte Dunkeld
       description_markdown:
-      image:
+      image: /assets/images/charlotte-dunkheld.jpg
     - name: Alison Roberts
       description_markdown: >-
         Alison is undertaking a PhD at the University of Sussex, supervised by
