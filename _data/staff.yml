@@ -122,7 +122,12 @@
   description_markdown:
   staff:
     - name: Charlotte Dunkeld
-      description_markdown:
+      description_markdown: >-
+        Charlotte's PhD is focusing on factors which affect engagement with
+        digital mindfulness-based interventions (MBIs) (such as Smartphone apps
+        and websites), and is supervised by Dr Clara Strauss and Dr Kate
+        Cavanagh. The research is half-funded by the widely-known digital MBI,
+        Headspace.
       image: /assets/images/charlotte-dunkheld.jpg
     - name: Alison Roberts
       description_markdown: >-
