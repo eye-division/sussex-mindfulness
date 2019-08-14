@@ -582,14 +582,18 @@
   name: Mindfulness Advocates
   description_markdown:
   staff:
-    - name: Helen Leigh-Phippard
+    - name: Charlie Crocker
       description_markdown: >-
-        Helen is a former long-term user of SPFT services. She took the Trust's
-        MBCT course several years ago and mindfulness has continued to be an
-        essential and valued part her daily life ever since. Helen currently
-        represents the interests of service users on SPFT's Mindfulness Practice
-        Network.
-      image:
+        *"As a person who worked in the highly stressful and fast world of media
+        my life came to a crossroads three years ago and I was introduced to
+        mindfulness by Susan Whiting.&nbsp; I have come to find the oasis of
+        calm that is mindfulness practice to be a saving grace. It has helped to
+        teach me not to worry about what I will do the next day, month or year
+        but just to stop and enjoy the moment I am in. I would say it has been
+        life-changing for me. I am very happy to be an advocate for mindfulness
+        and more than eager to share its benefits. The paths I take now are
+        slightly different but enrichment follows behind me."*
+      image: /assets/images/Charlie Crocker.jpg
     - name: Helga Dittmar
       description_markdown: >-
         I see the way I am now, and the way my life is now, as a testament to
@@ -605,9 +609,6 @@
         felt more alive; in my work, in my relationships, and - maybe above all
         - in re-finding, sharing, and living, music.
       image: /assets/images/helga_dittmar_r.jpg
-    - name: Julia Racster-Szostak
-      description_markdown:
-      image:
     - name: Mike Hales
       description_markdown: >-
         Diagnosed with recurrent depression, Mike participated in the Trust's
@@ -626,18 +627,17 @@
         body of research in-progress and professional-development
         master-classes. Well done you guys in the Practice Network!
       image: /assets/images/mike-hales-picture.jpg
-    - name: Charlie Crocker
+    - name: Helen Leigh-Phippard
       description_markdown: >-
-        > As a person who worked in the highly stressful and fast world of media
-        my life came to a crossroads three years ago and I was introduced to
-        mindfulness by Susan Whiting.&nbsp; I have come to find the oasis of
-        calm that is mindfulness practice to be a saving grace. It has helped to
-        teach me not to worry about what I will do the next day, month or year
-        but just to stop and enjoy the moment I am in. I would say it has been
-        life-changing for me. I am very happy to be an advocate for mindfulness
-        and more than eager to share its benefits. The paths I take now are
-        slightly different but enrichment follows behind me.
-      image: /assets/images/Charlie Crocker.jpg
+        Helen is a former long-term user of SPFT services. She took the Trust's
+        MBCT course several years ago and mindfulness has continued to be an
+        essential and valued part her daily life ever since. Helen currently
+        represents the interests of service users on SPFT's Mindfulness Practice
+        Network.
+      image:
+    - name: Julia Racster-Szostak
+      description_markdown:
+      image:
 - title: administrators
   name: SMC administration
   description_markdown:
