@@ -635,9 +635,6 @@
         represents the interests of service users on SPFT's Mindfulness Practice
         Network.
       image:
-    - name: Julia Racster-Szostak
-      description_markdown:
-      image:
     - name: Elaine Moore
       description_markdown: >-
         'Being diagnosed with emotional intensity disorder and PTSD I took part
@@ -647,6 +644,9 @@
         life. I feel more present in the moment and it has now become an
         intrigal part of my life. '
       image: /assets/images/Elaine Moore.jpg
+    - name: Julia Racster-Szostak
+      description_markdown:
+      image:
 - title: administrators
   name: SMC administration
   description_markdown:
