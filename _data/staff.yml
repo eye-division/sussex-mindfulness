@@ -638,6 +638,9 @@
     - name: Julia Racster-Szostak
       description_markdown:
       image:
+    - name: Elaine Moore
+      description_markdown:
+      image: /assets/images/Elaine Moore.jpg
 - title: administrators
   name: SMC administration
   description_markdown:
