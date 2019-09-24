@@ -34,6 +34,11 @@
       touch: true
     });
 
+     // expander Bourbon
+    $('.expander-trigger').click(function(){
+      $(this).toggleClass("expander-hidden");
+    });
+
   });
 
 })(jQuery); // End of use strict

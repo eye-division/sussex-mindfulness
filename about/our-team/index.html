@@ -11,22 +11,37 @@ style: team
 <div class="intro editable">
 </div>
 	{% for stafftype in site.data.staff %}
-		<a name="{{ stafftype.title }}"></a><h2>{{ stafftype.name }}</h2>
-    {% if stafftype.description_markdown %}
-    <p>{{ stafftype.description_markdown | markdownify }}</p>{% endif %}
-		<ul class="nolist">
-	   	{% for staffmember in stafftype.staff %}
-			  <li>
-			  		<h3>{{ staffmember.name }}</h3>
-	         	{% if staffmember.image %}
-	         		<figure>{% include img.html class=test src=staffmember.image width=200 height=200 fit=crop alt=staffmember.name %}</figure>
-	         	{% endif %}
-	         	{% if staffmember.description_markdown %}{{ staffmember.description_markdown | markdownify }}{% endif %}</p>
 
-	      </li>
-			{% endfor %}
-		</ul>
-   {% endfor %}
+		<div class="expander">
+
+
+      	<a href="javascript:void(0)" class="expander-trigger expander-hidden" name="{{ stafftype.title }}"><h2>{{ stafftype.name }}</h2></a>
+
+
+      <div class="expander-content">
+
+        {% if stafftype.description_markdown %}
+    			<p>{{ stafftype.description_markdown | markdownify }}</p>
+		    {% endif %}
+
+				<ul class="nolist">
+			   	{% for staffmember in stafftype.staff %}
+					  <li>
+					  		<h3>{{ staffmember.name }}</h3>
+			         	{% if staffmember.image %}
+			         		<figure>{% include img.html class=test src=staffmember.image width=200 height=200 fit=crop alt=staffmember.name %}</figure>
+			         	{% endif %}
+			         	{% if staffmember.description_markdown %}{{ staffmember.description_markdown | markdownify }}{% endif %}</p>
+
+			      </li>
+					{% endfor %}
+				</ul>
+
+      </div>
+
+    </div>
+
+  {% endfor %}
 
 	<div class="editable">
 
