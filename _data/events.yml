@@ -17,12 +17,6 @@
 
     &nbsp;
   drop-in:
-    - event_date: 2019-08-12 00:00:00
-      organiser: Liz Stapleton and Susan Whiting
-      description_markdown:
-    - event_date: 2019-09-02 00:00:00
-      organiser: Robert Marx and Hannah Shutt
-      description_markdown:
     - event_date: 2019-10-07 00:00:00
       organiser: Heather Ball and Hannah Sale
       description_markdown:
