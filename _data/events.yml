@@ -140,9 +140,28 @@
   drop-in:
     - event_date:
       organiser:
-- location:
-  name:
-  description_markdown:
+- location: Cavendish House Staff Drop in
+  name: with Anita Raybould
+  description_markdown: |-
+    Please come along and join Anita Raybould at Room 13 Cavendish House:
+
+    **Wednesday 16th Oct 2019 at 8:30am**
+
+    **Monday 21st Oct at 12pm**
+
+    **Wednesday 30th Oct at 8:30am**
+
+    ***No session on Monday 4th Nov***
+
+    **Wednesday 13th Nov at 8:30am**
+
+    **Monday 18th Nov at 12pm**
+
+    **Wednesday 27th Nov at 8:30am**
+
+    **Monday 2nd Dec at 12pm**
+
+    **Wednesday 11th December at 8:30am**
   drop-in:
     - event_date:
       organiser:
