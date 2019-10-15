@@ -17,9 +17,6 @@
 
     &nbsp;
   drop-in:
-    - event_date: 2019-10-07 00:00:00
-      organiser: Heather Ball and Hannah Sale
-      description_markdown:
     - event_date: 2019-11-04 00:00:00
       organiser: Helen Igo and Tamsin Hemingray
       description_markdown:
