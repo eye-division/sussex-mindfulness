@@ -461,6 +461,20 @@
   name: Sussex Mindfulness Centre Mindfulness teacher associates
   description_markdown:
   staff:
+    - name: Jo Chittenden
+      description_markdown: >-
+        Jo works as an Occupational Therapist in the Sussex Partnership’s low
+        secure forensic inpatient service in Chichester.&nbsp; She is a
+        passionate advocate for developing new models of patient care and
+        trained as an occupational therapist in part so she could offer
+        Mindfulness within the health service.&nbsp; Jo has a committed practice
+        of 25 years and has trained with a number of teachers worldwide.&nbsp;
+        Jo offers drop in Mindfulness sessions to staff and patients in the
+        secure service and is working towards a model that better suits forensic
+        inpatients.&nbsp; Jo also offers regular MBSR/CT courses to staff at the
+        Office of National Statistics and supports individuals in their
+        practice.
+      image: /assets/images/Jo Chittendon1.jpg
     - name: Kate Gooch
       description_markdown: >-
         Kate Gooch holds a Postgraduate Diploma in Mindfulness Based Approaches
@@ -522,6 +536,16 @@
         associate of the Sussex Mindfulness Centre, providing supervision and
         teaching 8 week courses for staff and clients.
       image: /assets/images/ann-pelling.jpg
+    - name: Carolyn Pollak
+      description_markdown: >-
+        Carolyn trained to be a mindfulness teacher at the University of Bangor
+        in 2009. She has worked in Sussex Partnership for over 12 years - in
+        that time she has initiated a drop-in Mindfulness weekly mindfulness
+        session in the women's acute ward at Mill View Hospital, and in addition
+        she works with Lynn Ley as a Mindfulness Practitioner for Health in
+        Mind, co-facilitating the 8-week MBCT course in East Brighton and
+        offering groups in Lewes and Hailsham.
+      image: /assets/images/carolyn_pollak.jpg
     - name: Bethan Roberts
       description_markdown: >-
         Bethan is one of the Core Trainers at Bangor University’s Centre for
@@ -536,30 +560,6 @@
         University as well running training on mental health and unconscious
         bias for the Civil Service.
       image: /assets/images/bethan-roberts2-1.jpg
-    - name: Jo Chittenden
-      description_markdown: >-
-        Jo works as an Occupational Therapist in the Sussex Partnership’s low
-        secure forensic inpatient service in Chichester.&nbsp; She is a
-        passionate advocate for developing new models of patient care and
-        trained as an occupational therapist in part so she could offer
-        Mindfulness within the health service.&nbsp; Jo has a committed practice
-        of 25 years and has trained with a number of teachers worldwide.&nbsp;
-        Jo offers drop in Mindfulness sessions to staff and patients in the
-        secure service and is working towards a model that better suits forensic
-        inpatients.&nbsp; Jo also offers regular MBSR/CT courses to staff at the
-        Office of National Statistics and supports individuals in their
-        practice.
-      image: /assets/images/Jo Chittendon1.jpg
-    - name: Carolyn Pollak
-      description_markdown: >-
-        Carolyn trained to be a mindfulness teacher at the University of Bangor
-        in 2009. She has worked in Sussex Partnership for over 12 years - in
-        that time she has initiated a drop-in Mindfulness weekly mindfulness
-        session in the women's acute ward at Mill View Hospital, and in addition
-        she works with Lynn Ley as a Mindfulness Practitioner for Health in
-        Mind, co-facilitating the 8-week MBCT course in East Brighton and
-        offering groups in Lewes and Hailsham.
-      image: /assets/images/carolyn_pollak.jpg
 - title: advocates
   name: Mindfulness Advocates
   description_markdown:
