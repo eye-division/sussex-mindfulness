@@ -473,8 +473,18 @@
         practice.
       image: /assets/images/Jo Chittendon1.jpg
     - name: Richard Gilpin
-      description_markdown:
-      image:
+      description_markdown: >-
+        Richard is a mindfulness teacher, counsellor and cognitive-behavioural
+        psychotherapist. He has trained extensively in mindfulness-based
+        practices since the 1990s and has been facilitating MBCT courses since
+        2007. He is the author of two self-help books: *Mindfulness for Black
+        Dogs and Blue Days* (2012) and *Mindfulness for Unravelling Anxiety*
+        (2016). His Masters research on MBCT was published in 2008.
+
+
+        His website is
+        [www.richardgilpin.co.uk](http://www.richardgilpin.co.uk).
+      image: /assets/images/Richard Gilpin SMC.JPG
     - name: Kate Gooch
       description_markdown: >-
         Kate Gooch holds a Postgraduate Diploma in Mindfulness Based Approaches
