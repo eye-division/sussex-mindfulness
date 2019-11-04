@@ -1,14 +1,14 @@
 - title: Home
   href: /
   class:
-- title: 'Work with other organisations'
-  href: /our-work-with-other-organisations/
+- title: 'In the workplace'
+  href: /in-the-workplace/
   class: outreach
   subcategories:
     - subtitle: Mindfulness for other organisations
-      href: /our-work-with-other-organisations/mindfulness-for-other-organisations/
-    - subtitle: National work
-      href: /our-work-with-other-organisations/national-work/
+      href: /in-the-workplace/mindfulness-for-other-organisations/
+    - subtitle: National policy work
+      href: /in-the-workplace/national-policy-work/
 - title: Train to teach
   href: /train-to-teach-mindfulness/
   class: train
