@@ -15,6 +15,16 @@ layout: default
 
       {% include img.html src=page.main_image_path width=1200 alt=page.main_image_description %}
 
+      {% if page.image_quote %}
+        <blockquote class="flexslider--quote">
+          <p>{{ page.image_quote }}
+          {% if page.image_quote_author %}
+            <br /><cite>{{ page.image_quote_author }}</cite>
+          {% endif %}
+          </p>
+        </blockquote>
+      {% endif %}
+
       {% if page.main_image_credit %}
         <br><span class="smaller credit">{{ page.main_image_credit }}</span>
       {% endif %}
