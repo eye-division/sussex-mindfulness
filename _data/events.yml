@@ -150,9 +150,6 @@
 
     There is no drop in on Christmas Eve.
   drop-in:
-    - event_date: 2019-10-22 00:00:00
-      organiser: Lucy Edwards
-      description_markdown: Meadowfield Conference room
     - event_date: 2019-11-26 00:00:00
       organiser: Lucy Edwards
       description_markdown: Meadowfield Conference Room
