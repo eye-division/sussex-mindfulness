@@ -44,6 +44,9 @@
     - event_date: 2020-08-03 00:00:00
       organiser: Sussex Mindfulness Centre
       description_markdown:
+    - event_date: 2020-09-07 00:00:00
+      organiser: Sussex Mindfulness Centre
+      description_markdown:
 - location: 'East Brighton CMHT, Brighton General Hospital: staff drop-in'
   name: 'Brighton General Hospital: staff drop-in'
   description_markdown: >-
