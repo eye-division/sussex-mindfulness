@@ -2,36 +2,39 @@
   description_markdown:
   audio:
     - audio_path: >-
-        https://www.dropbox.com/s/c53b5gegql1zzmk/compassionate_mindfulness_of_breathing.mp3?dl=0
+        https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/compassionate_mindfulness_of_breathing.mp3
       description: Compassionate Mindfulness of Breathing
       author: Robert Marx
     - audio_path: >-
-        https://www.dropbox.com/s/oi0ud4cv9y9rp5n/compassion_for_self_and_others.mp3?dl=0
+        https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/compassion_for_self_and_others.mp3
       description: Compassion for Self and Others
       author: Robert Marx
-    - audio_path: 'https://www.dropbox.com/s/xym43a8tnsx6ou2/compassionate_friend.mp3?dl=0'
+    - audio_path: >-
+        https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/compassionate_friend.mp3
       description: Compassionate Friend
       author: Robert Marx
     - audio_path: >-
-        https://www.dropbox.com/s/v74ncwdy4adtmds/affectionate_breathing.mp3?dl=0
+        https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/affectionate_breathing.mp3
       description: Affectionate Breathing
       author: Robert Marx
-    - audio_path: 'https://www.dropbox.com/s/yaogighg5x41hlv/allow_soften_soothe.mp3?dl=0'
+    - audio_path: >-
+        https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/allow_soften_soothe.mp3
       description: Allow Soften Soothe
       author: Robert Marx
     - audio_path: >-
-        https://www.dropbox.com/s/tb4uer8bs8dsief/giving_and_receiving_compassion.mp3?dl=0
+        https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/giving_and_receiving_compassion.mp3
       description: Giving and Receiving Compassion
       author: Robert Marx
     - audio_path: >-
-        https://www.dropbox.com/s/ovsgul2af6h01vs/loving_kindness_for_a_loved_one.mp3?dl=0
+        https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/loving_kindness_for_a_loved_one.mp3
       description: Loving Kindness for a Loved One
       author: Robert Marx
-    - audio_path: 'https://www.dropbox.com/s/t0t6005l3b3vfyh/self_compassion_break.mp3?dl=0'
+    - audio_path: >-
+        https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/self_compassion_break.mp3
       description: Self Compassion Break
       author: Robert Marx
     - audio_path: >-
-        https://www.dropbox.com/s/qvmmdmx7mvj0rvk/loving_kindness_for_self.mp3?dl=0
+        https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/loving_kindness_for_self.mp3
       description: Loving Kindness for Self
 - course: Robert Marx - practices for MBCT
   description_markdown:
