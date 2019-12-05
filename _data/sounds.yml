@@ -123,16 +123,20 @@
 - course: Mindfulness Practices for Recovery College by Nicky Mouat and Abbie Mead
   description_markdown:
   audio:
-    - audio_path: 'https://www.dropbox.com/s/cg1qxdbtmckygxz/body-sensations-nicky.mp3?dl=0'
+    - audio_path: >-
+        https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/body-sensations-nicky.mp3
       description: Week 1 (Body Sensations Practice)
-    - audio_path: 'https://www.dropbox.com/s/pysk46lvr6m0s5g/movement-abbie.mp3?dl=0'
+    - audio_path: >-
+        https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/movement-abbie.mp3
       description: Week 2 (Mindful Movement)
-    - audio_path: 'https://www.dropbox.com/s/av34eimbzgkex3v/breath-practice-abbie.mp3?dl=0'
+    - audio_path: >-
+        https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/breath-practice-abbie.mp3
       description: Week 3 (Breath Practice)
     - audio_path: >-
-        https://www.dropbox.com/s/ewf2tv8tlzdldzc/short-grounding-practice-nicky.mp3?dl=0
+        https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/short-grounding-practice-nicky.mp3
       description: Short Grounding Practice
-    - audio_path: 'https://www.dropbox.com/s/i7hd2jvn65v22lb/sounds-practice-nicky.mp3?dl=0'
+    - audio_path: >-
+        https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/sounds-practice-nicky.mp3
       description: Sounds Practice
 - course: Four-session LiveMind Mindfulness course
   description_markdown:
