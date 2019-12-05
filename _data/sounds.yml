@@ -40,43 +40,43 @@
   description_markdown:
   audio:
     - audio_path: >-
-        https://www.dropbox.com/s/2ldqumyo09x2298/21%20min%20mindfulness%20of%20breathing.mp3?dl=0
+        https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/21%20min%20mindfulness%20of%20breathing.mp3
       description: 21 min mindfulness of breathing
     - audio_path: >-
-        https://www.dropbox.com/s/kgrjlsagi4sdkwd/30%20minute%20mindful%20movement.mp3?dl=0
+        https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/30%20minute%20mindful%20movement.mp3
       description: 30 minute mindful movement
     - audio_path: >-
-        https://www.dropbox.com/s/hefbmjxypcdtror/30%20minute%20mindful%20walking.mp3?dl=0
+        https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/30%20minute%20mindful%20walking.mp3
       description: 30 minute mindful walking
     - audio_path: >-
-        https://www.dropbox.com/s/i62z5f30mrqpcxj/36%20min%20sitting%20mindfulness%20of%20breath%20and%20body.mp3?dl=0
+        https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/36%20min%20sitting%20mindfulness%20of%20breath%20and%20body.mp3
       description: 36 min sitting mindfulness of breath and body
     - audio_path: >-
-        https://www.dropbox.com/s/14njftktqh1hjck/38%20min%20body%20scan.mp3?dl=0
+        https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/38%20min%20body%20scan.mp3
       description: 38 min body scan
     - audio_path: >-
-        https://www.dropbox.com/s/axh8iaa8q2emsvs/coping%20breathing%20space.mp3?dl=0
+        https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/coping%20breathing%20space.mp3
       description: coping breathing space
     - audio_path: >-
-        https://www.dropbox.com/s/cq4hu9v56go8v5q/loving%20kindness%20practice%20%2830%20mins%29.mp3?dl=0
+        https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/loving%20kindness%20practice%20(30%20mins).mp3
       description: loving kindness practice (30 mins)
     - audio_path: >-
-        https://www.dropbox.com/s/et03fhk0vq34kc0/mostly%20unguided%2035%20min%20sitting%20practice.mp3?dl=0
+        https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/mostly%20unguided%2035%20min%20sitting%20practice.mp3
       description: mostly unguided 35 min sitting practice
     - audio_path: >-
-        https://www.dropbox.com/s/kxzeso5cxgti0es/mostly%20unguided%20body%20scan.mp3?dl=0
+        https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/mostly%20unguided%20body%20scan.mp3
       description: mostly unguided body scan
     - audio_path: >-
-        https://www.dropbox.com/s/ara65vidm10gkyo/mountain%20meditation%2016%20mins.mp3?dl=0
+        https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/mountain%20meditation%2016%20mins.mp3
       description: mountain meditation 16 mins
     - audio_path: >-
-        https://www.dropbox.com/s/mnqjvmd4ya580w3/prelims%20to%20body%20scan.mp3?dl=0
+        https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/prelims%20to%20body%20scan.mp3
       description: prelims to body scan
     - audio_path: >-
-        https://www.dropbox.com/s/gjrzkr0ry4tsllo/prelims%20to%20movement.mp3?dl=0
+        https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/prelims%20to%20movement.mp3
       description: prelims to movement
     - audio_path: >-
-        https://www.dropbox.com/s/umq6ispihwmd4s9/prelims%20to%20sitting.mp3?dl=0
+        https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/prelims%20to%20sitting.mp3
       description: prelims to sitting
 - course: Brighton CAMHS MBCT group
   description_markdown:
