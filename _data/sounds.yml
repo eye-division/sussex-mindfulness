@@ -100,22 +100,22 @@
   description_markdown:
   audio:
     - audio_path: >-
-        https://www.dropbox.com/s/l0m53dfzx797kkr/Body%20Scan%20for%20adolescents.mp3?dl=0
+        https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/Body%20Scan%20for%20adolescents.mp3
       description: Body  Scan for adolescents
     - audio_path: >-
-        https://www.dropbox.com/s/0rx0ahihpzgz7ww/Mindfulness%20of%20Breath%20and%20Body%20for%20adolescents%20%281%29.mp3?dl=0
+        https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/Mindfulness%20of%20Breath%20and%20Body%20for%20adolescents%20(1).mp3
       description: Mindfulness of Breath and Body for adolescents
     - audio_path: >-
-        https://www.dropbox.com/s/5kmk5ht9j0vazpe/Sitting%20Practice%20for%20adolescents.mp3?dl=0
+        https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/Sitting%20Practice%20for%20adolescents.mp3
       description: Sitting Practice for adolescents
     - audio_path: >-
-        https://www.dropbox.com/s/nvrq2vyszbrkygf/Stretching%20%20Breathing%20Practice%20for%20adolescents.mp3?dl=0
+        https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/Stretching%20%20Breathing%20Practice%20for%20adolescents.mp3
       description: Stretching Breathing Practice for adolescents
     - audio_path: >-
-        https://www.dropbox.com/s/jkz45gw270vy5lj/Three%20step%20breathing%20space.mp3?dl=0
+        https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/Three%20step%20breathing%20space.mp3
       description: Three step breathing space
     - audio_path: >-
-        https://www.dropbox.com/s/8qxn2f8awo8lto0/Turning%20Towards%20Difficult%20Experience%20Sitting%20Pract.mp3?dl=0
+        https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/Turning%20Towards%20Difficult%20Experience%20Sitting%20Pract.mp3
       description: Turning Towards Difficult Experience - Sitting Practice
 - course: Mindfulness Practices for Recovery College by Nicky Mouat and Abbie Mead
   description_markdown:
