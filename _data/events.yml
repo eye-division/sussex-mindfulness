@@ -82,7 +82,7 @@
     **Dates for 2020 to be added soon.**
   drop-in:
     - event_date: 2020-01-20 00:00:00
-      organiser:
+      organiser: 12.00 noon
     - event_date: 2020-01-29 00:00:00
       organiser: 8.30am
     - event_date: 2020-01-20 00:00:00
