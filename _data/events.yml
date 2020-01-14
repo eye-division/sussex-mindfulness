@@ -96,39 +96,4 @@
     &nbsp;
   drop-in:
     - event_date: 2020-01-20 00:00:00
-      organiser: 12.00 noon
-    - event_date: 2020-01-29 00:00:00
-      organiser: 8.30am
-    - event_date: 2020-01-20 00:00:00
-      organiser:
-- location: Mill View Hospital staff drop-in
-  name: Mill View Hospital staff drop-in
-  description_markdown: >-
-    Mill View staff drop-in
-
-
-    This is a Sussex Partnership staff drop in on the Mill View Hospital site,
-    every Tuesday morning.
-
-
-    With Trust Mindfulness Teachers, Hannah Denton, Helen Igo and Sarah
-    Pratap&nbsp;
-
-
-    **When**\: Tuesdays 8.30-9.00am
-
-
-    **Where**\: OT Activity room, Ground Floor Corridor, Mill View Hospital
-
-
-    **Duration**\: 30 mins
-
-
-    **Who can attend:** It’s for staff so any staff can attend.
-
-
-    [See the flyer](/Mindfulness for Millview Staff final poster.pdf){:
-    target="_blank"}
-  drop-in:
-    - event_date:
       organiser:
