@@ -79,7 +79,21 @@
   description_markdown: |-
     Please come along and join Anita Raybould - No experience needed:
 
-    **Dates for 2020 to be added soon.**
+    **Monday 20th January at 12pm **
+
+    **Wednesday 29th January at 8:30am**
+
+    ***No session on Monday 3rd February ***
+
+    **Wednesday 12th February at 8:30am**
+
+    **Monday 17th February at 12pm **
+
+    **Wednesday 26th February at 8:30am**
+
+    **Monday 2nd March at 12pm**
+
+    &nbsp;
   drop-in:
     - event_date: 2020-01-20 00:00:00
       organiser: 12.00 noon
@@ -118,87 +132,3 @@
   drop-in:
     - event_date:
       organiser:
-- location: '18 Preston Park Avenue, BN1 6HL'
-  name: Southdown drop in
-  description_markdown: >-
-    South Down drop ins are held:
-
-
-    on the **3rd Tuesday** of the month<br>**6-7pm**<br>**18 Preston Park
-    Avenue, BN1 6HL**.
-
-
-    These drop ins are for staff and current/recent service users who have
-    completed an 8-week MBCT course.
-
-
-    The drop ins will be led by Nicky Mouat, Abbie Mead and Tamsin Bishton.
-
-
-    For more information, please contact **01273 565 049**.
-
-
-    &nbsp;
-
-
-    &nbsp;
-  drop-in:
-    - event_date: Invalid date
-      organiser:
-- location: Swandean staff drop-in
-  name: Swandean staff drop-in
-  description_markdown: >-
-    HALF HOUR DROP-IN SESSIONS
-
-
-    Mindfulness drop-ins – FREE to ALL staff in Sussex Partnership Foundation
-    Trust.&nbsp; No prior experience needed.&nbsp;
-
-
-    These are available on the 4th Tuesday of most months at the Swandean site
-    from 1:30-2pm.&nbsp;
-
-
-    There is no drop in on Christmas Eve.
-  drop-in:
-    - event_date: 2020-01-14 00:00:00
-      organiser: Lucy Edwards
-      description_markdown: >-
-        Meadowfield Conference Room
-
-
-        Please not thaat the January date is the 2nd Tuesday due to room
-        availability
-    - event_date: 2020-02-04 00:00:00
-      organiser: Lucy Edwards
-      description_markdown: Meadowfield Conference Room
-    - event_date: 2020-03-03 00:00:00
-      organiser: Lucy Edwards
-      description_markdown: Meadowfield Conference Room
-    - event_date: 2020-04-07 00:00:00
-      organiser: Lucy Edwards
-      description_markdown: Meadowfield Conference Room
-    - event_date: 2020-05-05 00:00:00
-      organiser: Lucy Edwards
-      description_markdown: Meadowfield Conference Room
-    - event_date: 2020-06-02 00:00:00
-      organiser: Lucy Edwards
-      description_markdown: Meadowfield Conference Room
-    - event_date: 2020-07-07 00:00:00
-      organiser: Lucy Edwards
-      description_markdown: Meadowfield Conference Room
-    - event_date: 2020-08-04 00:00:00
-      organiser: Lucy Edwards
-      description_markdown: Meadowfield Conference Room
-    - event_date: 2020-09-01 00:00:00
-      organiser: Lucy Edwards
-      description_markdown: Meadowfield Conference Room
-    - event_date: 2020-10-06 00:00:00
-      organiser: Lucy Edwards
-      description_markdown: Meadowfield Conference Room
-    - event_date: 2020-11-03 00:00:00
-      organiser: Lucy Edwards
-      description_markdown: Meadowfield Conference Room
-    - event_date: 2020-12-01 00:00:00
-      organiser: Lucy Edwards
-      description_markdown: MeLucy Eowfield Conference Room
