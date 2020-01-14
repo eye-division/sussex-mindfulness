@@ -17,9 +17,6 @@
 
     &nbsp;
   drop-in:
-    - event_date: 2020-01-06 00:00:00
-      organiser: Susan Whiting and Heather Ball
-      description_markdown:
     - event_date: 2020-02-03 00:00:00
       organiser: Robert Marx and Hannah Sale
       description_markdown:
