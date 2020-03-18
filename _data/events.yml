@@ -49,24 +49,6 @@
 
     &nbsp;
   drop-in:
-    - event_date: 2020-02-03 00:00:00
-      organiser: Robert Marx and Hannah Sale
-      description_markdown:
-    - event_date: 2020-03-02 00:00:00
-      organiser: Heather Ball and Liz Stapleton
-      description_markdown:
-    - event_date: 2020-04-06 00:00:00
-      organiser: Helen Igo and Hannah Denton
-      description_markdown:
-    - event_date: 2020-05-04 00:00:00
-      organiser: Robert Marx and Susan Whiting
-      description_markdown:
-    - event_date: 2020-06-01 00:00:00
-      organiser: Lucy Edwards and Alistair Graham
-      description_markdown:
-    - event_date: 2020-07-06 00:00:00
-      organiser: Helen Igo and Hannah Shutt
-      description_markdown:
     - event_date: 2020-08-03 00:00:00
       organiser: Sussex Mindfulness Centre
       description_markdown:
