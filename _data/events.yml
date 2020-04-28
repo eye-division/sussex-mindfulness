@@ -109,24 +109,18 @@
       organiser:
 - location:
   name: Cavendish House Staff Drop in (Room 13)  with Anita Raybould
-  description_markdown: |-
-    Please come along and join Anita Raybould - No experience needed:
+  description_markdown: >-
+    Please come along and join Anita Raybould - No experience needed.
 
-    **Monday 20th January at 12noon**
 
-    **Wednesday 29th January at 8:30am**
+    Anita will be offering her sesisons for staff virtually, details to be
+    posted here.
 
-    *\*\*No session on Monday 3rd February \*\**
 
-    **Wednesday 12th February at 8:30am**
+    &nbsp;
 
-    **Monday 17th February at 12noon**
-
-    **Wednesday 26th February at 8:30am**
-
-    **Monday 2nd March at 12noon**
 
     &nbsp;
   drop-in:
-    - event_date: Invalid date
+    - event_date: 2020-04-28 20:07:53
       organiser:
