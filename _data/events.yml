@@ -48,29 +48,34 @@
 
     &nbsp;
   drop-in:
-    - event_date: 2020-08-03 00:00:00
-      organiser: Sussex Mindfulness Centre
-      description_markdown:
-    - event_date: 2020-09-07 00:00:00
-      organiser: Sussex Mindfulness Centre
-      description_markdown:
-    - event_date: 2020-10-05 00:00:00
-      organiser: Sussex Mindfulness Centre
-      description_markdown:
-    - event_date: 2020-11-02 00:00:00
-      organiser: Sussex Mindfulness Centre
-      description_markdown:
-    - event_date: 2020-12-07 00:00:00
-      organiser: Sussex Mindfulness Centre
-      description_markdown:
     - event_date: 2020-05-04 00:00:00
       organiser: Fergal Jones
       description_markdown: |-
         5-6pm
 
         This is a virtual drop in - please email smc@sussexpartnership.nhs.uk
+    - event_date: 2020-06-01 00:00:00
+      organiser: TBC
+      description_markdown: >-
+        5-6pm
+
+
+        This will be offered as a virtual practice. Please email us at
+        smc@sussexpartnereship.nhs.uk for a link to join us.
+    - event_date: 2020-08-03 00:00:00
+      organiser: Sussex Mindfulness Centre
+      description_markdown:
+    - event_date: 2020-09-07 00:00:00
+      organiser: Sussex Mindfulness Centre
+      description_markdown:
+    - event_date: 2020-11-02 00:00:00
+      organiser: Sussex Mindfulness Centre
+      description_markdown:
+    - event_date: 2020-10-05 00:00:00
+      organiser: Sussex Mindfulness Centre
+      description_markdown:
     - event_date: 2020-12-07 00:00:00
-      organiser:
+      organiser: Sussex Mindfulness Centre
       description_markdown:
     - event_date: 2020-12-07 00:00:00
       organiser:
