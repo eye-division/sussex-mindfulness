@@ -124,3 +124,15 @@
   drop-in:
     - event_date: 2020-04-28 20:07:53
       organiser:
+- location: Live online Tuesday lunch time staff drop-ins
+  name: with Lucy Edwards
+  description_markdown: >-
+    Tuesdays 1.30-2.00pm
+
+
+    These sessions will be delivered on line. Please contact
+    smc@sussexpartnership.nhs.uk for a booking link, or see the SUSI 'what's on'
+    calendar
+  drop-in:
+    - event_date: 2020-04-28 20:07:53
+      organiser:
