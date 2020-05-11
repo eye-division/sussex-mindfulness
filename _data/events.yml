@@ -140,8 +140,8 @@
   drop-in:
     - event_date: Invalid date
       organiser:
-- location:
-  name: Southdown Drop in  with Nicola Mouat and Tamsin Bishton
+- location: Southdown Drop in
+  name: with Nicola Mouat and Tamsin Bishton
   description_markdown: >-
     For staff and patients who have completed the 8week course
 
