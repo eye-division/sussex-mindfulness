@@ -140,3 +140,26 @@
   drop-in:
     - event_date: 2020-04-28 20:07:53
       organiser:
+- location:
+  name: Southdown Drop in  with Nicola Mouat and Tamsin Bishton
+  description_markdown: >-
+    For staff and patients who have completed the 8week course
+
+
+    **Southdown**, 18 Preston Park Avenue, Brighton BN1 6HL
+
+
+    Drop-ins are held on the third Tuesday of the month from 6pm -7.30pm
+
+
+    With Nicky Mouat and Tamsin Bishton. Tel: 01273565049. PLEASE CALL FOR
+    JOINING INSTRUCTIONS
+
+
+    **19th May, 16th June, 21st July, 18th August**
+
+
+    &nbsp;
+  drop-in:
+    - event_date: 2020-04-28 20:07:53
+      organiser:
