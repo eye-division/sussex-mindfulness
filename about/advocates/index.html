@@ -6,10 +6,25 @@ main_nav: false
 sidebar: about-sidebar.html
 style: team
 ---
+
 <section class="main-content with-sidebar">
 
 <div class="intro editable">
-  Edit this bit
+  <h3>Who are the SMC Mindfulness Advocates?</h3>
+  <p>We are a group of people who have all undertaken Mindfulness courses offered by Sussex Partnership Foundation Trust and have benefitted enormously from that.</p>
+  <h3>Why become a SMC Mindfulness Advocate?</h3>
+  <p>Only you can decide if you should become an SMC Mindfulness Advocate. We all have our own personal reasons for doing this work but we also all feel that mindfulness has had a huge effect on our recovery and our lives.&nbsp; We want other people to experience this and so we work with the Sussex Mindfulness Centre to promote mindfulness both in Sussex and nationally.</p>
+  <h3>What do SMC Mindfulness Advocates do?</h3>
+  <p>We&rsquo;ve engaged in a wide range of activities as Mindfulness Advocates. Just to give you a flavour, here&rsquo;s a list of some of the kinds of things we&rsquo;ve done over the past few years:</p>
+  <ul>
+    <li>an advocate sits on SMC&rsquo;s Mindfulness Practice Network</li>
+    <li>we&rsquo;ve recently been filmed for a promotional film on mindfulness</li>
+    <li>we&rsquo;ve recently developed and taught a session on the SMC&rsquo;s MBCT teacher training course</li>
+    <li>we will be running a workshop at the next SMC Conference</li>
+    <li>several advocates spoke in Parliament in 2014 to the Mindfulness All-Party Parliamentary Group that produced The Mindful Nation UK report in 2015</li>
+  </ul>
+  <p>Modest payment is offered for this work.&nbsp; You can always choose not to do any activity you&rsquo;re offered.</p>
+  <p>If you are interested and would like to be an advocate or find out more about them, please contact&nbsp; <a href="mailto:robert.marx@sussexpartnership.nhs.uk">robert.marx@sussexpartnership.nhs.uk</a></p>
 </div>
 
   <ul class="nolist">
@@ -19,14 +34,14 @@ style: team
           {% if advocate.image %}
             <figure>{% include img.html class=test src=advocate.image width=200 height=200 fit=crop alt=advocate.name %}</figure>
           {% endif %}
-          {% if advocate.description_markdown %}{{ advocate.description_markdown | markdownify }}{% endif %}</p>
+          {% if advocate.description_markdown %}{{ advocate.description_markdown | markdownify }}{% endif %}<p></p>
 
       </li>
     {% endfor %}
   </ul>
 
   <div class="editable">
-
+    
   </div>
 
 </section>
