@@ -1,0 +1,38 @@
+---
+layout: page
+title: Advocates
+main_image_path:
+main_nav: false
+sidebar: about-sidebar.html
+style: team
+---
+<section class="main-content with-sidebar">
+
+<div class="intro editable">
+  Edit this bit
+</div>
+
+	<ul class="nolist">
+   	{% for advocate in site.data.advocates %}
+		  <li>
+		  		<h3>{{ advocate.name }}</h3>
+         	{% if advocate.image %}
+         		<figure>{% include img.html class=test src=advocate.image width=200 height=200 fit=crop alt=advocate.name %}</figure>
+         	{% endif %}
+         	{% if advocate.description_markdown %}{{ advocate.description_markdown | markdownify }}{% endif %}</p>
+
+      </li>
+		{% endfor %}
+	</ul>
+
+	<div class="editable">
+
+	</div>
+
+</section>
+
+	<aside class="sidebar">
+		{% include {{ page.sidebar }} %}
+
+
+	</aside>
