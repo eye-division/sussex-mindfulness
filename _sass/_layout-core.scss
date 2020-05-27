@@ -102,7 +102,11 @@ cite {
         background: darken($action-color, 20%);
         text-decoration: none;
   }
+  &.large {
+    @include bbb_size(2);
+  }
 }
+
 
 /*
 *   Header
