@@ -644,26 +644,6 @@
         body of research in-progress and professional-development
         master-classes. Well done you guys in the Practice Network\!
       image: /assets/images/mike-hales-picture.jpg
-    - name: Helen Leigh-Phippard
-      description_markdown: >-
-        Helen is a former long-term user of SPFT services. She took the Trust's
-        MBCT course several years ago and mindfulness has continued to be an
-        essential and valued part her daily life ever since. Helen currently
-        represents the interests of service users on SPFT's Mindfulness Practice
-        Network.
-      image:
-    - name: Elaine Moore
-      description_markdown: >-
-        'Being diagnosed with emotional intensity disorder and PTSD I took part
-        in the group treatments programs and was referred to see if I was
-        suitable to take part in a course in mindfulness.&nbsp; I count myself
-        very lucky to of done the Mindfullness course as it has impacted on
-        life. I feel more present in the moment and it has now become an
-        intrigal part of my life. '
-      image: /assets/images/elaine.jpg
-    - name: Julia Racster-Szostak
-      description_markdown:
-      image:
     - name: Nazan Kaplankiran
       description_markdown: >-
         I thought I&nbsp;knew so much about the mind and how it worked, until I
@@ -686,6 +666,23 @@
         hope to take up a teacher training course soon in Yoga, to continue
         spreading awareness of how important it is to be present.&nbsp;
       image: /assets/images/nazan-kaplankiran-side.jpeg
+    - name: Helen Leigh-Phippard
+      description_markdown: >-
+        Helen is a former long-term user of SPFT services. She took the Trust's
+        MBCT course several years ago and mindfulness has continued to be an
+        essential and valued part her daily life ever since. Helen currently
+        represents the interests of service users on SPFT's Mindfulness Practice
+        Network.
+      image:
+    - name: Elaine Moore
+      description_markdown: >-
+        'Being diagnosed with emotional intensity disorder and PTSD I took part
+        in the group treatments programs and was referred to see if I was
+        suitable to take part in a course in mindfulness.&nbsp; I count myself
+        very lucky to of done the Mindfullness course as it has impacted on
+        life. I feel more present in the moment and it has now become an
+        intrigal part of my life. '
+      image: /assets/images/elaine.jpg
 - title: administrators
   name: SMC administration
   description_markdown:
