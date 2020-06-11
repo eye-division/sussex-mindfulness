@@ -9,8 +9,8 @@ a svg {
 }
 .icon {
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 1em;
+    height: 1em;
 }
 a:hover .icon { /* hover colour */
     fill: darken($secondary-color,20%);
@@ -20,9 +20,7 @@ a:hover .icon__white { /* hover colour */
 }
 .icon--readmore {
     fill: $tertiary-color;
-    margin-bottom: -5px;
-    width: 20px;
-    height: 20px;
+    font-size: 2em;
 }
 .icon--post {
     fill: $action-color;

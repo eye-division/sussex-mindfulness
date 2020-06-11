@@ -97,6 +97,7 @@ cite {
     @include bbb-flat-style($action-color, $white);
     //@include bbb_size(2); // makes it bigger!!
     padding: 3px 14px;
+    margin: 10px;
     &:hover:not(:disabled) {
         color: $white;
         background: darken($action-color, 20%);
