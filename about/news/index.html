@@ -16,33 +16,28 @@ sidebar: about-sidebar.html
 	  <p><a target="_blank" href="https://sussexmindfulnesscentre.nhs.uk/events/compassion-oriented-events/">Click here for booking details</a></p>
 	  <h3><strong>Invitation to our live online mindfulness all day on June 20th</strong></h3>
 	  <p>For Sussex Partnership staff, clients and ex-clients who have completed an 8-week mindfulness course contact <a href="mailto:smc@sussexpartnership.nhs.uk">smc@sussexpartnership.nhs.uk</a> for a link to join us. (or see on our intranet events calendar if you are a member of staff)</p>
+	  
 	  <h3><a target="_blank" href="/live onlineMSC July 2020_flyer.pdf">Come along to Kristin Neff and Chris Germer's live online Mindful Self-compassion workshop in July 2020</a></h3>
-	  <p><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><b></b></span></span>
-	  </p>
-	  <h4><span style="font-size:12pt"><span style="font-stretch:normal"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;"></span></span>
-	    </span>
-	    </span>
-	  </h4>
-	  <p><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><b> </b></span></span>
-	  </p>
-	  <h3><a href="/June 2020 newsletter_final.pdf">Download our latest newsletter&nbsp;</a>&nbsp;<svg class="icon icon--readmore icon__white"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download_alt" /></svg></h3>
+
 	</div>
-	<div class="editable">
-	  <div class="newsletters">
-	    <h3>Download older newsletters</h3>
-	    <ul>
-	      <li><a href="/SMC Newsletter Oct 2019.pdf">Autumn 2019</a></li>
-	      <li><a target="_blank" href="/uploads/SMC Newsletter_Spring 2019.pdf">Spring 2019</a></li>
-	      <li><a target="_blank" href="/uploads/Newsletters/SMC Newsletter Jan18.pdf">January 2018</a></li>
-	      <li><a href="/assets/newsletters/2017-01_sussex_mindfulness_centre_newsletter.pdf">January 2017&nbsp;<svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download_alt" /></svg></a></li>
-	      <li><a href="/assets/newsletters/2016-08_sussex_mindfulness_centre_newsletter.pdf">August 2016&nbsp;<svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download_alt" /></svg></a></li>
-	      <li><a href="/assets/newsletters/2016-03_sussex_mindfulness_centre_newsletter.pdf">March 2016&nbsp;<svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download_alt" /></svg></a></li>
-	      <li><a href="/assets/newsletters/2015-09_sussex_mindfulness_centre_newsletter.pdf">September 2015&nbsp;<svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download_alt" /></svg></a></li>
-	      <li><a href="/assets/newsletters/2015-03_sussex_mindfulness_centre_newsletter.pdf">March 2015&nbsp;<svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download_alt" /></svg></a></li>
-	      <li><a href="/assets/newsletters/2014-01_sussex_mindfulness_centre_newsletter.pdf">December 2014&nbsp;<svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download_alt" /></svg></a></li>
-	    </ul>
-	  </div>
+
+	<div>
+		<h3>Download newsletters</h3>
+		<ul class="nolist">
+			{% for newsletter in site.data.newsletters %}
+				{% if forloop.first %}
+				<li>
+					<a target="_blank" class="button large" href="{{ newsletter.file_path }}" alt="Download {{ newsletter.month_year }} as a PDF file">Download latest newsletter - {{ newsletter.month_year }}&nbsp;<svg class="icon icon__white icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download_alt" /></svg></a>
+			    </li>
+				{% else %}
+				<li>
+					<a target="_blank" href="{{ newsletter.file_path }}" alt="Download {{ newsletter.month_year }} as a PDF file">{{ newsletter.month_year }}&nbsp;<svg class="icon icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download_alt" /></svg></a>
+			    </li>
+			    {% endif %}
+  			{% endfor %}
+		</ul>
 	</div>
+
 
 </section>
 

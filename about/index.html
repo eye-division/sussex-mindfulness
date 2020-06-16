@@ -20,10 +20,17 @@ sidebar: about-sidebar.html
   <p>This includes a partnership of SPFT staff, experienced researchers at the University of Sussex, and experienced teachers and trainers in the local community. The Centre has good links with local teachers with whom it aims to facilitate a collaborative network through CPD and other events, as well as with trainers and researchers in other mindfulness centres and universities in the UK. The SMC aims to draw on the high quality training, good governance and the existing research evidence to offer high quality mindfulness provision. At the same time, it aims to develop new evidence by developing and evaluating innovative mindfulness approaches, and with groups that may not otherwise have been considered able to benefit from mindfulness-based approaches.</p>
 </div>
 
-<div class="editable">
-  <p><a target="_blank" class="button" href="/FINAL Newsletter_22Feb.pdf">Download the latest newsletter <svg xmlns="http://www.w3.org/2000/svg" class="icon icon--readmore icon__white"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download_alt" /></svg></a></p>
-
+<div class="">
+    <ul class="nolist">
+      {% for newsletter in site.data.newsletters %}
+        {% if forloop.first %}
+        <li>
+          <a target="_blank" class="button large" href="{{ newsletter.file_path }}" alt="Download {{ newsletter.month_year }} as a PDF file">Download latest newsletter - {{ newsletter.month_year }}&nbsp;<svg class="icon icon__white icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download_alt" /></svg></a>
+          </li>
+        {% endif %}
+      {% endfor %}
 </div>
+
 
 <h3>Contribute</h3>
 <div class="editable">
