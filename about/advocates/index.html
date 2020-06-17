@@ -32,22 +32,7 @@ style: team
   <p>If you are interested and would like to be an advocate or find out more about them, please contact&nbsp; <a href="mailto:robert.marx@sussexpartnership.nhs.uk">robert.marx@sussexpartnership.nhs.uk</a></p>
 </div>
 
-  <ul class="nolist">
-    {% for advocate in site.data.advocates %}
-      <li>
-          <h3>{{ advocate.name }}</h3>
-          {% if advocate.image %}
-            <figure>{% include img.html class=test src=advocate.image width=200 height=200 fit=crop alt=advocate.name %}</figure>
-          {% endif %}
-          {% if advocate.description_markdown %}{{ advocate.description_markdown | markdownify }}{% endif %}<p></p>
 
-      </li>
-    {% endfor %}
-  </ul>
-
-  <div class="editable">
-    
-  </div>
 
 </section>
 
