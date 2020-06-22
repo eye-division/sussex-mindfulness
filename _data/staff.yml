@@ -599,6 +599,15 @@
   name: Mindfulness Advocates
   description_markdown:
   staff:
+    - name: Cecilia Bissessur
+      description_markdown: >-
+        Cecilia Bissessur is a Dramatherapist working within Adult Mental Health
+        and Acute Dementia care at Sussex Partnership.&nbsp; Following a
+        personal interest in mindfulness and yoga she trained as an MBCT teacher
+        with the Sussex Mindfulness Centre in 2019.&nbsp; She has been teaching
+        MBCT courses since this time and plans to become more involved in staff
+        drop in and all day events
+      image: /assets/images/Cecilia Bissessur.jpg
     - name: Charlie Crocker
       description_markdown: >-
         *"As a person who worked in the highly stressful and fast world of media
@@ -683,15 +692,6 @@
         life. I feel more present in the moment and it has now become an
         intrigal part of my life. '
       image: /assets/images/elaine.jpg
-    - name: Cecilia Bussessur
-      description_markdown: >-
-        Cecilia Bissessur is a Dramatherapist working within Adult Mental Health
-        and Acute Dementia care at Sussex Partnership.&nbsp; Following a
-        personal interest in mindfulness and yoga she trained as an MBCT teacher
-        with the Sussex Mindfulness Centre in 2019.&nbsp; She has been teaching
-        MBCT courses since this time and plans to become more involved in staff
-        drop in and all day events
-      image: /assets/images/Cecilia Bissessur.jpg
 - title: administrators
   name: SMC administration
   description_markdown:
