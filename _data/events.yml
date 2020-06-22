@@ -48,14 +48,6 @@
 
     &nbsp;
   drop-in:
-    - event_date: 2020-06-01 00:00:00
-      organiser: Lucy Edwards and Alistair Graham
-      description_markdown: >-
-        5-6pm
-
-
-        This will be offered as an live online/virtual practice. Please email us
-        at smc@sussexpartnereship.nhs.uk for a link to join us.
     - event_date: 2020-07-06 00:00:00
       organiser: Hanhah Denton and Robert Marx
       description_markdown: >-
