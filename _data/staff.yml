@@ -692,6 +692,26 @@
         life. I feel more present in the moment and it has now become an
         intrigal part of my life. '
       image: /assets/images/elaine.jpg
+- title:
+  name:
+  description_markdown:
+  staff:
+    - name:
+      description_markdown:
+      image:
+- title:
+  name:
+  description_markdown:
+  staff:
+    - name:
+      description_markdown:
+      image:
+    - name: Alistair Graham
+      description_markdown: >-
+        Alistair trained as a mindfulness teacher with Sussex Mindfulness Centre
+        in 2019 and currrently delivers staff mindfulness drop ins. He works as
+        a community psychiatric nurse at New Park House, Horsham.
+      image: /assets/images/alistair-graham.jpg
 - title: administrators
   name: SMC administration
   description_markdown:
