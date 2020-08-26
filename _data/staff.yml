@@ -287,6 +287,12 @@
     - name: Sarah Goodfellow
       description_markdown:
       image:
+    - name: Alistair Graham
+      description_markdown: >-
+        Alistair trained as a mindfulness teacher with Sussex Mindfulness Centre
+        in 2019 and currrently delivers staff mindfulness drop ins. He works as
+        a community psychiatric nurse at New Park House, Horsham.
+      image: /assets/images/alistair-graham.jpg
     - name: Sue Huggett
       description_markdown: >-
         Sue is a Senior Counselling Psychologist who has been working in&nbsp;
@@ -441,12 +447,6 @@
         Consultant Clinical Psychologist and has a lead role within Psychology
         and Psychological Therapy community adult mental health services.
       image: /assets/images/susan_whiting.jpg
-    - name: Alistair Graham
-      description_markdown: >-
-        Alistair trained as a mindfulness teacher with Sussex Mindfulness Centre
-        in 2019 and currrently delivers staff mindfulness drop ins. He works as
-        a community psychiatric nurse at New Park House, Horsham.
-      image: /assets/images/alistair-graham.jpg
 - title: MBI practitioners
   name: Sussex Partnership-employed Mindfulness-based Interventions practitioners
   description_markdown: |-
