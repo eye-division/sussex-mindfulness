@@ -1,0 +1,14 @@
+/* styles for Mind in Gear pages 2020 */
+
+.photos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.photos > * {
+  flex: 1 1 auto;
+  padding: 1em;
+  @include media ($tablet) {
+    width: 50%;
+  }
+}
