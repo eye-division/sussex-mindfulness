@@ -48,11 +48,6 @@
 
     &nbsp;
   drop-in:
-    - event_date: 2020-07-06 00:00:00
-      organiser: Hanhah Denton and Robert Marx
-      description_markdown: >-
-        Please email smc@sussexpartnership.nhs.uk for a link&nbsp; to join this
-        live online mindfulness drop in
     - event_date: 2020-08-03 00:00:00
       organiser: Sussex Mindfulness Centre
       description_markdown:
