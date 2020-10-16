@@ -48,12 +48,6 @@
 
     &nbsp;
   drop-in:
-    - event_date: 2020-08-03 00:00:00
-      organiser: Sussex Mindfulness Centre
-      description_markdown:
-    - event_date: 2020-09-07 00:00:00
-      organiser: Sussex Mindfulness Centre
-      description_markdown:
     - event_date: 2020-11-02 00:00:00
       organiser: Sussex Mindfulness Centre
       description_markdown:
