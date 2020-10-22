@@ -39,6 +39,9 @@
       $(this).toggleClass("expander-hidden");
     });
 
+    // scrollTo
+    $('#mbctlinks').localScroll({offset:-250, duration:800});
+
   });
 
 })(jQuery); // End of use strict
