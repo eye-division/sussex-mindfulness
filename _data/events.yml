@@ -48,9 +48,6 @@
 
     &nbsp;
   drop-in:
-    - event_date: 2020-11-02 00:00:00
-      organiser: Alistair Graham and Fergal Jones
-      description_markdown:
     - event_date: 2020-12-07 00:00:00
       organiser: Liz Stapleton and Fergal Jones
       description_markdown:
@@ -105,7 +102,7 @@
     required. Please contact smc@sussexpartnership.nhs.uk for a booking link, or
     see the SUSI 'what's on' calendar
   drop-in:
-    - event_date: Invalid date
+    - event_date: 2020-11-02 21:45:10
       organiser:
 - location: Southdown Drop in
   name: with Nicola Mouat and Tamsin Bishton
