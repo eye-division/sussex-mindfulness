@@ -17,34 +17,37 @@
       href: /train-to-teach-mindfulness/mbct/
     - subtitle: MBI
       href: /train-to-teach-mindfulness/mbi/
-- title: 'Practice & governance'
-  href: /practice-and-governance/
+- title: 'Practice'
+  href: /practice/
   class: practice
   subcategories:
-    - subtitle: Mindfulness governance
-      href: /practice-and-governance/mindfulness-governance/
     - subtitle: What does MBCT involve?
-      href: /practice-and-governance/mbct/
+      href: /practice/mbct/
     - subtitle: "Mindfulness for Drivers"
-      href: /practice-and-governance/mindfulness-for-drivers/
+      href: /practice/mindfulness-for-drivers/
     - subtitle: What problems can MBCT help with?
-      href: /practice-and-governance/problems-mbct-can-help-with/
+      href: /practice/problems-mbct-can-help-with/
     - subtitle: Download mindfulness practices
-      href: /practice-and-governance/download-mindfulness-practices/
+      href: /practice/download-mindfulness-practices/
     - subtitle: 'Referers: who can benefit'
-      href: /practice-and-governance/referers-who-can-benefit/
+      href: /practice/referers-who-can-benefit/
     - subtitle: Mindfulness in adult services
-      href: /practice-and-governance/adult-services/
+      href: /practice/adult-services/
     - subtitle: Mindfulness in young people’s services
-      href: /practice-and-governance/young-people-services/
+      href: /practice/young-people-services/
     - subtitle: "Mindfulness in older people's services"
-      href: /practice-and-governance/older-people-services/
+      href: /practice/older-people-services/
     - subtitle: Mindfulness in learning disabilities services
-      href: /practice-and-governance/learning-disabilities-services/
+      href: /practice/learning-disabilities-services/
     - subtitle: Groups for Sussex Partnership staff
-      href: /practice-and-governance/groups-for-staff/
+      href: /practice/groups-for-staff/
     - subtitle: In the community
-      href: /practice-and-governance/in-the-community/
+      href: /practice/in-the-community/
+    - subtitle: Resources
+      href: /practice/resources/
+- title: Governance
+  href: /governance/
+  class: practice
 - title: Research
   href: /research/
   class: research
@@ -94,6 +97,6 @@
     - subtitle: Contact
       href: /about/contact/
     - subtitle: Subscribe
-      href: /about/subscribe/      
+      href: /about/subscribe/
     - subtitle: Privacy
       href: /about/privacy/

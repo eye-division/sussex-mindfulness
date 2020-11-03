@@ -1,14 +1,15 @@
 ---
 layout: page
 title: Resources
-permalink: /resources/
+permalink: /practice/resources/
 main_image_path:
 style: practice
 sidebar:
 main_nav: false
+sidebar: practice-sidebar.html
 ---
 
-<section class="main-content">
+<section class="main-content with-sidebar">
   <div class="editable">
     <p>You may find the following useful if you are looking for materials to support to your discovery and practice of mindfulness. If you are new to mindfulness, and have not yet done an 8 week course, like MBCT, MBSR or MSC, then we suggest you go carefully with some of the practices, which can occasionally trigger adverse reactions.&nbsp; It is always best to find a trained mindfulness teacher to work with you to advise on the best practices for you. If you are embarking on this alone, the safest practices to start with are usually the short ones (less than about 10 minutes) and the ones involving walking or movement.&nbsp; Always feel free to stop a practice you are doing on your own - don't solider on &nbsp;if you don't find it helpful.</p>
     <h3>Books</h3>
@@ -78,5 +79,10 @@ main_nav: false
 
 
 
-  
+
 </section>
+
+
+<aside class="sidebar">
+  {% include {{ page.sidebar }} %}
+</aside>
