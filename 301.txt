@@ -1,5 +1,6 @@
 /our-work-with-other-organisations/* /in-the-workplace
 /our-work-with-other-organisations/national-work/* /in-the-workplace/national-policy-work
-/mindingear/ /practice-and-governance/mindfulness-for-drivers
+/practice-and-governance/mindfulness-for-drivers/ /practice/mindfulness-for-drivers
+/mindingear/ /practice/mindfulness-for-drivers
 /practice-and-governance/ /practice
 /practice-and-governance/* /practice
