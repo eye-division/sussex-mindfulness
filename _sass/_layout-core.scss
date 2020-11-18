@@ -500,7 +500,18 @@ img {
         @extend .notice;
         @include clearfix;
     }
+
 }
+
+.practice  .main-content .nolist li {
+    margin: 0;
+}
+
+li.audio {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
 .intro {
     font-size: larger;
 }

@@ -13,8 +13,16 @@ sidebar: practice-sidebar.html
   <p>These practices are intended as an accompaniment for participants doing a Sussex Mindfulness Centre/Sussex Partnership course. If you are new to mindfulness and are not following an 8 week course, like MBCT, MBSR or MSC, then we suggest you go carefully with some of the practices, which can occasionally trigger adverse reactions.&nbsp; It is always best to find a trained mindfulness teacher to work with you to advise on the best practices for you. If you are embarking on this alone, the safest practices to start with are usually the short ones (less than about 10 minutes) and the ones involving walking or movement.&nbsp; Always feel free to stop a practice you are doing on your own - don't solider on &nbsp;if you don't find it helpful.</p>
   <p><strong></strong>Download or listen online.</p>
 </div>
+<!-- Links -->
+<div id="practicelinks">
+  <ul>
+    {% for current in site.data.sounds %}
+     <li><a href="#{{ current.course }}">{{ current.course }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
 <div class="editable">
-  
+
 </div>
 
 {% for current in site.data.sounds %}
@@ -24,7 +32,7 @@ sidebar: practice-sidebar.html
    <ul class="nolist">
       {% for audiofile in current.audio %}
             {% if audiofile.audio_path %}
-              <li>{{ audiofile.description }} <a class="button" href="{{ audiofile.audio_path }}">&nbsp;<svg class="icon icon--readmore icon__white"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download_alt" /></svg></a> (MP3)</li>
+              <li class="audio">{{ audiofile.description }} <a class="button" href="{{ audiofile.audio_path }}">&nbsp;<svg class="icon icon--readmore icon__white"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download_alt" /></svg></a> (MP3)</li>
             {% endif %}
       {% endfor %}
    </ul>

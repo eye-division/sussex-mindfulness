@@ -42,6 +42,8 @@
     // scrollTo
     $('#mbctlinks').localScroll({offset:-250, duration:800});
 
+    $('#practicelinks').localScroll({offset:-250, duration:800});
+
   });
 
 })(jQuery); // End of use strict
