@@ -78,7 +78,7 @@
     - audio_path: >-
         https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/prelims%20to%20sitting.mp3
       description: prelims to sitting
-- course: Brighton CAMHS MBCT group
+- course: Lana Jackson - Brighton CAMHS MBCT group
   description_markdown:
   audio:
     - audio_path: >-
@@ -120,7 +120,7 @@
     - audio_path: >-
         https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/Turning%20Towards%20Difficult%20Experience%20Sitting%20Pract.mp3
       description: Turning Towards Difficult Experience - Sitting Practice
-- course: Mindfulness Practices for Recovery College by Nicky Mouat and Abbie Mead
+- course: Nicky Mouat and Abbie Mead - Mindfulness Practices for Recovery College
   description_markdown:
   audio:
     - audio_path: >-
@@ -138,7 +138,7 @@
     - audio_path: >-
         https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/sounds-practice-nicky.mp3
       description: Sounds Practice
-- course: Four-session LiveMind Mindfulness course
+- course: Clara  Strauss - Four-session LiveMind Mindfulness course
   description_markdown:
   audio:
     - audio_path: >-
@@ -153,3 +153,23 @@
     - audio_path: >-
         https://eyedivision.fra1.cdn.digitaloceanspaces.com/smc/4.%20breathing%20space.mp3
       description: 4. Breathing space
+- course: Catherine Cameron - MSC practices
+  description_markdown:
+  audio:
+    - audio_path: >-
+        https://eyedivision.fra1.digitaloceanspaces.com/smc/affectionate%20breathing%20%28cc%29.MP3
+      description: Affectionate Breathing
+    - audio_path: 'https://eyedivision.fra1.digitaloceanspaces.com/smc/soothing%20touch.MP3'
+      description: Soothing Touch
+    - audio_path: >-
+        https://eyedivision.fra1.digitaloceanspaces.com/smc/soothing%20touch%20%281%29.MP3
+      description: Soothing Touch 2
+    - audio_path: >-
+        https://eyedivision.fra1.digitaloceanspaces.com/smc/loving%20kindness%20for%20ourselves.MP3
+      description: Loving kindness for ourselves
+    - audio_path: >-
+        https://eyedivision.fra1.digitaloceanspaces.com/smc/Loving%20kindness%20for%20a%20loved%20one.MP3
+      description: Loving kindness for a loved one
+    - audio_path: >-
+        https://eyedivision.fra1.digitaloceanspaces.com/smc/preparation%20for%20working%20with%20Loving%20kindess%20phrases.%20phrases.MP3
+      description: Preparation for working with loving kindness phrases
