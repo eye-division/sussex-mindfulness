@@ -1,3 +1,4 @@
+---
 - location: Hove
   name: 'Sussex Education Centre, Hove'
   description_markdown: >-
@@ -48,8 +49,8 @@
 
     &nbsp;
   drop-in:
-    - event_date: 2020-12-07 00:00:00
-      organiser: Liz Stapleton and Fergal Jones
+    - event_date: 2021-01-04 00:00:00
+      organiser: Alistair Graham & Heather Ball
       description_markdown:
 - location: 'Formerly East Brighton CMHT, Brighton General Hospital: staff drop-in'
   name: Thursday morning online staff drop-in
@@ -115,3 +116,4 @@
 
 
     &nbsp;
+---
