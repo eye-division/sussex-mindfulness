@@ -55,6 +55,12 @@
     - event_date: 2021-02-01 00:00:00
       organiser: Hazel Ragoonanan & Heather Ball
       description_markdown:
+    - event_date: 2021-03-01 00:00:00
+      organiser: Susan Whiting & Robert Marx
+      description_markdown:
+    - event_date: 2021-02-01 00:00:00
+      organiser:
+      description_markdown:
 - location: 'Formerly East Brighton CMHT, Brighton General Hospital: staff drop-in'
   name: Thursday morning online staff drop-in
   description_markdown: >-
