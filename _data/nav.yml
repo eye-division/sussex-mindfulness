@@ -1,7 +1,8 @@
+---
 - title: Home
   href: /
   class:
-- title: 'In the workplace'
+- title: In the workplace
   href: /in-the-workplace/
   class: outreach
   subcategories:
@@ -17,13 +18,13 @@
       href: /train-to-teach-mindfulness/mbct/
     - subtitle: MBI
       href: /train-to-teach-mindfulness/mbi/
-- title: 'Practice'
+- title: Practice
   href: /practice/
   class: practice
   subcategories:
     - subtitle: What does MBCT involve?
       href: /practice/mbct/
-    - subtitle: "Mindfulness for Drivers"
+    - subtitle: Mindfulness for Drivers
       href: /practice/mindfulness-for-drivers/
     - subtitle: What problems can MBCT help with?
       href: /practice/problems-mbct-can-help-with/
@@ -35,8 +36,6 @@
       href: /practice/adult-services/
     - subtitle: Mindfulness in young people’s services
       href: /practice/young-people-services/
-    - subtitle: "Mindfulness in older people's services"
-      href: /practice/older-people-services/
     - subtitle: Mindfulness in learning disabilities services
       href: /practice/learning-disabilities-services/
     - subtitle: Groups for Sussex Partnership staff
@@ -102,3 +101,4 @@
       href: /about/subscribe/
     - subtitle: Privacy
       href: /about/privacy/
+---
