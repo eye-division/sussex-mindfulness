@@ -1,4 +1,6 @@
 ---
+- file_path: /assets/images/SMCnewsletterWinter 2020_final.pdf
+  month_year: Winter 2020
 - file_path: /June 2020 newsletter_final.pdf
   month_year: June 2020
 - file_path: /SMC Newsletter Oct 2019.pdf
@@ -19,6 +21,4 @@
   month_year: March 2015
 - file_path: /assets/newsletters/2014-01_sussex_mindfulness_centre_newsletter.pdf
   month_year: December 2014
-- file_path: /assets/images/SMCnewsletterWinter 2020_final.pdf
-  month_year: Winter 2020
 ---
