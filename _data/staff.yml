@@ -101,14 +101,7 @@
         Adapted Mindfulness-Based Interventions.
       image: /assets/images/helga-dittmar-research.jpg
     - name: Fergal Jones
-      description_markdown: >-
-        Fergal Jones is a clinical psychologist and cognitive behavioural
-        therapist who completed mindfulness teacher training at the University
-        of Bangor. He currently works part time in Health in Mind, the primary
-        care well-being service that serves East Sussex. He uses mindfulness in
-        his clinical work, supervises other mindfulness teachers and is involved
-        with a number of research projects concerning mindfulness-based
-        interventions.
+      description_markdown:
       image: /assets/images/smc-fergal-jones.jpeg
 - title: doctoralstudents
   name: Sussex Mindfulness Centre Doctoral Students
