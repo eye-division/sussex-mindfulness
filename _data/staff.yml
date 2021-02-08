@@ -457,8 +457,14 @@
         practice.
       image: /assets/images/Jo Chittendon1.jpg
     - name: Rosalie Dores
-      description_markdown:
-      image:
+      description_markdown: >-
+        Rosalie Dores is a mindfulness teacher, supervisor, mentor, trainer and
+        assessor.&nbsp;
+
+
+        In 2011 she completed a five-year masters degree in Teaching Mindfulness
+        Based Approaches (with distinction) at Bangor University
+      image: /assets/images/Rosalie Dores.jpg
     - name: Richard Gilpin
       description_markdown: >-
         Richard is a mindfulness teacher, counsellor and cognitive-behavioural
