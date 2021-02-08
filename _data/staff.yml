@@ -467,6 +467,9 @@
         Office of National Statistics and supports individuals in their
         practice.
       image: /assets/images/Jo Chittendon1.jpg
+    - name: Rosalie Dores
+      description_markdown:
+      image:
     - name: Richard Gilpin
       description_markdown: >-
         Richard is a mindfulness teacher, counsellor and cognitive-behavioural
@@ -555,9 +558,6 @@
         University as well running training on mental health and unconscious
         bias for the Civil Service.
       image: /assets/images/bethan-roberts2-1.jpg
-    - name: Rosalie Dores
-      description_markdown:
-      image:
 - title: advocates
   name: Mindfulness Advocates
   description_markdown:
