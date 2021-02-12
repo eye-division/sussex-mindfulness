@@ -405,39 +405,59 @@
       image: /assets/images/susan_whiting.jpg
 - title: MBI practitioners
   name: Sussex Partnership-employed Mindfulness-based Interventions practitioners
-  description_markdown: |-
-    * Celia Heneage
-
-    * Erika Langen
-
-    * Fliss Boulton
-
-    * Gemma Harrison
-
-    * Gillian Hurran
-
-    * Hannah Sale
-
-    * Hannah Shutt
-
-    * Kate Axford
-
-    * Kelly Cahill
-
-    * Martin Stent
-
-    * Mary Bond
-
-    * Nichole Duncan
-
-    * Padmaprabha Dalby
-
-    * Rhianon Hale
-
-    * Selina Thorrington
-
-    * Susan Jenner
+  description_markdown:
   staff:
+    - name: Celia Heneage
+      description_markdown: 
+      image: 
+    - name: Erika Langen
+      description_markdown: 
+      image:
+    - name: Fliss Boulton
+      description_markdown: 
+      image: 
+    - name: Gemma Harrison
+      description_markdown: 
+      image:
+    - name: Gillian Hurran
+      description_markdown: 
+      image: 
+    - name: Hannah Sale
+      description_markdown: 
+      image:
+    - name: Hannah Shutt
+      description_markdown: 
+      image: 
+    - name: Kate Axford
+      description_markdown: 
+      image:
+    - name: Kelly Cahill
+      description_markdown: 
+      image: 
+    - name: Martin Stent
+      description_markdown: 
+      image:
+    - name: Mary Bond
+      description_markdown: 
+      image: 
+    - name: Nichole Duncan
+      description_markdown: 
+      image:
+    - name: Padmaprabha Dalby
+      description_markdown: 
+      image: 
+    - name: Rhianon Hale
+      description_markdown: 
+      image:
+    - name: Selina Thorrington
+      description_markdown: 
+      image: 
+    - name: 
+      description_markdown: 
+      image:
+    - name: Susan Jenner
+      description_markdown: 
+      image: 
 - title: teacherassociates
   name: Sussex Mindfulness Centre Mindfulness teacher associates
   description_markdown:
