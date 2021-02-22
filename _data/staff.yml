@@ -410,6 +410,18 @@
     - name: Celia Heneage
       description_markdown:
       image:
+    - name: Daniel Snow
+      description_markdown: >-
+        Daniel, a peer support worker at Sussex Partnership, learned to teach
+        mindfulness-based interventions during 2020.
+      image:
+    - name: Dominic Ford
+      description_markdown: >-
+        Dominic learned to teach mindfulness-based interventions during 2020 and
+        he now runs a weekly drop in for staff and residents of Shepherd House
+        Recovery Service, as well as being the Director of Corporate Affairs at
+        Sussex Partnership.
+      image:
     - name: Erika Langen
       description_markdown:
       image:
@@ -425,6 +437,11 @@
     - name: Hannah Sale
       description_markdown:
       image:
+    - name: Hannah Droscher
+      description_markdown: >-
+        Hannah, a clinical psychologist at Sussex Partnership, learned to teach
+        mindfulness-based interventions during 2020.
+      image: /assets/images/hannah-droscher-pic.png
     - name: Hannah Shutt
       description_markdown:
       image:
@@ -459,33 +476,16 @@
     - name: Rhianon Hale
       description_markdown:
       image:
+    - name: Sally Stapleton
+      description_markdown: >-
+        Sally, a clinical psychologist at Sussex Partnership, learned to teach
+        mindfulness-based interventions during 2020&nbsp;
+      image:
     - name: Selina Thorrington
       description_markdown:
       image:
     - name: Susan Jenner
       description_markdown:
-      image:
-    - name: Dominic Ford
-      description_markdown: >-
-        Dominic learned to teach mindfulness-based interventions during 2020 and
-        he now runs a weekly drop in for staff and residents of Shepherd House
-        Recovery Service, as well as being the Director of Corporate Affairs at
-        Sussex Partnership.
-      image:
-    - name: Hannah Droscher
-      description_markdown: >-
-        Hannah, a clinical psychologist at Sussex Partnership, learned to teach
-        mindfulness-based interventions during 2020.
-      image: /assets/images/hannah-droscher-pic.png
-    - name: Daniel Snow
-      description_markdown: >-
-        Daniel, a peer support worker at Sussex Partnership, learned to teach
-        mindfulness-based interventions during 2020.
-      image:
-    - name: Sally Stapleton
-      description_markdown: >-
-        Sally, a clinical psychologist at Sussex Partnership, learned to teach
-        mindfulness-based interventions during 2020&nbsp;
       image:
 - title: teacherassociates
   name: Sussex Mindfulness Centre Mindfulness teacher associates
