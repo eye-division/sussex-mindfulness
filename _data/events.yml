@@ -1,6 +1,8 @@
 ---
-- location: Hove
-  name: 'Sussex Education Centre, Hove'
+- location: 'Sussex Education Centre, Hove'
+  name: >-
+    First working Monday of the month drop-in for service users and staff who
+    have completed the 8-week course
   description_markdown: >-
     Sussex Education Centre drop ins are held:
 
