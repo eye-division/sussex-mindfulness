@@ -119,4 +119,10 @@
   drop-in:
     - event_date: 2020-11-02 00:00:00
       organiser:
+- location: Friday drop-in for staff and residents of Shepherd House only
+  name: Friday drop-in for staff and residents of Shepherd House only
+  description_markdown: With Dominic Ford every Friday at 2.30pm.
+  drop-in:
+    - event_date: 2020-11-02 00:00:00
+      organiser:
 ---
