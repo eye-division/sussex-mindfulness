@@ -407,65 +407,16 @@
   name: Sussex Partnership-employed Mindfulness-based Interventions practitioners
   description_markdown:
   staff:
-    - name: Celia Heneage
-      description_markdown:
-      image:
-    - name: Daniel Snow
-      description_markdown: >-
-        Daniel, a peer support worker at Sussex Partnership, learned to teach
-        mindfulness-based interventions during 2020.
-      image:
-    - name: Dominic Ford
-      description_markdown: >-
-        Dominic learned to teach mindfulness-based interventions during 2020 and
-        he now runs a weekly drop in for staff and residents of Shepherd House
-        Recovery Service, as well as being the Director of Corporate Affairs at
-        Sussex Partnership.
-      image:
-    - name: Erika Langen
-      description_markdown:
-      image:
-    - name: Fliss Boulton
-      description_markdown:
-      image:
-    - name: Gemma Harrison
-      description_markdown: >-
-        Gemma has been a mindfulness teacher since 2011. After joining Sussex
-        Partnership foundation Trust in 2014&nbsp; she was able to complete the
-        Adapted Mindfulness course in 2018, and was then given the opportunity
-        to do the Foundation Mindfulness teacher training course which she
-        completed in 2020. She is currently offering staff drop in sessions for
-        her work colleagues at Chapel Street Clinic with her fellow mindfulness
-        colleagues and will be offering the 8 week mindfulness MBCT course to
-        patients.
-      image:
-    - name: Gillian Hurran
-      description_markdown:
-      image:
-    - name: Hannah Sale
-      description_markdown:
-      image:
-    - name: Hannah Droscher
-      description_markdown: >-
-        Hannah, a clinical psychologist at Sussex Partnership, learned to teach
-        mindfulness-based interventions during 2020.
-      image: /assets/images/hannah-droscher-pic.png
-    - name: Hannah Shutt
-      description_markdown:
-      image:
     - name: Kate Axford
-      description_markdown:
-      image:
-    - name: Kelly Cahill
-      description_markdown:
-      image:
-    - name: Martin Stent
       description_markdown:
       image:
     - name: Mary Bond
       description_markdown:
       image:
-    - name: Nichole Duncan
+    - name: Fliss Boulton
+      description_markdown:
+      image:
+    - name: Kelly Cahill
       description_markdown:
       image:
     - name: Padmaprabha Dalby
@@ -481,18 +432,67 @@
         homes and their communities in the context of the Covid-19 pandemic.
         Padmaprabha trained to teach mindfulness-based interventions in 2018.
       image: /assets/images/Padmaprabha Dalby.jpg
+    - name: Hannah Droscher
+      description_markdown: >-
+        Hannah, a clinical psychologist at Sussex Partnership, learned to teach
+        mindfulness-based interventions during 2020.
+      image: /assets/images/hannah-droscher-pic.png
+    - name: Nichole Duncan
+      description_markdown:
+      image:
+    - name: Dominic Ford
+      description_markdown: >-
+        Dominic learned to teach mindfulness-based interventions during 2020 and
+        he now runs a weekly drop in for staff and residents of Shepherd House
+        Recovery Service, as well as being the Director of Corporate Affairs at
+        Sussex Partnership.
+      image:
+    - name: Gemma Harrison
+      description_markdown: >-
+        Gemma has been a mindfulness teacher since 2011. After joining Sussex
+        Partnership foundation Trust in 2014&nbsp; she was able to complete the
+        Adapted Mindfulness course in 2018, and was then given the opportunity
+        to do the Foundation Mindfulness teacher training course which she
+        completed in 2020. She is currently offering staff drop in sessions for
+        her work colleagues at Chapel Street Clinic with her fellow mindfulness
+        colleagues and will be offering the 8 week mindfulness MBCT course to
+        patients.
+      image:
+    - name: Celia Heneage
+      description_markdown:
+      image:
     - name: Rhianon Hale
       description_markdown:
+      image:
+    - name: Gillian Hurran
+      description_markdown:
+      image:
+    - name: Susan Jenner
+      description_markdown:
+      image:
+    - name: Erika Langen
+      description_markdown:
+      image:
+    - name: Hannah Sale
+      description_markdown:
+      image:
+    - name: Hannah Shutt
+      description_markdown:
+      image:
+    - name: Daniel Snow
+      description_markdown: >-
+        Daniel, a peer support worker at Sussex Partnership, learned to teach
+        mindfulness-based interventions during 2020.
       image:
     - name: Sally Stapleton
       description_markdown: >-
         Sally, a clinical psychologist at Sussex Partnership, learned to teach
         mindfulness-based interventions during 2020&nbsp;
       image:
-    - name: Selina Thorrington
+    - name: Martin Stent
       description_markdown:
       image:
-    - name: Susan Jenner
+    - name: Selina Thorrington
       description_markdown:
       image:
 - title: teacherassociates
